@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>내리숲 AI 질문 연구소 🌿</title>
+<!-- 둥근 한글 글꼴 (인터넷 연결 시 적용, 오프라인이면 기본 글꼴로 자동 대체) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap" rel="stylesheet">
+<!--
+/**
+ * 내리숲 AI 질문 연구소 (Naerisoop AI Question Lab) - 학생 태블릿 배포용
+ * ----------------------------------------------------------------------
+ * 기획 및 설계 : 정숙진 선생님 (내리숲초등학교 교육과정부)
+ * 원저작권자로부터 복제·변형·재배포 권리를 정식으로 획득하여 재구성한 버전입니다.
+ * ----------------------------------------------------------------------
+ */
+-->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="toast">✨ <span id="toastMsg"></span></div>
+
+<header>
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="brand-icon pulse">🌲</div>
+      <div>
+        <div class="brand-badges"><span class="badge-school">내리숲초등학교</span><span class="badge-ai">AI 에디션</span></div>
+        <h1>내리숲 AI 질문 연구소 🌿</h1>
+      </div>
+    </div>
+    <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; justify-content:center;">
+      <nav class="tabs">
+        <button data-tab="lab" class="active">✨ 질문 연구실</button>
+        <button data-tab="encyclopedia">📖 질문 도감</button>
+        <button data-tab="quiz">🎮 질문 놀이터</button>
+        <button data-tab="forest">🌲 지혜 숲 (<span id="forestCount">0</span>)</button>
+      </nav>
+      <button class="btn-creator" id="btnCreator">🎓 연구소 설계자</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ================= 1. 질문 연구실 ================= -->
+  <section class="tab-section active" id="tab-lab">
+    <div class="lab-grid">
+      <div class="card lab-left">
+        <div>
+          <span class="eyebrow">STEP 1. 연구소 장비 가동</span>
+          <h2 style="font-size:22px; font-weight:800; color:var(--slate-900); margin-top:6px;">🌱 새로운 질문 씨앗 가꾸기</h2>
+          <p style="font-size:13px; color:var(--slate-500); line-height:1.65; margin-top:8px;">
+            머릿속에 떠오른 알쏭달쏭한 질문을 넣어주세요! 내리숲 AI가 다듬고 분류해서 푸른 생각의 열매를 맺어 줄게요.
+          </p>
+        </div>
+
+        <div>
+          <label class="field-label">👤 나의 학년 선택</label>
+          <div class="grade-grid" id="gradeBtns">
+            <button class="grade-btn" data-grade="low"><span class="g-emoji">🌰</span><span class="g-label">씨앗</span><span class="g-range">저학년 · 1~2학년</span></button>
+            <button class="grade-btn selected" data-grade="mid"><span class="g-emoji">🌱</span><span class="g-label">새싹</span><span class="g-range">중학년 · 3~4학년</span></button>
+            <button class="grade-btn" data-grade="high"><span class="g-emoji">🌳</span><span class="g-label">나무</span><span class="g-range">고학년 · 5~6학년</span></button>
+          </div>
+        </div>
+
+        <div>
+          <label class="field-label">내가 가진 생각이나 질문 (마음껏 적어보세요)</label>
+          <textarea id="inputQuestion" rows="4" placeholder="예: AI가 사람을 해치면 어떻게 하나요? / 문화재는 왜 오랫동안 보호해야 해요?"></textarea>
+        </div>
+
+        <div>
+          <span style="font-size:12px; font-weight:800; color:var(--slate-500); display:block; margin-bottom:8px;">학년별 대표 질문으로 시작해 볼 수도 있어요!</span>
+          <div class="chips" id="sampleChips">
+            <button class="chip" data-grade="low" data-q="그림책 표지 속 주인공은 무엇을 들고 있나요?">🌰 <b>1학년·관찰</b> 그림책 주인공은 무엇을 들고 있나요?</button>
+            <button class="chip" data-grade="low" data-q="만약 내가 이야기 속 주인공이라면 어떤 기분이 들까요?">🌰 <b>2학년·공감</b> 만약 내가 주인공이라면 어떤 기분일까요?</button>
+            <button class="chip" data-grade="mid" data-q="주인공은 왜 그런 중요한 결정을 내렸을까요?">🌱 <b>3학년·해석</b> 주인공은 왜 그런 결정을 내렸을까요?</button>
+            <button class="chip" data-grade="mid" data-q="오늘 배운 내용을 하나로 엮어 한 문장으로 말하면 무엇일까요?">🌱 <b>4학년·표현</b> 오늘 배운 것을 한 문장으로 말하면?</button>
+            <button class="chip" data-grade="high" data-q="AI가 그린 그림의 주인은 AI일까요, 사람일까요? 그렇게 생각한 근거는 무엇인가요?">🌳 <b>5학년·판단</b> AI가 그린 그림의 주인은 누구일까요?</button>
+            <button class="chip" data-grade="high" data-q="우리 지역의 문화유산을 지키기 위해 우리가 실천할 수 있는 일은 무엇일까요?">🌳 <b>6학년·실천</b> 문화유산을 지키려면 무엇을 할 수 있을까요?</button>
+          </div>
+        </div>
+
+        <button class="btn-primary" id="btnAnalyze">🌱 내 질문 씨앗 심기!</button>
+      </div>
+
+      <div id="labResult">
+        <div class="card placeholder-box">
+          <div style="width:80px; height:80px; background:var(--emerald-50); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:36px; box-shadow:inset 0 2px 6px rgba(0,0,0,.05);" class="pulse">❓</div>
+          <div style="max-width:340px;">
+            <h3 style="font-size:16px; font-weight:800; color:var(--slate-800);">탐구할 준비가 완료되었습니다!</h3>
+            <p style="font-size:13px; color:var(--slate-500); line-height:1.65; margin-top:8px;">
+              왼쪽 창에 질문을 입력하고 버튼을 누르시면, 내리숲초등학교의 질문 성장 체계에 맞춰 정교하게 분석한 결과를 띄워드려요.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 2. 질문 도감 ================= -->
+  <section class="tab-section" id="tab-encyclopedia">
+    <div class="card" style="max-width:760px; margin:0 auto 32px; text-align:center;">
+      <span class="eyebrow" style="background:var(--emerald-50); padding:4px 14px; border-radius:999px;">내리숲 질문 나무 성장 지도</span>
+      <h2 style="font-size:22px; font-weight:800; color:var(--slate-900); margin:12px 0 8px;">학년별 질문 서사 마인드맵 도감 📖</h2>
+      <p style="font-size:13px; color:var(--slate-500); line-height:1.7;">
+        질문은 우리들의 생각과 함께 성장합니다. 경기도교육청 탐구 질문의 큰 틀인<br>
+        <strong>사실적 → 개념적 → 논쟁적 질문</strong>과 연계된 우리 학교 질문 성장 서사를 확인해 보세요.
+      </p>
+    </div>
+    <div id="encyclopediaBody"></div>
+  </section>
+
+  <!-- ================= 3. 질문 놀이터 ================= -->
+  <section class="tab-section" id="tab-quiz">
+    <div class="quiz-wrap">
+      <div class="card" style="text-align:center;">
+        <span class="eyebrow">질문 연습 · 숲속 보물 탐험</span>
+        <h2 style="font-size:22px; font-weight:800; color:var(--slate-900); margin:8px 0 6px;">질문 놀이터 🎒 보물을 찾아라!</h2>
+        <p style="font-size:13px; color:var(--slate-500); line-height:1.6;">질문이 여섯 가지 유형 중 무엇인지 올바르게 맞히면 <strong>숲속 보물 아이템</strong>을 얻을 수 있어요!<br>연속으로 맞히면 🔥 콤보가 쌓여 더 귀한 보물이 나온답니다.</p>
+        <div class="stat-strip" id="playgroundStats"></div>
+        <div class="quiz-grade-btns" id="quizGradeBtns">
+          <button class="quiz-grade-btn" data-grade="low">🌰 씨앗 놀이터 (저학년)</button>
+          <button class="quiz-grade-btn selected" data-grade="mid">🌱 새싹 놀이터 (중학년)</button>
+          <button class="quiz-grade-btn" data-grade="high">🌳 나무 놀이터 (고학년)</button>
+        </div>
+        <button class="btn-pouch" id="btnPouch">🎒 내 보물 주머니 열기</button>
+      </div>
+      <div class="card" id="pouchCard" style="display:none;"></div>
+      <div class="card" id="quizCard"></div>
+    </div>
+  </section>
+
+  <!-- ================= 4. 나의 질문 숲 ================= -->
+  <section class="tab-section" id="tab-forest">
+    <div class="forest-grid">
+      <div class="card" id="forestPanel"></div>
+      <div class="garden">
+        <div class="stars"></div>
+        <div style="z-index:1;">
+          <h3>🌲 나의 내리숲 지혜 정원</h3>
+          <p class="g-sub">내가 다듬어 저장한 질문들이 푸른 숲속에 다양한 가치로 자라나고 있어요.</p>
+        </div>
+        <div class="garden-field" id="gardenField"></div>
+        <div class="garden-stats">
+          <span>✅ 내리숲 질문성장 지수: <strong style="color:#fff;" id="forestPoints">0 FP</strong></span>
+          <span style="color:var(--slate-400);">등급: 예비 정원사</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 연구소 기획자 정보 모달 -->
+<div id="modalOverlay">
+  <div class="modal">
+    <div class="modal-head">
+      <button class="modal-close" id="modalClose">×</button>
+      <span class="modal-role">프로그램 기획·설계자</span>
+      <div class="modal-name" id="modalCreatorName"></div>
+    </div>
+    <div class="modal-body">
+      <div class="quote-box">
+        <div class="q-title">🍀 기획자의 한 말씀</div>
+        "배움은 정답을 암기하는 것에서 시작되지 않고, <strong>'스스로 생각의 씨앗(질문)을 가꾸는 것'</strong>에서 꽃을 피웁니다.
+        우리 학생들이 생성형 AI의 가이드라인 아래에서 스스로 질문을 다듬고 지혜의 숲을 가꿔 나가며,
+        결국 삶 속에서 참된 실천을 이끌어 내는 훌륭한 탐구자로 성장하길 바랍니다."
+      </div>
+      <div class="info-label">설계 가이드 정보</div>
+      <div class="info-row"><span class="k">기획/구현처</span><span class="v" id="modalOrg"></span></div>
+      <div class="info-row"><span class="k">적용 교육과정</span><span class="v green">내리숲 질문중심 B.A.S.E 교육과정</span></div>
+      <div class="info-row"><span class="k">자문 이론 기반</span><span class="v">경기도교육청 질문 기반 탐구수업 지침</span></div>
+      <button class="modal-close-btn" id="modalCloseBtn">닫기 및 연구소 돌아가기</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <p class="credit">내리숲 질문중심 교육과정 기반 시스템 <span style="color:var(--slate-300);">|</span> <span class="green">기획·설계: <span id="footerCredit"></span></span></p>
+    <p>© 2026 내리숲초등학교 &amp; 경기도교육청 질문기반 탐구수업 가이드라인 연계. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<script src="app.js"></script>
+</body>
+</html>
