@@ -1,16 +1,24 @@
 #!/usr/bin/env python3
-"""Tests for the offline half of wine_price_check.
+"""Tests for wine_price_check.
 
-Covers everything that does not touch the network: FX conversion, the text
-formats the brief documented, outlier trimming, the staleness rule, and the
-judgement/discount arithmetic. The HTTP layer is untested here because the
-egress policy denies all three source hosts.
+Parsing is checked against pages captured from the live site
+(tests/fixtures), so the selectors are pinned to real markup rather than
+to the formats the brief described from memory. The strongest check is
+TestFixtures: parsed listing counts and the mean recomputed from them must
+match the counts and 평균가 the site prints on the same page.
 """
 
 import unittest
 from datetime import date
+from pathlib import Path
 
 import wine_price_check as w
+
+FIXTURES = Path(__file__).resolve().parent / "tests" / "fixtures"
+
+
+def fixture(name: str) -> str:
+    return (FIXTURES / name).read_text(encoding="utf-8")
 
 
 class TestFx(unittest.TestCase):
@@ -36,26 +44,61 @@ class TestParsing(unittest.TestCase):
     def test_price_range_absent(self):
         self.assertIsNone(w.parse_price_range("가격 정보가 없습니다"))
 
-    def test_seller_rows(self):
-        text = "183,300원 / 2021-06-18\n201,000원 / 2023.04.02\n95,000원 / 2024/11/30"
+    def test_seller_rows_are_line_separated(self):
+        # the real page puts the price and the date on separate lines
+        text = "183,300원\n2021-06-18\n201,000원\n2023.04.02"
         self.assertEqual(w.parse_seller_prices(text), [
             (183300, date(2021, 6, 18)),
             (201000, date(2023, 4, 2)),
-            (95000, date(2024, 11, 30)),
         ])
 
     def test_seller_rows_reject_impossible_date(self):
-        self.assertEqual(w.parse_seller_prices("10,000원 / 2021-13-45"), [])
+        self.assertEqual(w.parse_seller_prices("10,000원\n2021-13-45"), [])
 
     def test_strip_markup_drops_scripts(self):
-        html = "<div>183,300원 / 2021-06-18<script>var x='999,999원'</script></div>"
+        html = "<div>183,300원<script>var x='999,999원'</script></div>"
         self.assertNotIn("999,999", w.strip_markup(html))
 
-    def test_main_region_cuts_recommendations(self):
-        text = "183,300원 / 2021-06-18\n이 와인과 비슷한 와인\n5,000원 / 2024-01-01"
-        kept = w.main_region(text)
-        self.assertIn("183,300", kept)
-        self.assertNotIn("5,000원", kept)
+
+class TestFixtures(unittest.TestCase):
+    """Parsed against pages captured from wadossi."""
+
+    def test_small_pricelist_matches_site_header(self):
+        pl = w.parse_pricelist(w.strip_markup(fixture("pricelist_5597.html")))
+        self.assertEqual(pl.declared_count, 3)
+        self.assertEqual(len(pl.listings), 3)
+        self.assertEqual(pl.site_average, 180700)
+        mean = sum(l.price for l in pl.listings) / len(pl.listings)
+        self.assertEqual(round(mean), pl.site_average)
+
+    def test_large_pricelist_matches_site_header(self):
+        pl = w.parse_pricelist(w.strip_markup(fixture("pricelist_628.html")))
+        self.assertEqual(pl.declared_count, 44)
+        self.assertEqual(len(pl.listings), 44)  # no pagination to follow
+        mean = sum(l.price for l in pl.listings) / len(pl.listings)
+        self.assertEqual(round(mean), pl.site_average)
+
+    def test_header_average_is_not_counted_as_a_listing(self):
+        pl = w.parse_pricelist(w.strip_markup(fixture("pricelist_628.html")))
+        self.assertNotIn(pl.site_average, [l.price for l in pl.listings[:1]])
+        self.assertEqual(pl.declared_count, len(pl.listings))
+
+    def test_one_winenumber_pools_several_vintages(self):
+        pl = w.parse_pricelist(w.strip_markup(fixture("pricelist_628.html")))
+        self.assertGreater(len({l.vintage for l in pl.listings}), 1)
+
+    def test_search_cards_carry_names(self):
+        cands = w.parse_search(fixture("search_egly.html"))
+        self.assertGreaterEqual(len(cands), 4)
+        self.assertTrue(all(c.wine_number.isdigit() for c in cands))
+        self.assertTrue(any("브뤼 트라디씨옹" in c.name_ko for c in cands))
+
+    def test_scoring_picks_the_named_cuvee(self):
+        cands = w.parse_search(fixture("search_egly.html"))
+        row = {"검색어": "Egly-Ouriet Brut Rosé Grand Cru",
+               "생산자_영문": "Egly-Ouriet", "생산자_한글": "에글리 우리에"}
+        best = max(cands, key=lambda c: w.score_candidate(c, row))
+        self.assertIn("로제", best.name_ko)
 
 
 class TestAggregate(unittest.TestCase):
@@ -158,15 +201,104 @@ class TestKeywordLadder(unittest.TestCase):
         kws = w.candidate_keywords({
             "검색어": "Delong", "생산자_한글": "들롱",
             "큐베": "テル オリジナル", "생산자_영문": "Delong"})
-        self.assertEqual(kws, ["Delong", "들롱"])
+        # Korean first: wadossi's index returns nothing for most English names
+        self.assertEqual(kws, ["들롱", "Delong"])
 
     def test_latin_cuvee_is_combined_with_korean_producer(self):
         kws = w.candidate_keywords({
             "검색어": "Salon 2004", "생산자_한글": "살롱",
             "큐베": "Le Mesnil 2004", "생산자_영문": "Salon"})
-        # the bare English producer is the last, broadest fallback
-        self.assertEqual(kws, ["Salon 2004", "살롱 Le Mesnil 2004", "살롱", "Salon"])
+        # Korean producer+cuvee first, then producer, then the English forms
+        self.assertEqual(kws, ["살롱 Le Mesnil 2004", "살롱", "Salon 2004", "Salon"])
 
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+
+
+class TestVintage(unittest.TestCase):
+    def test_target_vintage_extracted(self):
+        self.assertEqual(w.target_vintage("Salon 2004"), "2004")
+        self.assertEqual(w.target_vintage("Piper-Heidsieck Brut"), "")
+
+    def test_match_narrows_to_requested_vintage(self):
+        ls = [w.Listing(249000, date(2026, 1, 1), "2008"),
+              w.Listing(650000, date(2026, 1, 1), "2010"),
+              w.Listing(255000, date(2026, 1, 1), "2008")]
+        kept, note = w.match_vintage(ls, "2008")
+        self.assertEqual([l.price for l in kept], [249000, 255000])
+        self.assertIn("2008", note)
+
+    def test_falls_back_when_vintage_absent(self):
+        ls = [w.Listing(249000, date(2026, 1, 1), "2008")]
+        kept, note = w.match_vintage(ls, "1998")
+        self.assertEqual(len(kept), 1)
+        self.assertIn("미발견", note)
+
+    def test_no_target_vintage_keeps_everything(self):
+        ls = [w.Listing(1, date(2026, 1, 1), "2008"), w.Listing(2, date(2026, 1, 1), "NV")]
+        kept, note = w.match_vintage(ls, "")
+        self.assertEqual(len(kept), 2)
+        self.assertEqual(note, "")
+
+
+class TestProducerGate(unittest.TestCase):
+    """Style words must never carry a match on their own."""
+
+    def test_same_style_different_producer_scores_zero(self):
+        row = {"검색어": "Justin Extra Brut 2009", "생산자_영문": "Justin",
+               "생산자_한글": "쥐스탱"}
+        cand = w.Candidate("", "", "Schramsberg Extra Brut 2009")
+        self.assertEqual(w.score_candidate(cand, row), 0.0)
+
+    def test_right_producer_still_matches(self):
+        row = {"검색어": "Justin Extra Brut 2009", "생산자_영문": "Justin",
+               "생산자_한글": "쥐스탱"}
+        cand = w.Candidate("", "쥐스탱, 엑스트라 브뤼 2009", "Justin, Extra Brut 2009")
+        self.assertGreaterEqual(w.score_candidate(cand, row), w.MIN_MATCH_SCORE)
+
+    def test_generic_only_target_does_not_match_everything(self):
+        row = {"검색어": "Brut Réserve", "생산자_영문": "", "생산자_한글": ""}
+        self.assertEqual(
+            w.score_candidate(w.Candidate("", "", "Anything Brut Réserve"), row), 0.0)
+
+    def test_gate_survives_truncated_search_cards(self):
+        row = {"검색어": "Egly-Ouriet Brut Tradition", "생산자_영문": "Egly-Ouriet",
+               "생산자_한글": "에글리 우리에"}
+        cand = w.Candidate("5597", "에글리 우리에, 브뤼 트라디씨옹 그랑 NV", "Egly Ouriet, Brut Tr")
+        self.assertGreaterEqual(w.score_candidate(cand, row), w.MIN_MATCH_SCORE)
+
+
+class TestCuveeDiscrimination(unittest.TestCase):
+    ROW = {"검색어": "Billecart-Salmon Blanc de Blancs",
+           "생산자_영문": "Billecart-Salmon", "생산자_한글": "빌까르 살몽"}
+
+    def test_right_cuvee_outscores_wrong_cuvee(self):
+        right = w.Candidate("", "빌까르 살몽, 블랑 드 블랑 NV", "Billecart Salmon, Blanc de Bl")
+        wrong = w.Candidate("", "빌까르 살몽, 드미 섹 NV", "Billecart Salmon, Demi Se")
+        self.assertGreater(w.score_candidate(right, self.ROW),
+                           w.score_candidate(wrong, self.ROW))
+
+    def test_wrong_cuvee_alone_is_below_threshold(self):
+        wrong = w.Candidate("", "빌까르 살몽, 드미 섹 NV", "Billecart Salmon, Demi Se")
+        self.assertLess(w.score_candidate(wrong, self.ROW), w.MIN_MATCH_SCORE)
+
+    def test_short_token_prefix_cannot_match(self):
+        # "delong" must not match the "de" in "Jolie-Laide Melon de Bourgogne"
+        row = {"검색어": "Delong", "생산자_영문": "Delong", "생산자_한글": "들롱"}
+        cand = w.Candidate("", "", "Jolie-Laide Melon de Bourgogne 2025")
+        self.assertEqual(w.score_candidate(cand, row), 0.0)
+
+    def test_still_wine_is_rejected(self):
+        row = {"검색어": "Justin Extra Brut 2009", "생산자_영문": "Justin",
+               "생산자_한글": "쥐스탱"}
+        cand = w.Candidate("", "저스틴, 까베르네 소비뇽 2019", "Justin, Cabernet Sauvignon",
+                           is_sparkling=False)
+        self.assertEqual(w.score_candidate(cand, row), 0.0)
+
+    def test_wrong_vintage_is_penalised(self):
+        row = {"검색어": "Pol Roger Brut Vintage 2018", "생산자_영문": "Pol Roger",
+               "생산자_한글": "폴 로저"}
+        right = w.Candidate("", "폴 로저, 브뤼 밀레짐 2018", "Pol Roger, Brut Vintage 2018")
+        wrong = w.Candidate("", "폴 로저, 블랑 드 블랑 NV", "Pol Roger, Blanc de Blancs")
+        self.assertGreater(w.score_candidate(right, row), w.score_candidate(wrong, row))
