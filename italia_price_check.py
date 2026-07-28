@@ -39,8 +39,12 @@ from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
-import italia_lexicon as lex
+import iberia_lexicon
+import italia_lexicon
+import italia_lexicon as lex          # default table
 import wine_price_check as wpc
+
+LEXICONS = {"italia": italia_lexicon.LEXICON, "iberia": iberia_lexicon.LEXICON}
 
 CATEGORY_ID = 12
 CATEGORY_URL = "http://charme-du-vin.com/category/wine/italia/"
@@ -418,8 +422,9 @@ def grade(res: Result, matched: str, producer: str) -> None:
     res.등급 = "A" if disc >= GRADE_A_DISCOUNT else "B"
 
 
-def process(idx: int, bottle: dict, state: dict, today: date) -> Result:
-    conv = lex.convert(bottle["name"])
+def process(idx: int, bottle: dict, state: dict, today: date,
+            lexicon: dict | None = None) -> Result:
+    conv = lex.convert(bottle["name"], lexicon)
     year = int(bottle["date"][:4])
     factor = YEAR_FACTOR.get(year, 1.0)
     krw750, krw_actual = to_750ml(bottle["jpy"], conv["volume"])
@@ -493,6 +498,10 @@ def main() -> int:
     ap.add_argument("--category", type=int, default=CATEGORY_ID,
                     help="WordPress category id (12=イタリア, 11=スペイン・ポルトガル)")
     ap.add_argument("--prefix", default="", help="output filename prefix")
+    ap.add_argument("--lexicon", default="italia", choices=sorted(LEXICONS),
+                    help="which katakana table to convert with; the two are "
+                         "not interchangeable (ヴィーニャ is Vigna in Italy "
+                         "and Viña in Spain)")
     args = ap.parse_args()
     args.out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -545,7 +554,7 @@ def main() -> int:
             if key in carried:
                 continue
             print(f"[{i}/{len(catalogue)}] {bottle['name'][:40]}", file=sys.stderr)
-            res = process(i, bottle, state, today)
+            res = process(i, bottle, state, today, LEXICONS[args.lexicon])
             results.append(res)
             carried[key] = res.row()
             if i % CHECKPOINT_EVERY == 0:
