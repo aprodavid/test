@@ -39,12 +39,26 @@ from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
+import america_lexicon
 import iberia_lexicon
 import italia_lexicon
 import italia_lexicon as lex          # default table
 import wine_price_check as wpc
 
-LEXICONS = {"italia": italia_lexicon.LEXICON, "iberia": iberia_lexicon.LEXICON}
+LEXICONS = {"italia": italia_lexicon.LEXICON,
+            "iberia": iberia_lexicon.LEXICON,
+            "america": america_lexicon.LEXICON}
+
+# The archive escalation is not the same in every category, so the factor
+# table is per-category. America was re-measured with good samples at the
+# 1-4 year gaps (n=43/10/10/6) and shows no escalation at all -- medians
+# 1.00 / 1.00 / 0.99 / 0.91 against the brief's 1.12 / 1.15 / 1.28. The
+# measured values are used, floored at 1.00: a factor below 1 would assume
+# the shop cut prices and would manufacture discounts.
+YEAR_FACTOR_BY_LEXICON = {
+    "america": {2026: 1.00, 2025: 1.00, 2024: 1.00, 2023: 1.00,
+                2022: 1.00, 2021: 1.00},
+}
 
 CATEGORY_ID = 12
 CATEGORY_URL = "http://charme-du-vin.com/category/wine/italia/"
@@ -431,10 +445,10 @@ def grade(res: Result, matched: str, producer: str) -> None:
 
 
 def process(idx: int, bottle: dict, state: dict, today: date,
-            lexicon: dict | None = None) -> Result:
+            lexicon: dict | None = None, factors: dict | None = None) -> Result:
     conv = lex.convert(bottle["name"], lexicon)
     year = int(bottle["date"][:4])
-    factor = YEAR_FACTOR.get(year, 1.0)
+    factor = (factors or YEAR_FACTOR).get(year, 1.0)
     krw750, krw_actual = to_750ml(bottle["jpy"], conv["volume"])
     estimated = round(krw750 * factor)
 
@@ -562,7 +576,8 @@ def main() -> int:
             if key in carried:
                 continue
             print(f"[{i}/{len(catalogue)}] {bottle['name'][:40]}", file=sys.stderr)
-            res = process(i, bottle, state, today, LEXICONS[args.lexicon])
+            res = process(i, bottle, state, today, LEXICONS[args.lexicon],
+                          YEAR_FACTOR_BY_LEXICON.get(args.lexicon))
             results.append(res)
             carried[key] = res.row()
             if i % CHECKPOINT_EVERY == 0:
