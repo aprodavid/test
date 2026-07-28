@@ -200,7 +200,13 @@ _COMMON = {"brut", "champagne", "docg", "doc", "igt", "wine", "vino",
            # Spanish / Portuguese articles and estate words: "El" alone let
            # "El Vinclo" match "Viña Pedrosa El Pedrosal"
            "el", "los", "las", "do", "da", "dos", "das", "bodega", "bodegas",
-           "vina", "castillo", "hacienda", "pazos", "dominio", "old", "year"}
+           "vina", "castillo", "hacienda", "pazos", "dominio", "old", "year",
+           # English equivalents: "The" alone let "The Weiss Chardonnay"
+           # match "The Hess Collection The Lioness", and "California" let a
+           # generic red blend match Decoy's California Red
+           "the", "an", "napa", "sonoma", "oregon", "california", "valley",
+           "coast", "county", "mountain", "estate", "estates", "vineyard",
+           "vineyards", "ranch", "cellars", "winery", "blend", "red", "white"}
 
 
 def _tok(s: str) -> set[str]:

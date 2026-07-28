@@ -483,6 +483,13 @@ def producer_of(converted: str) -> str:
                                # Spanish / Portuguese
                                "el", "los", "las", "do", "da", "dos", "das",
                                "bodega", "bodegas", "vina", "viña", "mas",
-                               "hacienda", "castillo", "pazos", "dominio"}:
+                               "hacienda", "castillo", "pazos", "dominio",
+                               # English articles, place names and varietal
+                               # words: none of these identify a winery
+                               "the", "a", "an", "napa", "sonoma", "oregon",
+                               "california", "valley", "coast", "county",
+                               "mountain", "estate", "estates", "vineyard",
+                               "vineyards", "ranch", "cellars", "winery",
+                               "reserve", "red", "white", "blend"}:
             return tok
     return converted.split()[0] if converted.split() else ""
