@@ -1,0 +1,54 @@
+﻿id,등급,상품명_한글,원어명,생산자_원어,분류,용량,현지가_원화,기준가_원화,할인율,판정근거,매칭된_와인명,일치율,국내가_최저,국내가_중앙,국내가_최신등록일,해외_원통화,해외_원가격,게시연도,신뢰도,상태,미변환여부,샴드뱅링크
+1,D,판티니 칼라렌타 페코리노,Fantini Calalenta Pecorino,Fantini,,750ml,21780,,,없음,,,,,,,,2026,높음,,False,https://charme-du-vin.com/2026/07/44390/
+3,D,프레스코발디 브루넬로 디 몬탈치노 카스텔조콘도,Frescobaldi Brunello di Montalcino CastelGiocondo,Frescobaldi,DOCG,750ml,77220,,,없음,,,,,,,,2026,높음,,False,https://charme-du-vin.com/2026/07/44313/
+4,A,카스텔로 디 아마 라파리타,Castello di Ama L'Apparita,Ama,,750ml,287100,552224,0.4801,해외가,Castello di Ama L'Apparita 2019,1.0,,,,USD,370.62,2026,높음,,False,https://charme-du-vin.com/2026/07/44264/
+5,A,가야 다그로미스 바롤로,Gaja Dagromis Barolo,Gaja,DOCG,750ml,123750,208585,0.4067,해외가,Gaja Dagromis Barolo 2021,1.0,,,,USD,139.99,2026,높음,,False,https://charme-du-vin.com/2026/07/44270/
+10,A,사마스,Samas,Samas,,750ml,22770,40156,0.433,해외가,Punica Samas 2025,1.0,,,,USD,26.95,2026,높음,,False,https://charme-du-vin.com/2026/07/44109/
+13,A,가야 바르바레스코,Gaja Barbaresco,Gaja,DOCG,750ml,346500,521485,0.3356,해외가,Gaja Barbaresco 2021,1.0,,,,USD,349.99,2026,높음,,False,https://charme-du-vin.com/2026/06/43879/
+14,A,자코모 콘테르노 바롤로 리제르바 モンフォルチーノ,Giacomo Conterno Barolo Riserva モンフォルチーノ,Giacomo,DOCG,750ml,1188000,1728326,0.3126,해외가,Giacomo Conterno Barolo Riserva Monfortino 2019,1.0,,,,USD,1159.95,2026,높음,,True,https://charme-du-vin.com/2026/06/43879/
+19,A,자코모 콘테르노 바롤로 리제르바 몬포르티노,Giacomo Conterno Barolo Riserva Monfortino,Giacomo,DOCG,750ml,1188000,5362510,0.7785,해외가,Giacomo Conterno Barolo Riserva Monfortino 1999,1.0,,,,USD,3599.0,2026,높음,,False,https://charme-du-vin.com/2026/04/43201/
+20,A,자코모 콘테르노 바롤로 프란차,Giacomo Conterno Barolo Francia,Giacomo,DOCG,750ml,376200,544446,0.309,해외가,Giacomo Conterno Barolo Cascina Francia 2021,1.0,,,,USD,365.4,2026,높음,,False,https://charme-du-vin.com/2026/04/43201/
+22,A,레 마키올레 메소리오,Le Macchiole Messorio,Macchiole,,750ml,356400,858240,0.5847,해외가,Le Macchiole Messorio 2021,1.0,,,,USD,576.0,2026,높음,,False,https://charme-du-vin.com/2026/04/43103/
+29,A,페트롤로 갈라트로나,Petrolo Galatrona,Petrolo,,750ml,84150,163870,0.4865,해외가,Petrolo Galatrona 2021,1.0,,,,USD,109.98,2026,높음,,False,https://charme-du-vin.com/2026/01/42401/
+31,A,페트롤로 보지나 비안코 B,Petrolo Boggina Bianco B,Petrolo,,750ml,43560,111735,0.6101,해외가,Petrolo Boggina B Bianco 2021,1.0,,,,USD,74.99,2026,높음,,False,https://charme-du-vin.com/2026/01/42407/
+32,A,페트롤로 토리오네,Petrolo Torrione,Petrolo,,750ml,22770,64055,0.6445,해외가,Petrolo Toscana Torrione 2021,1.0,,,,USD,42.99,2026,높음,,False,https://charme-du-vin.com/2026/01/42404/
+33,A,페트롤로 토리오네,Petrolo Torrione,Petrolo,,750ml,17820,40200,0.5567,해외가,Petrolo Toscana Torrione 2019,1.0,,,,USD,26.98,2026,높음,,False,https://charme-du-vin.com/2026/01/42404/
+34,A,레 세레 누오베 디 오르넬라이아,Le Serre Nuove di Ornellaia,Serre,,750ml,64350,96835,0.3355,해외가,Ornellaia Le Serre Nuove 2020,1.0,,,,USD,64.99,2026,높음,,False,https://charme-du-vin.com/2026/01/42348/
+35,A,로베르토 보에르치오 바롤로 フォッサーティ,Roberto Voerzio Barolo フォッサーティ,Roberto,DOCG,750ml,336600,551285,0.3894,해외가,Roberto Voerzio Brunate  Barolo 2019,1.0,,,,USD,369.99,2026,높음,,True,https://charme-du-vin.com/2026/01/42262/
+36,A,로베르토 보에르치오 바롤로 ラセッラ,Roberto Voerzio Barolo ラセッラ,Roberto,DOCG,750ml,336600,551285,0.3894,해외가,Roberto Voerzio Brunate  Barolo 2019,1.0,,,,USD,369.99,2026,높음,,True,https://charme-du-vin.com/2026/01/42262/
+37,A,가야 알테니 디 브라시카,Gaja Alteni di Brassica,Gaja,,750ml,168300,296510,0.4324,해외가,Gaja Alteni di Brassica Langhe 2023,1.0,,,,USD,199.0,2025,높음,,False,https://charme-du-vin.com/2025/12/42103/
+38,A,가야 로시 바스 랑게,Gaja Rossj-Bass Langhe,Gaja,DOC,750ml,91080,180916,0.4966,해외가,Gaja Rossj-Bass Langhe 2024,1.0,,,,USD,121.42,2025,높음,,False,https://charme-du-vin.com/2025/12/42103/
+39,A,가야 가야 에 레이 샤르도네,Gaja Gaja e Rey Chardonnay,Gaja,,750ml,287100,563146,0.4902,해외가,Gaja Gaia & Rey Langhe 2023,0.667,,,,USD,377.95,2025,높음,,False,https://charme-du-vin.com/2025/12/42103/
+40,D,ジオバッファ 피노 그리조 비올로지코,ジオバッファ Pinot Grigio Biologico,ジオバッファ,,750ml,12870,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/12/41989/
+41,D,ジオバッファ 토스카나 로소 비올로지코,ジオバッファ Toscana Rosso Biologico,ジオバッファ,IGT,750ml,12870,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/12/41989/
+42,A,로베르토 보에르치오 바롤로 체레퀴오,Roberto Voerzio Barolo Cerequio,Roberto,DOCG,750ml,336600,551285,0.3894,해외가,Roberto Voerzio Brunate  Barolo 2019,0.75,,,,USD,369.99,2025,높음,,False,https://charme-du-vin.com/2025/11/41637/
+43,A,발디카바 브루넬로 디 몬탈치노,Valdicava Brunello di Montalcino,Valdicava,DOCG,750ml,153450,297985,0.485,해외가,Valdicava Brunello di Montalcino 2019,1.0,,,,USD,199.99,2025,높음,,False,https://charme-du-vin.com/2025/11/41630/
+44,A,발디카바 브루넬로 디 몬탈치노 モントゾーリ,Valdicava Brunello di Montalcino モントゾーリ,Valdicava,DOCG,750ml,316800,691658,0.542,해외가,Valdicava Brunello di Montalcino 2001,1.0,,,,USD,464.2,2025,높음,,True,https://charme-du-vin.com/2025/11/41630/
+45,A,오르넬라이아,Ornellaia,Ornellaia,,750ml,306900,595985,0.4851,해외가,Ornellaia Bolgheri Superiore 2020,1.0,,,,USD,399.99,2025,높음,,False,https://charme-du-vin.com/2025/09/40812/
+48,A,테스타마타,Testamatta,Testamatta,,750ml,108900,163900,0.3356,해외가,Bibi Graetz Testamatta Toscana 2021,1.0,,,,USD,110.0,2025,높음,,False,https://charme-du-vin.com/2025/09/40718/
+49,A,프루노토 모스카토 다스티,Prunotto Moscato d'Asti,Prunotto,DOCG,750ml,18810,34196,0.4499,해외가,Prunotto Moscato d'Asti 2024,1.0,,,,USD,22.95,2025,높음,빈티지대체,False,https://charme-du-vin.com/2025/09/40660/
+50,A,사마스,Samas,Samas,,750ml,22770,34255,0.3353,해외가,Punica Samas 2024,1.0,,,,USD,22.99,2025,높음,,False,https://charme-du-vin.com/2025/08/40589/
+51,D,로베르토 보에르치오 네비올로 디 산 프란체스코,Roberto Voerzio Nebbiolo di San Francesco,Roberto,,750ml,46530,,,없음,,,,,,,,2025,높음,,False,https://charme-du-vin.com/2025/07/40371/
+53,A,아마 키안티 클라시코,Ama Chianti Classico,Ama,DOCG,750ml,33660,58736,0.4269,해외가,Castello di Ama Chianti Classico 2022,1.0,,,,USD,39.42,2025,높음,,False,https://charme-du-vin.com/2025/07/40368/
+54,A,아마 산 로렌초 키안티 클라시코 그란 셀레치오네,Ama San Lorenzo Chianti Classico Gran Selezione,Ama,DOCG,750ml,57420,245775,0.7664,해외가,Castello di Ama Chianti Classico Vigneto Gran Selezione San Lorenzo 2019,1.0,,,,USD,164.95,2025,높음,,False,https://charme-du-vin.com/2025/07/40368/
+55,A,안티노리 피안 델레 비녜 브루넬로 디 몬탈치노,Antinori Pian delle Vigne Brunello di Montalcino,Antinori,DOCG,750ml,67320,134026,0.4977,해외가,Antinori Pian delle Vigne Brunello di Montalcino 2019,1.0,,,,USD,89.95,2025,높음,,False,https://charme-du-vin.com/2025/07/40245/
+56,A,안티노리 피안 델레 비녜 브루넬로 디 몬탈치노 비냐 フェッロヴィア 리제르바,Antinori Pian delle Vigne Brunello di Montalcino Vigna フェッロヴィア Riserva,Antinori,DOCG,750ml,138600,201150,0.311,해외가,Antinori Pian delle Vigne Vignaferrovia Brunello di Montalcino Riserva 2018,0.875,,,,USD,135.0,2025,높음,,True,https://charme-du-vin.com/2025/07/40245/
+57,A,안티노리 솔라이아,Antinori Solaia,Antinori,,750ml,415800,715200,0.4186,해외가,Antinori Tenuta Tignanello 'Solaia' 2021,1.0,,,,USD,480.0,2025,높음,,False,https://charme-du-vin.com/2025/07/40243/
+58,A,카세 바세 솔데라,Case Basse Soldera,Case,,750ml,762300,1251585,0.3909,해외가,Soldera Case Basse Sangiovese Toscana 2020,1.0,,,,USD,839.99,2025,높음,,False,https://charme-du-vin.com/2025/07/40241/
+59,A,바로네 코르나키아 몬테풀차노 다브루초,Barone Cornacchia Montepulciano d'Abruzzo,Barone,,750ml,13860,29800,0.5349,해외가,Barone Cornacchia Montepulciano d'Abruzzo 2022,1.0,,,,USD,20.0,2025,높음,빈티지대체,False,https://charme-du-vin.com/2025/07/40141/
+60,A,플라차넬로 델라 피에베,Flaccianello della Pieve,Flaccianello,,750ml,176220,342685,0.4858,해외가,Fontodi Flaccianello della Pieve 2021,1.0,,,,USD,229.99,2025,높음,,False,https://charme-du-vin.com/2025/06/39937/
+64,A,파토리아 디 바르비 브루넬로 비냐 델 피오레,Fattoria di Barbi Brunello Vigna del Fiore,Barbi,,750ml,163350,251810,0.3513,해외가,Fattoria dei Barbi Brunello di Montalcino Vigna di Fiore 1990,1.0,,,,USD,169.0,2025,높음,빈티지대체,False,https://charme-du-vin.com/2025/05/39471/
+65,A,파토리아 디 바르비 로소 디 몬탈치노,Fattoria di Barbi Rosso di Montalcino,Barbi,DOC,750ml,38610,55949,0.3099,해외가,Fattoria dei Barbi Rosso di Montalcino 2021,1.0,,,,USD,37.55,2025,높음,,False,https://charme-du-vin.com/2025/05/39471/
+66,A,파트리모 페우디 디 산 그레고리오,Patrimo Feudi di San Gregorio,Patrimo,,750ml,118800,236835,0.4984,해외가,Feudi di San Gregorio Pàtrimo 2013,1.0,,,,USD,158.95,2025,높음,빈티지대체,False,https://charme-du-vin.com/2025/05/39468/
+68,A,카파르초 브루넬로 디 몬탈치노,Caparzo Brunello di Montalcino,Caparzo,DOCG,750ml,49500,111661,0.5567,해외가,Caparzo La Casa Brunello di Montalcino 2018,1.0,,,,USD,74.94,2025,높음,,False,https://charme-du-vin.com/2025/05/39370/
+71,A,안티노리 피노 네로,Antinori Pinot Nero,Antinori,,750ml,53460,119185,0.5515,해외가,Antinori Castello della Sala Pinot Nero 2021,1.0,,,,USD,79.99,2025,높음,빈티지대체,False,https://charme-du-vin.com/2025/04/39121/
+72,D,マコン 드 비안코,マコン de Bianco,マコン,,750ml,188100,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/04/39080/
+73,A,테르체토 가비,Terzetto Gavi,Terzetto,DOC,750ml,10890,35686,0.6948,해외가,Terzetto Gavi 2025,1.0,,,,USD,23.95,2025,높음,빈티지대체,False,https://charme-du-vin.com/2025/03/38825/
+74,D,테르체토 바르바레스코,Terzetto Barbaresco,Terzetto,DOCG,750ml,18810,,,없음,,,,,,,,2025,높음,,False,https://charme-du-vin.com/2025/03/38825/
+75,D,자로네 샤르도네 베르텔리,Giarone Chardonnay Bertelli,Giarone,,750ml,148500,,,없음,,,,,,,,2025,높음,,False,https://charme-du-vin.com/2025/03/38595/
+76,A,비온디 산티 브루넬로 디 몬탈치노,Biondi-Santi Brunello di Montalcino,Biondi-Santi,DOCG,750ml,257400,435736,0.4093,해외가,Biondi-Santi Brunello di Montalcino 2018,1.0,,,,USD,292.44,2025,높음,,False,https://charme-du-vin.com/2025/03/38518/
+78,A,달 포르노 로마노 아마로네 델라 발폴리첼라,Dal Forno Romano Amarone della Valpolicella,Dal,DOCG,750ml,445500,727254,0.3874,해외가,Dal Forno Romano Amarone della Valpolicella Monte Lodoletta 2017,1.0,,,,USD,488.09,2025,높음,,False,https://charme-du-vin.com/2025/02/38266/
+82,D,산 마르차노 콜레치오네 친콴타 블랙 +1,San Marzano Collezione Cinquanta Black +1,Marzano,,750ml,29700,,,없음,,,,,,,,2025,높음,,False,https://charme-du-vin.com/2025/01/37930/
+88,D,제오그라피코 ボルゴアラテッラ 고베르노 알루조,Geografico ボルゴアラテッラ Governo all'Uso Toscano,Geografico,IGT,750ml,15840,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/01/37730/
+89,D,제오그라피코 フェランテ レッジェーロ 아파시멘토,Geografico フェランテ レッジェーロ Appassimento,Geografico,,750ml,16830,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/01/37730/
+90,A,제오그라피코 ボルゴアラテッラ 키안티 콜리 세네시,Geografico ボルゴアラテッラ Chianti Colli Senesi,Geografico,DOCG,750ml,13860,23825,0.4183,해외가,Geografico Borgo Alla Terra Chianti Colli Senesi 2021,1.0,,,,USD,15.99,2025,높음,빈티지대체,True,https://charme-du-vin.com/2025/01/37730/

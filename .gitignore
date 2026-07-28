@@ -7,3 +7,11 @@ checkpoint.json
 # in-flight resume state for italia_price_check
 italia_checkpoint.json
 state.json
+
+# per-category outputs are committed with a category prefix
+result_AD.csv
+result_B.csv
+year_factors.json
+state.json
+spain_checkpoint.json
+spain_state.json
