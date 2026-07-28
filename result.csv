@@ -1,0 +1,94 @@
+﻿id,검색어,분류,현지가_원화,국내가_최저,국내가_중앙,국내가_최고,국내_판매처수,국내가_최신등록일,국내가_신뢰도,국내가_상태,해외_원통화,해외_원가격,해외가_원화,해외_출처,판정근거,기준가_원화,할인율,표본부족,제외건수,비고
+1,Delong,?,53500,,,,,,,미유통추정,,,,,판정불가,,,False,0,식별확실=False
+2,Martin Wassmer Rosé,?,54400,,,,,,,미유통추정,USD,19.95,29726,Vivino:Domaine Martin Le Petit Martin Rosé 2025,해외평균가,29726,-0.83,False,0,
+3,Mignon-Boulard,?,54400,,,,,,,미유통추정,,,,,판정불가,,,False,0,식별확실=False
+4,Selosse-Pajon Brut,?,56400,,,,,,,미유통추정,USD,1140.0,1698600,Vivino:Jacques Selosse Brut Rosé Champagne,해외평균가,1698600,0.9668,False,0,⚠비교대상 확인필요(할인율 과대) · 식별확실=False
+5,Stradivarius Brut 2009,?,65300,,,,,,,미유통추정,USD,79.99,119185,Vivino:Charles de Cazanove Stradivarius Gold Brut Champagne 2009,해외평균가,119185,0.4521,False,0,식별확실=False
+6,Brun-Servenay Cuvée Chardonnay Vieilles Vignes 2012,?,83200,,,,,,,미유통추정,,,,,판정불가,,,False,0,식별확실=False
+7,Justin Extra Brut 2009,?,257400,,,,,,,미유통추정,,,,,판정불가,,,False,0,식별확실=False
+8,Piper-Heidsieck Brut,GM,48500,48000,55000,75000,22,2025-03-30,최신,조회성공,,,,,국내가,55000,0.1182,False,1,"대체검색어:파이퍼 하이직 · 매칭:파이퍼 하이직, 뀌베 브뤼 NV"
+9,Lanson Brut Vintage 2009,GM,64400,,,,,,,미유통추정,USD,125.99,187725,Vivino:Lanson Le Vintage Champagne 2009,해외평균가,187725,0.6569,False,0,
+10,Charles Heidsieck Brut Réserve,GM,68300,,,,,,,미유통추정,USD,54.94,81861,Vivino:Charles Heidsieck Brut Réserve,해외평균가,81861,0.1657,False,0,
+11,Taittinger FIFA World Cup Brut Réserve,GM,85100,,,,,,,미유통추정,USD,74.99,111735,Vivino:Taittinger FIFA World Cup Réserve Brut Champagne,해외평균가,111735,0.2384,False,0,
+12,Bollinger Pinot Noir VZ 2016,GM,89100,,,,,,,미유통추정,USD,2880.0,4291200,Vivino:Bollinger Vieilles Vignes Françaises Blanc de Noirs Brut Cha,해외평균가,4291200,0.9792,False,0,⚠비교대상 확인필요(할인율 과대)
+13,Billecart-Salmon Blanc de Blancs Grand Cru,GM,104000,,,,,,,미유통추정,USD,98.95,147436,Vivino:Billecart-Salmon Le Blanc de Blancs Champagne Grand Cru,해외평균가,147436,0.2946,False,0,
+14,Billecart-Salmon Brut Rosé,GM,104000,,,,,,,미유통추정,USD,99.92,148881,Vivino:Billecart-Salmon Brut Rosé Champagne,해외평균가,148881,0.3015,False,0,
+15,Pol Roger Brut Vintage 2018,GM,116800,,,,,,,미유통추정,USD,127.95,190646,Vivino:Pol Roger Brut Vintage Champagne 2018,해외평균가,190646,0.3873,False,0,
+16,Lanson Cuvée Blanc de Blancs 2000,GM,118800,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+17,Bollinger Pinot Noir VZ19,GM,128700,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+18,Delamotte Blanc de Blancs 2018,GM,128700,,,,,,,미유통추정,USD,175.0,260750,Vivino:Delamotte Blanc de Blancs Brut Millésimé Champagne Grand Cru,해외평균가,260750,0.5064,False,0,
+19,Louis Roederer Brut Nature 2015,GM,143600,160000,160000,160000,1,2023-02-23,낮음,조회성공,,,,,국내가,160000,0.1025,True,0,"대체검색어:루이 로드레 · 매칭:루이 로드레, 빈티지 로제 브뤼 2015 · 빈티지 2015 일치 1건"
+20,Deutz à 2015,GM,178200,150000,150000,150000,1,2022-11-30,낮음,조회성공,,,,,국내가,150000,-0.188,True,0,"대체검색어:Deutz · 매칭:도츠, 브뤼 밀레짐 2015 · 빈티지 2015 일치 1건"
+21,Bollinger Grande Année 2014 木り,GM,188100,335000,342500,350000,2,2023-12-11,낮음,조회성공,,,,,국내가,342500,0.4508,True,0,"대체검색어:볼랭저 · 매칭:볼랭저, 라 그랑 아네 2014 · 빈티지 2014 일치 2건"
+22,Lanson Cuvée 2004,GM,207900,,,,,,,미유통추정,USD,225.0,335250,Vivino:Lanson Brut Vintage Collection Champagne 2004,해외평균가,335250,0.3799,False,0,
+23,Bollinger Grande Année 2015,GM,227700,,,,,,,미유통추정,USD,224.97,335205,Vivino:Bollinger La Grande Année Brut Champagne 2015,해외평균가,335205,0.3207,False,0,
+24,Bollinger Grande Année 2018,GM,227700,,,,,,,미유통추정,USD,196.95,293456,Vivino:Bollinger La Grande Année Brut Champagne 2018,해외평균가,293456,0.2241,False,0,
+25,Perrier-Jouët Belle Époque 2016,GM,227700,,,,,,,미유통추정,USD,229.99,342685,Vivino:Perrier-Jouët Belle Epoque Brut Champagne 2016,해외평균가,342685,0.3355,False,0,
+26,Rare Champagne Champagne Millésime 2013,GM,227700,,,,,,,미유통추정,USD,175.0,260750,Vivino:Rare Champagne Rare Brut Champagne (Millésimé) 2013,해외평균가,260750,0.1267,False,0,
+27,Dom Ruinart Blanc de Blancs 2007,GM,237600,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+28,Dom Ruinart Blanc de Blancs Extra Brut 2010,GM,247500,,,,,,,미유통추정,USD,279.9,417051,Vivino:Ruinart Dom Ruinart Blanc de Blancs Extra Brut Champagne 201,해외평균가,417051,0.4065,False,0,
+29,Taittinger Comtes de Champagne 2014,GM,257400,,,,,,,미유통추정,USD,241.49,359820,Vivino:Taittinger Comtes de Champagne Blanc de Blancs 2014,해외평균가,359820,0.2846,False,0,
+30,Henriot Cuvée 2008,GM,267300,,,,,,,미유통추정,USD,285.0,424650,Vivino:Henriot Cuvée Hemera Brut Champagne 2008,해외평균가,424650,0.3705,False,0,
+31,Rare Champagne Champagne Millésime 2008,GM,267300,,,,,,,미유통추정,USD,249.99,372485,Vivino:Rare Champagne Rare Brut Champagne (Millésimé) 2008,해외평균가,372485,0.2824,False,0,
+32,Bollinger Grande Année 2004,GM,287100,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+33,Taittinger Comtes de Champagne 2005,GM,287100,,,,,,,미유통추정,USD,502.0,747980,Vivino:Taittinger Comtes de Champagne Blanc de Blancs 2005,해외평균가,747980,0.6162,False,0,
+34,Rare Champagne Champagne Rosé 2008,GM,292000,,,,,,,미유통추정,USD,524.99,782235,Vivino:Rare Champagne Rare Brut Rosé Champagne (Millésimé) 2008,해외평균가,782235,0.6267,False,0,
+35,Billecart-Salmon Cuvée 2008,GM,316800,310000,310000,310000,1,2023-09-07,낮음,조회성공,,,,,국내가,310000,-0.0219,True,0,"대체검색어:빌카르 살몽 · 매칭:빌까르 살몽, 뀌베 니콜라 프랑수아  2008 · 빈티지 2008 일치 1건"
+36,Dom Pérignon 2015 箱付き,GM,316800,,,,,,,미유통추정,USD,239.97,357555,Vivino:Dom Pérignon Brut Champagne 2015,해외평균가,357555,0.114,False,0,
+37,Bollinger R.D. 2007,GM,336600,,,,,,,미유통추정,USD,826.0,1230740,Vivino:Bollinger R.D Extra Brut Champagne (Récemment Dégorgé) 2007,해외평균가,1230740,0.7265,False,0,
+38,Philipponnat 2009,GM,376200,,,,,,,미유통추정,USD,495.0,737550,Vivino:Philipponnat Les Cintres Extra-Brut Champagne 2009,해외평균가,737550,0.4899,False,0,
+39,Louis Roederer Cristal 2016,GM,394000,,,,,,,미유통추정,USD,295.99,441025,Vivino:Louis Roederer Cristal Brut Champagne (Millésimé) 2016,해외평균가,441025,0.1066,False,0,
+40,Philipponnat 2004,GM,396000,,,,,,,미유통추정,USD,486.0,724140,Vivino:Philipponnat Clos des Goisses Champagne 2004,해외평균가,724140,0.4531,False,0,
+41,Bollinger R.D. 2002,GM,415800,,,,,,,미유통추정,USD,975.0,1452750,Vivino:Bollinger La Grande Année Brut Champagne 2002,해외평균가,1452750,0.7138,False,0,
+42,Bollinger R.D. 2008,GM,425700,498000,498000,498000,1,2023-12-15,낮음,조회성공,,,,,국내가,498000,0.1452,True,0,"대체검색어:볼랭저 · 매칭:볼랭저, 알디 2008 · 빈티지 2008 일치 1건"
+43,Krug Vintage 2013,GM,465300,,,,,,,미유통추정,USD,462.84,689632,Vivino:Krug Krug Vintage 2013,해외평균가,689632,0.3253,False,0,
+44,Krug Vintage 2006 箱付き,GM,485100,1980000,1980000,1980000,1,2023-08-11,낮음,조회성공,,,,,국내가,1980000,0.755,True,0,"대체검색어:크뤼그 · 매칭:크룩, 끌로 드 메닐 2006 · 빈티지 2006 일치 1건"
+45,Krug Vintage 2011 り,GM,485100,,,,,,,미유통추정,USD,349.99,521485,Vivino:Krug Krug Vintage 2011,해외평균가,521485,0.0698,False,0,
+46,Louis Roederer Cristal Rosé 2014,GM,811800,399000,499000,675000,8,2023-11-17,낮음,조회성공,,,,,국내가,499000,-0.6269,False,0,"대체검색어:루이 로드레 · 매칭:루이 로드레, 크리스탈 브뤼 2014 · 빈티지 2014 일치 8건"
+47,Rare Champagne Champagne Collection 2008+ Rosé 2008,GM,851400,,,,,,,미유통추정,USD,524.99,782235,Vivino:Rare Champagne Rare Brut Rosé Champagne (Millésimé) 2008,해외평균가,782235,-0.0884,False,0,
+48,Charles Heidsieck Collection Crayères 1996,GM,940500,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+49,Perrier-Jouët 2008,GM,970200,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+50,Salon 2013,GM,1287000,,,,,,,미유통추정,USD,199.99,297985,Vivino:Larkmead LMV Salon 2013,해외평균가,297985,-3.319,False,0,⚠비교대상 확인필요(현지가 과대)
+51,Salon 2015,GM,1346400,,,,,,,미유통추정,USD,1399.99,2085985,Vivino:Salon Le Mesnil Blanc de Blancs (Cuvée S) Brut Champagne 201,해외평균가,2085985,0.3545,False,0,
+52,Bollinger La Coteaux 2013,GM,1386000,,,,,,,미유통추정,USD,1249.99,1862485,Vivino:Bollinger La Côte Aux Enfants (Aÿ Rouge) 2013,해외평균가,1862485,0.2558,False,0,
+53,Salon 2007,GM,1584000,,,,,,,미유통추정,USD,2024.0,3015760,Vivino:Salon Le Mesnil Blanc de Blancs (Cuvée S) Brut Champagne 200,해외평균가,3015760,0.4748,False,0,
+54,Salon 2004,GM,1683000,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+55,Salon 2006,GM,1683000,,,,,,,미유통추정,USD,41.99,62565,Vivino:Jean-Max Roger Le Charnay Cuvée Menetou-Salon Blanc 2006,해외평균가,62565,-25.9,False,0,⚠비교대상 확인필요(현지가 과대)
+56,Bollinger Vignes 2012,GM,1881000,,,,,,,미유통추정,USD,358.33,533912,Vivino:Bollinger La Grande Année Rosé Brut Champagne 2012,해외평균가,533912,-2.5231,False,0,⚠비교대상 확인필요(현지가 과대)
+57,Charles Heidsieck Collection Crayères Millésime 1990,GM,2178000,,,,,,,미유통추정,USD,379.0,564710,Vivino:Charles Heidsieck Brut Millésimé 1990,해외평균가,564710,-2.8568,False,0,⚠비교대상 확인필요(현지가 과대)
+58,Château de Bligny Grande Réserve Brut,NM,22800,,,,,,,미유통추정,USD,41.95,62506,Vivino:Château de Bligny Grande Réserve Brut Champagne,해외평균가,62506,0.6352,False,0,
+59,Château de Bligny Grand Rosé Brut,NM,23800,,,,,,,미유통추정,USD,53.99,80445,Vivino:Château de Bligny Grande Reserve Rosé Brut Champagne,해외평균가,80445,0.7041,False,0,
+60,Charles Collin Brut,NM,37600,,,,,,,미유통추정,USD,54.94,81861,Vivino:Charles Heidsieck Brut Réserve,해외평균가,81861,0.5407,False,0,
+61,Palmer & Co Brut Réserve,NM,48500,,,,,,,미유통추정,USD,56.99,84915,Vivino:Palmer & Co. Brut Réserve Champagne,해외평균가,84915,0.4288,False,0,
+62,Ayala Brut Majeur,NM,52500,79900,83950,88000,2,2023-04-20,낮음,조회성공,,,,,국내가,83950,0.3746,True,0,"대체검색어:아얄라 · 매칭:아얄라, 브뤼 마져 NV"
+63,Ayala Brut Nature,NM,55400,79900,83950,88000,2,2023-04-20,낮음,조회성공,,,,,국내가,83950,0.3401,True,0,"대체검색어:아얄라 · 매칭:아얄라, 브뤼 마져 NV"
+64,Gosset Grande Réserve Brut,NM,58400,83000,97020,138000,6,2022-12-15,낮음,조회성공,,,,,국내가,97020,0.3981,False,1,"대체검색어:고세 · 매칭:고세, 그랑 리저브 브뤼 NV"
+65,Thiénot Brut,NM,60400,,,,,,,미유통추정,USD,53.83,80207,Vivino:Thienot Brut Champagne,해외평균가,80207,0.2469,False,0,
+66,Gosset Grande Réserve 400周年記念,NM,63400,83000,97020,138000,6,2022-12-15,낮음,조회성공,,,,,국내가,97020,0.3465,False,1,"대체검색어:고세 · 매칭:고세, 그랑 리저브 브뤼 NV"
+67,Ayala Brut Rosé Majeur,NM,65300,79900,83950,88000,2,2023-04-20,낮음,조회성공,,,,,국내가,83950,0.2222,True,0,"대체검색어:아얄라 · 매칭:아얄라, 브뤼 마져 NV"
+68,Ayala Rosé Majeur,NM,65300,79900,83950,88000,2,2023-04-20,낮음,조회성공,,,,,국내가,83950,0.2222,True,0,"대체검색어:아얄라 · 매칭:아얄라, 브뤼 마져 NV"
+69,Thiénot Brut Rosé ※旧,NM,69300,,,,,,,미유통추정,USD,75.0,111750,Vivino:Thienot Brut Rosé Champagne,해외평균가,111750,0.3799,False,0,
+70,Ayala Blanc de Blancs 2015,NM,71300,,,,,,,미유통추정,USD,84.99,126635,Vivino:Ayala Le Blanc de Blancs Champagne 2015,해외평균가,126635,0.437,False,0,
+71,Thiénot Blanc de Blancs,NM,77200,,,,,,,미유통추정,USD,70.0,104300,Vivino:Thienot Blanc de Blancs Champagne,해외평균가,104300,0.2598,False,0,
+72,Thiénot Brut Vintage 2012 ※旧,NM,84200,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+73,Palmer & Co Blanc de Blancs 2018,NM,91100,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+74,Jacquesson 747,NM,104000,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+75,Jacquesson Cuvée 746,NM,123800,,,,,,,미유통추정,USD,69.98,104270,Vivino:Jacquesson Cuvée No 746 Extra Brut Champagne,해외평균가,104270,-0.1873,False,0,"대체검색어:자크송 · 매칭:자끄송, 뀌베 740 NV"
+76,Nicolas Feuillatte 2008,NM,188100,,,,,,,미유통추정,USD,159.99,238385,Vivino:Nicolas Feuillatte Palmes d'Or Brut Champagne 2008,해외평균가,238385,0.2109,False,0,
+77,Thiénot 2008 Cuvée,NM,188100,,,,,,,미유통추정,USD,132.95,198095,Vivino:Thienot Cuvée Alain Thienot Champagne 2008,해외평균가,198095,0.0505,False,0,
+78,Jacquesson Cuvée 742,NM,247500,,,,,,,미유통추정,USD,215.59,321229,Vivino:Jacquesson Cuvée No 743 Extra Brut Champagne,해외평균가,321229,0.2295,False,0,"대체검색어:자크송 · 매칭:자끄송, 뀌베 740 NV"
+79,Henri Giraud Fût de Chêne MV18,NM,277200,250000,294000,320000,8,2023-12-26,낮음,조회성공,,,,,국내가,294000,0.0571,False,1,"대체검색어:앙리 지로 · 매칭:앙리 지로, 퓌 드 셴 브뤼 MV 2018"
+80,Henri Giraud Fût de Chêne MV20,NM,277200,250000,294000,320000,8,2023-12-26,낮음,조회성공,,,,,국내가,294000,0.0571,False,1,"대체검색어:앙리 지로 · 매칭:앙리 지로, 퓌 드 셴 브뤼 MV 2018"
+81,Henri Giraud PR20/90,NM,287100,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+82,Paul Berthelot Cuvée,RM,39600,,,,,,,미유통추정,USD,20.95,31216,Vivino:Chapillon Cuvée Paul 2019,해외평균가,31216,-0.2686,False,0,
+83,Renard-Barnier,RM,41600,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+84,Cazé-Thibaut Brut Grand Cru,RM,43600,,,,,,,미유통추정,USD,145.99,217525,Vivino:Cazé-Thibaut Champagne Grand Cru 'Cramant' 2020,해외평균가,217525,0.7996,False,0,
+85,Guy de Saint Flavy Rosé,RM,44600,,,,,,,미유통추정,USD,15.97,23795,Vivino:Clos Saint Michel Domaine Guy Mousset Côtes du Rhône Rosé 20,해외평균가,23795,-0.8743,False,0,
+86,Louis Nicaise Brut Réserve,RM,44600,,,,,,,미유통추정,USD,33.99,50645,Vivino:Louis Nicaise Reserve Brut Champagne Premier Cru,해외평균가,50645,0.1194,False,0,
+87,Émile Leclère Blanc de Blancs Brut,RM,50500,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+88,André Beaufort Polisy Réserve,RM,53500,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+89,Robert Barbichon Blanc de Noirs,RM,53500,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+90,David Coutelas Cuvée Tradition,RM,53500,,,,,,,미유통추정,,,,,판정불가,,,False,0,
+91,André Clouet Silver Brut,RM,54400,,,,,,,미유통추정,USD,52.95,78896,Vivino:Andre Clouet Brut Nature Silver Champagne Grand Cru 'Bouzy',해외평균가,78896,0.3105,False,0,
+92,Robert Barbichon Réserve 4 Cépages,RM,54400,,,,,,,미유통추정,USD,86.95,129556,Vivino:Robert Barbichon Réserve 4 Cèpages Brut Champagne,해외평균가,129556,0.5801,False,0,
+93,Allouchery-Perseval Tradition Blanc de Noirs,RM,55400,,,,,,,미유통추정,,,,,판정불가,,,False,0,

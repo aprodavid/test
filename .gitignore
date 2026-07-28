@@ -1,2 +1,5 @@
 __pycache__/
 *.py[cod]
+
+# transient resume state; wine_price_check deletes it on a clean finish
+checkpoint.json
