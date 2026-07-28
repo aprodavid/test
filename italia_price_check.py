@@ -90,11 +90,11 @@ IGT = {"Toscana", "Toscana Rosso", "Toscano", "Salento", "di Toscana"}
 # Collection
 # --------------------------------------------------------------------------
 
-def fetch_posts() -> list[dict]:
+def fetch_posts(category: int = CATEGORY_ID) -> list[dict]:
     out: list[dict] = []
     page = 1
     while True:
-        raw, _ = wpc_http(POSTS_URL.format(cat=CATEGORY_ID, page=page))
+        raw, _ = wpc_http(POSTS_URL.format(cat=category, page=page))
         posts = json.loads(raw)
         if not posts:
             break
@@ -490,18 +490,21 @@ def main() -> int:
     ap.add_argument("--confidence", default="", help="높음 / 보통 / 낮음")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--cache", type=Path, default=OUT_DIR / "italia_posts.json")
+    ap.add_argument("--category", type=int, default=CATEGORY_ID,
+                    help="WordPress category id (12=イタリア, 11=スペイン・ポルトガル)")
+    ap.add_argument("--prefix", default="", help="output filename prefix")
     args = ap.parse_args()
     args.out_dir.mkdir(parents=True, exist_ok=True)
 
     if args.cache.exists():
         posts = json.loads(args.cache.read_text(encoding="utf-8"))
     else:
-        posts = fetch_posts()
+        posts = fetch_posts(args.category)
         args.cache.write_text(json.dumps(posts, ensure_ascii=False), encoding="utf-8")
 
     all_bottles, catalogue = build_catalogue(posts)
     factors = measure_year_factors(all_bottles)
-    (args.out_dir / "year_factors.json").write_text(
+    (args.out_dir / f"{args.prefix}year_factors.json").write_text(
         json.dumps(factors, ensure_ascii=False, indent=2), encoding="utf-8")
 
     catalogue.sort(key=lambda b: b["date"], reverse=True)
@@ -514,7 +517,7 @@ def main() -> int:
     # Keyed by product key -- keyed by id, a resumed run could not tell
     # which catalogue entries were already finished. Rows are carried in
     # full so the CSVs stay complete across restarts.
-    ckpt = args.out_dir / "italia_checkpoint.json"
+    ckpt = args.out_dir / f"{args.prefix}checkpoint.json"
     carried: dict[str, list] = {}
     if ckpt.exists():
         carried = json.loads(ckpt.read_text(encoding="utf-8"))
@@ -532,9 +535,9 @@ def main() -> int:
         ckpt.write_text(json.dumps(carried, ensure_ascii=False), encoding="utf-8")
         rows = list(carried.values())
         write_csv([r for r in rows if r[GRADE_COL] in ("A", "D")],
-                  args.out_dir / "result_AD.csv")
+                  args.out_dir / f"{args.prefix}result_AD.csv")
         write_csv([r for r in rows if r[GRADE_COL] == "B"],
-                  args.out_dir / "result_B.csv")
+                  args.out_dir / f"{args.prefix}result_B.csv")
 
     try:
         for i, bottle in enumerate(catalogue, 1):
@@ -554,7 +557,7 @@ def main() -> int:
         return 130
 
     persist()
-    (args.out_dir / "state.json").write_text(
+    (args.out_dir / f"{args.prefix}state.json").write_text(
         json.dumps(state, ensure_ascii=False), encoding="utf-8")
     counts = {g: sum(1 for r in carried.values() if r[GRADE_COL] == g)
               for g in "ABCD"}

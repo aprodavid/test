@@ -411,7 +411,7 @@ def extract_vintage(name: str) -> tuple[str, str]:
     return name, ""
 
 
-def convert(name: str) -> dict:
+def convert(name: str, lexicon: dict | None = None) -> dict:
     """Katakana product name -> structured, searchable fields.
 
     Tokens are matched whole and longest-first, and each token is converted
@@ -422,13 +422,14 @@ def convert(name: str) -> dict:
     text, volume = extract_volume(text)
     text, vintage = extract_vintage(text)
 
+    table = LEXICON if lexicon is None else lexicon
     tokens = [t for t in re.split(r"[\s　・,、/（）()]+", text) if t]
     it_parts: list[str] = []
     ko_parts: list[str] = []
     unconverted: list[str] = []
 
     for tok in tokens:
-        hit = LEXICON.get(tok)
+        hit = table.get(tok)
         if hit:
             it_parts.append(hit[0])
             ko_parts.append(hit[1])
