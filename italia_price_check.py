@@ -447,6 +447,14 @@ def grade(res: Result, matched: str, producer: str) -> None:
     if tier_conflict(res.원어명, matched):
         res.등급 = "B"          # same estate, different bottling
         return
+    if res.미변환여부:
+        # An unconverted token is dropped from the query and from the
+        # overlap count, so 일치율 can read 1.0 while the cuvée that would
+        # have distinguished the wines never took part. Aubert's UV-SL
+        # scored a perfect match against its CIX this way. The match is
+        # unverifiable, which is not the same as verified -- so never A.
+        res.등급 = "B"
+        return
     res.등급 = "A" if disc >= GRADE_A_DISCOUNT else "B"
 
 

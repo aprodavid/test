@@ -1,4 +1,5 @@
 ﻿id,등급,상품명_한글,원어명,생산자_원어,분류,용량,현지가_원화,기준가_원화,할인율,판정근거,매칭된_와인명,일치율,국내가_최저,국내가_중앙,국내가_최신등록일,해외_원통화,해외_원가격,게시연도,신뢰도,상태,미변환여부,샴드뱅링크
+59,B,라 리오하 알타 ヴィニャアンダンサ 레세르바,La Rioja Alta ヴィニャアンダンサ Reserva,Rioja,,750ml,53737,128125,0.5806,해외가,La Rioja Alta Rioja Gran Reserva 904 2015,1.0,,,,USD,85.99,2023,보통,,True,https://charme-du-vin.com/2023/10/32221/
 29,B,쿠네 레세르바,CVNE Reserva,CVNE,,750ml,23681,46175,0.4871,해외가,Cune (CVNE) Reserva Blanco 2019,1.0,,,,USD,30.99,2024,보통,,False,https://charme-du-vin.com/2024/07/35473/
 39,B,로제르 굴라르트 コーラル 로사도 브뤼,Roger Goulart コーラル Rosado Brut,Roger,,1.5L,13900,37176,0.6261,해외가,Roger Goulart Cava Reserva Brut 2019,0.667,24500,48250,2022-09-18,USD,24.95,2024,보통,"실제병가:26,730원",True,https://charme-du-vin.com/2024/05/34599/
 54,B,바르베이토 마데이라 베르데호 10년,Barbeito Madeira Verdejo 10 Year Old,Barbeito,,750ml,33977,66424,0.4885,해외가,Barbeito 10 Years Old Reserva Verdelho Madeira,0.75,,,,USD,44.58,2024,보통,,False,https://charme-du-vin.com/2024/01/32969/

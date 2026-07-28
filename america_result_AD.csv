@@ -1,0 +1,59 @@
+﻿id,등급,상품명_한글,원어명,생산자_원어,분류,용량,현지가_원화,기준가_원화,할인율,판정근거,매칭된_와인명,일치율,국내가_최저,국내가_중앙,국내가_최신등록일,해외_원통화,해외_원가격,게시연도,신뢰도,상태,미변환여부,샴드뱅링크
+11,A,칼레라 셀렉,Calera Selleck,Calera,,750ml,153450,384420,0.6008,해외가,Calera Pinot Noir Selleck Vineyard 1997,1.0,,,,USD,258.0,2026,높음,빈티지대체,False,https://charme-du-vin.com/2026/06/43857/
+12,A,칼레라 젠슨,Calera Jensen,Calera,,750ml,153450,296510,0.4825,해외가,Calera Pinot Noir Jensen Vineyard 2007,1.0,,,,USD,199.0,2026,높음,빈티지대체,False,https://charme-du-vin.com/2026/06/43857/
+13,D,더 ヴァイス 더 저지먼트 카베르네 소비뇽,The ヴァイス The Judgement Cabernet Sauvignon,ヴァイス,,750ml,128700,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/06/43850/
+18,A,할란 에스테이트 프로몬토리,Harlan Estate Promontory,Harlan,,750ml,1138500,2674476,0.5743,해외가,Harlan Estate Red 2018,0.5,,,,USD,1794.95,2026,높음,,False,https://charme-du-vin.com/2026/05/43557/
+20,D,콩스가드 キングスファーム 나파 밸리 블랑,Kongsgaard キングスファーム Napa Valley Blanc,Kongsgaard,,750ml,118800,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/05/43521/
+22,D,키슬러 샤르도네 ストックランチ 소노마 코스트,Kistler Chardonnay ストックランチ Sonoma Coast,Kistler,,750ml,227700,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/05/43509/
+23,D,캘리포니아 プレス 샤르도네,California プレス Chardonnay,プレス,,750ml,14850,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/05/43506/
+24,D,캘리포니아 プレス 피노 누아,California プレス Pinot Noir,プレス,,750ml,14850,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/05/43506/
+25,D,캘리포니아 プレス 레드 블렌드,California プレス Red Blend,プレス,,750ml,14850,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/05/43506/
+33,D,ヴァソ 카베르네 소비뇽 나파,ヴァソ Cabernet Sauvignon Napa,ヴァソ,,750ml,128700,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/04/43109/
+34,D,シン クワ ノン ディステンタ V 시라,シン クワ ノン ディステンタ V Syrah,シン,,750ml,544500,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/04/43106/
+35,D,シン クワ ノン ディステンタ V 그르나슈,シン クワ ノン ディステンタ V Grenache,シン,,750ml,544500,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/04/43106/
+36,D,더 ヴァイス 피노 누아,The ヴァイス Pinot Noir,ヴァイス,,750ml,44550,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/03/42894/
+49,A,칼레라 셀렉,Calera Selleck,Calera,,750ml,153450,384420,0.6008,해외가,Calera Pinot Noir Selleck Vineyard 1997,1.0,,,,USD,258.0,2026,높음,빈티지대체,False,https://charme-du-vin.com/2026/03/42749/
+50,A,칼레라 밀스,Calera Mills,Calera,,750ml,98010,275650,0.6444,해외가,Calera Pinot Noir Mills Vineyard 2000,1.0,,,,USD,185.0,2026,높음,빈티지대체,False,https://charme-du-vin.com/2026/03/42749/
+51,A,키슬러 피노 누아 소노마 코스트,Kistler Pinot Noir Sonoma Coast,Kistler,,750ml,99000,226480,0.5629,해외가,Kistler Kistler Vineyard Pinot Noir 2003,1.0,,,,USD,152.0,2026,높음,빈티지대체,False,https://charme-du-vin.com/2026/03/42744/
+53,D,カモミ 소비뇽 블랑,カモミ Sauvignon Blanc,カモミ,,750ml,20790,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/02/42465/
+59,A,오퍼스 원,Opus One,Opus,,750ml,594000,886550,0.33,해외가,Opus One Opus One 2018,1.0,,,,USD,595.0,2025,높음,,False,https://charme-du-vin.com/2025/12/41887/
+60,A,오베르 UV‐SL 소노마 코스트 샤르도네,Aubert UV‐SL Sonoma Coast Chardonnay,Aubert,,750ml,272250,554280,0.5088,해외가,Aubert Chardonnay UV-SL Vineyard 2023,1.0,,,,USD,372.0,2025,높음,,False,https://charme-du-vin.com/2025/12/41700/
+71,D,ロングバーン 카베르네 소비뇽,ロングバーン Cabernet Sauvignon,ロングバーン,,750ml,15840,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/10/41234/
+72,D,ロングバーン 샤르도네,ロングバーン Chardonnay,ロングバーン,,750ml,15840,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/10/41234/
+76,D,フォアマン 카베르네 소비뇽,フォアマン Cabernet Sauvignon,フォアマン,,750ml,108900,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/10/41060/
+77,D,フォアマン 카베르네 소비뇽,フォアマン Cabernet Sauvignon,フォアマン,,750ml,113850,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/10/41060/
+78,D,フォアマン 카베르네 소비뇽,フォアマン Cabernet Sauvignon,フォアマン,,750ml,128700,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/10/41060/
+82,D,ヘッドハイ 샤르도네 소노마,ヘッドハイ Chardonnay Sonoma,ヘッドハイ,,750ml,19800,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/09/40926/
+83,D,ヘッドハイ 피노 누아 소노마,ヘッドハイ Pinot Noir Sonoma,ヘッドハイ,,750ml,21780,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/09/40926/
+85,D,더 ヴァイス 카베르네 소비뇽 コヨーテルーザー,The ヴァイス Cabernet Sauvignon コヨーテルーザー,ヴァイス,,750ml,108900,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/09/40663/
+86,D,더 ヴァイス 샤르도네,The ヴァイス Chardonnay,ヴァイス,,750ml,49500,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/09/40663/
+90,D,ウィンドストーム 진판델 올드 바인,ウィンドストーム Zinfandel Old Vine,ウィンドストーム,,750ml,11880,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/07/40386/
+93,D,ダナ 에스테이츠 ヴァソ 카베르네 소비뇽 나파,ダナ Estates ヴァソ Cabernet Sauvignon Napa,ダナ,,750ml,128700,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/07/40254/
+98,A,홀 카베르네 소비뇽,Hall Cabernet Sauvignon,Hall,,750ml,82170,296510,0.7229,해외가,Hall Kathryn Hall Cabernet Sauvignon 2019,1.0,,,,USD,199.0,2025,높음,,False,https://charme-du-vin.com/2025/07/40032/
+104,D,애듈레이션 나파 밸리 카베르네 소비뇽,Adulation Napa Valley Cabernet Sauvignon,Adulation,,750ml,48510,,,없음,,,,,,,,2025,높음,,False,https://charme-du-vin.com/2025/06/39821/
+105,D,더 ヴァイス 카베르네 소비뇽 오크 놀 디스트릭트,The ヴァイス Cabernet Sauvignon Oak Knoll District,ヴァイス,,750ml,72270,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/06/39821/
+106,D,トゥエンティロウズ 리저브 카베르네 소비뇽 나파,トゥエンティロウズ Reserve Cabernet Sauvignon Napa,トゥエンティロウズ,,750ml,34650,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/06/39707/
+107,D,ムルソー シャルム 22,ムルソー シャルム 22,ムルソー,,750ml,495000,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/06/39665/
+108,D,フレヤ ヘルマン 퀴베 샤르도네 22 오리건,フレヤ ヘルマン Cuvée Chardonnay 22 Oregon,フレヤ,,750ml,386100,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/06/39662/
+109,D,リチャード ヘルマン 퀴베 샤르도네 22 오리건,リチャード ヘルマン Cuvée Chardonnay 22 Oregon,リチャード,,750ml,356400,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/06/39662/
+111,D,サブミッション 피노 누아,サブミッション Pinot Noir,サブミッション,,750ml,20790,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/06/39555/
+116,A,잉글눅 루비콘,Inglenook Rubicon,Inglenook,,750ml,188100,297985,0.3688,해외가,Inglenook Rubicon 2018,1.0,,,,USD,199.99,2025,높음,,False,https://charme-du-vin.com/2025/05/39382/
+117,A,퀸테사,Quintessa,Quintessa,,750ml,168300,812050,0.7927,해외가,Quintessa Rutherford 2016,1.0,,,,USD,545.0,2025,높음,,False,https://charme-du-vin.com/2025/05/39385/
+118,A,퀸테사,Quintessa,Quintessa,,750ml,158400,521485,0.6963,해외가,Quintessa Rutherford 2017,1.0,,,,USD,349.99,2025,높음,,False,https://charme-du-vin.com/2025/05/39385/
+119,D,カーディナル 나파 카베르네 소비뇽,カーディナル Napa Cabernet Sauvignon,カーディナル,,750ml,287100,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/05/39382/
+120,D,イオス 카베르네 소비뇽,イオス Cabernet Sauvignon,イオス,,750ml,14355,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/05/39274/
+122,D,와이 바이 요시키 오크빌 카베르네 소비뇽,Y by Yoshiki Oakville Cabernet Sauvignon,Y,,750ml,326700,,,없음,,,,,,,,2025,높음,,False,https://charme-du-vin.com/2025/05/39233/
+123,D,エレメンタル 피노 누아,エレメンタル Pinot Noir,エレメンタル,,750ml,30690,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/04/39077/
+124,D,エレメンタル 샤르도네,エレメンタル Chardonnay,エレメンタル,,750ml,30690,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/04/39077/
+126,D,オークリッジ アンセントヴァン 진판델,オークリッジ アンセントヴァン Zinfandel,オークリッジ,,750ml,34650,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/04/38988/
+127,A,더 더 마스코트 나파,The The Mascot Napa,Mascot,,750ml,188100,296510,0.3656,해외가,The Mascot Cabernet Sauvignon 2019,1.0,,,,USD,199.0,2025,높음,,False,https://charme-du-vin.com/2025/03/38551/
+128,D,ナパグレン 카베르네 소비뇽,ナパグレン Cabernet Sauvignon,ナパグレン,,750ml,34650,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/03/38551/
+130,A,조셉 펠프스 인시그니아,Joseph Phelps Insignia,Joseph,,1.5L,257400,981910,0.7379,해외가,Joseph Phelps Vineyards Insignia 2014,1.0,,,,USD,659.0,2025,높음,"실제병가:514,800원",False,https://charme-du-vin.com/2025/02/38051/
+131,A,조셉 펠프스 인시그니아,Joseph Phelps Insignia,Joseph,,1.5L,267300,852280,0.6864,해외가,Joseph Phelps Vineyards Insignia 2015,1.0,,,,USD,572.0,2025,높음,"실제병가:534,600원",False,https://charme-du-vin.com/2025/02/38051/
+132,D,ダブルゼロワインズ VGW 샤르도네,ダブルゼロワインズ VGW Chardonnay,ダブルゼロワインズ,,750ml,138600,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/02/38049/
+133,D,ダブルゼロワインズ EGW 샤르도네,ダブルゼロワインズ EGW Chardonnay,ダブルゼロワインズ,,750ml,207900,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/02/38049/
+134,D,ダブルゼロワインズ セヴン スプリングス 샤르도네,ダブルゼロワインズ セヴン スプリングス Chardonnay,ダブルゼロワインズ,,750ml,227700,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/02/38049/
+136,D,アカイボ トリニテエステート,アカイボ トリニテエステート,アカイボ,,750ml,88110,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/01/37996/
+139,D,フォリジャー 피노 누아 소노마 코스트,フォリジャー Pinot Noir Sonoma Coast,フォリジャー,,750ml,37620,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/01/37843/
+142,D,더 ヴァイス 카베르네 소비뇽 오크 놀,The ヴァイス Cabernet Sauvignon Oak Knoll,ヴァイス,,750ml,75240,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/01/37837/
+143,D,레콜 NO41 ファーガソン,L'Ecole NO41 ファーガソン,L'Ecole,,750ml,97020,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/01/37826/

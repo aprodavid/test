@@ -75,7 +75,8 @@ LEXICON: dict[str, tuple[str, str]] = {
     "ルイス": ("Lewis", "루이스"),
     "フラワーズ": ("Flowers", "플라워스"),
     "クレマ": ("La Crema", "라 크레마"),
-    "マスコット": ("The Mascot", "더 마스코트"),
+    # ザ arrives as its own token, so the article is not repeated here
+    "マスコット": ("Mascot", "마스코트"),
     "チョークヒル": ("Chalk Hill", "초크 힐"),
     "ケイマス": ("Caymus", "케이머스"),
     "ハーラン": ("Harlan Estate", "할란 에스테이트"),
