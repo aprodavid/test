@@ -1,0 +1,53 @@
+﻿id,등급,상품명_한글,원어명,생산자_원어,분류,용량,현지가_원화,기준가_원화,할인율,판정근거,매칭된_와인명,일치율,국내가_최저,국내가_중앙,국내가_최신등록일,해외_원통화,해외_원가격,게시연도,신뢰도,상태,미변환여부,샴드뱅링크
+2,A,핑구스,Pingus,Pingus,,750ml,1287000,3415080,0.6231,해외가,Dominio de Pingus Pingus 2021,1.0,,,,USD,2292.0,2026,높음,,False,https://charme-du-vin.com/2026/04/43189/
+6,D,サティス デイ 프리미엄 시라 가르나차,サティス デイ Premium Syrah Garnacha,サティス,,750ml,15840,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/04/43041/
+7,D,サティス デイ 프리미엄 소비뇽 블랑,サティス デイ Premium Sauvignon Blanc,サティス,,750ml,12870,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/04/43041/
+8,D,ヴァル 데 ガリル 고델료,ヴァル de ガリル Godello,ヴァル,,750ml,17820,,,없음,,,,,,,,2026,높음,,True,https://charme-du-vin.com/2026/03/42818/
+9,A,알바리뇨 데 페피냐네스,Albariño de Fefiñanes,Albariño,,750ml,37620,96835,0.6115,해외가,Fefiñanes Albariño de Fefiñanes III Año 2022,1.0,,,,USD,64.99,2025,높음,,False,https://charme-du-vin.com/2025/12/41832/
+12,A,핑구스 ‘,Pingus ‘,Pingus,,750ml,1287000,3415080,0.6231,해외가,Dominio de Pingus Pingus 2021,1.0,,,,USD,2292.0,2025,높음,,False,https://charme-du-vin.com/2025/09/40721/
+13,D,카스티요 デメディナ 페르멘타도 エン 바리카,Castillo デメディナ Fermentado エン Barrica,デメディナ,,750ml,25740,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/07/40144/
+14,D,PSI 리베라 델 두에로,PSI Ribera del Duero,PSI,,750ml,38610,,,없음,,,,,,,,2025,높음,,False,https://charme-du-vin.com/2025/06/39999/
+17,D,아시엔다 엘 エスピノ 1707 시라 알만사,Hacienda El エスピノ 1707 Syrah Almansa,エスピノ,,750ml,12870,,,없음,,,,,,,,2025,높음,,True,https://charme-du-vin.com/2025/05/39438/
+18,A,클로스 모가도르 프리오라트,Clos Mogador Priorat,Clos,,750ml,118800,174315,0.3185,해외가,Clos Mogador Priorat 2021,1.0,,,,USD,116.99,2025,높음,,False,https://charme-du-vin.com/2025/03/38548/
+19,A,클로스 모가도르 넬린 프리오라트,Clos Mogador Nelin Priorat,Clos,,750ml,79200,147495,0.463,해외가,Clos Mogador Priorat 2020,0.75,,,,USD,98.99,2025,높음,,False,https://charme-du-vin.com/2025/03/38548/
+20,D,후안 힐 콰트로 메세스,Juan Gil cuatro meses,Juan,,750ml,17820,,,없음,,,,,,,,2025,높음,,False,https://charme-du-vin.com/2025/02/38319/
+21,A,플로르 데 핑구스,Flor de Pingus,Flor,,750ml,128700,193685,0.3355,해외가,Dominio de Pingus Flor de Pingus 2020,1.0,,,,USD,129.99,2025,높음,,False,https://charme-du-vin.com/2025/02/38160/
+23,A,핑구스,Pingus,Pingus,,750ml,1184040,1936985,0.3887,해외가,Dominio de Pingus Pingus 2020,1.0,,,,USD,1299.99,2024,보통,,False,https://charme-du-vin.com/2024/11/36816/
+24,D,カルチェロ シエント80,カルチェロ シエント80,カルチェロ,,750ml,21622,,,없음,,,,,,,,2024,보통,,True,https://charme-du-vin.com/2024/11/36741/
+26,D,ウカン センデロ 데 ウカン,ウカン センデロ de ウカン,ウカン,,750ml,46332,,,없음,,,,,,,,2024,보통,,True,https://charme-du-vin.com/2024/10/36209/
+27,D,ペペルイ 리아스 바이샤스,ペペルイ Rías Baixas,ペペルイ,,750ml,77220,,,없음,,,,,,,,2024,보통,,True,https://charme-du-vin.com/2024/10/36209/
+28,A,비냐 레알 레세르바,Viña Real Reserva,Real,,750ml,32947,52135,0.368,해외가,Viña Real Rioja Reserva 2018,1.0,,,,USD,34.99,2024,보통,빈티지대체,False,https://charme-du-vin.com/2024/07/35477/
+30,D,쿠네 모노폴레 블랑코 세코,CVNE Monopole Blanco Seco,CVNE,,750ml,30888,,,없음,,,,,,,,2024,보통,,False,https://charme-du-vin.com/2024/07/35473/
+32,A,클레멘스 부쉬 리슬링 마리엔부르크 로텐파트,Clemens Busch Riesling Marienburg Rothenpfad,Clemens,,750ml,59717,111661,0.4652,해외가,Clemens Busch Marienburg GG Felsterrasse 2018,0.6,,,,USD,74.94,2024,보통,,False,https://charme-du-vin.com/2024/06/34933/
+33,D,クランプ 그라우부르군더,クランプ Grauburgunder,クランプ,,750ml,27799,,,없음,,,,,,,,2024,보통,,True,https://charme-du-vin.com/2024/06/34883/
+34,D,クランプ 바이스부르군더,クランプ Weissburgunder,クランプ,,750ml,26770,,,없음,,,,,,,,2024,보통,,True,https://charme-du-vin.com/2024/06/34883/
+35,D,クランプ 옥세루아,クランプ Auxerrois,クランプ,,750ml,27799,,,없음,,,,,,,,2024,보통,,True,https://charme-du-vin.com/2024/06/34883/
+36,D,갈레르나 카베르네 소비뇽,Galerna Cabernet Sauvignon,Galerna,,750ml,9781,,,없음,,,,,,,,2024,보통,,False,https://charme-du-vin.com/2024/06/34747/
+37,A,루스코 알바리뇨,Lusco Albariño,Lusco,,750ml,25740,40156,0.359,해외가,Pazos de Lusco Lusco Albariño 2024,1.0,,,,USD,26.95,2024,보통,,False,https://charme-du-vin.com/2024/05/34617/
+38,A,로제르 굴라르트 그란 레세르바 140周年,Roger Goulart Gran Reserva 140周年,Roger,,750ml,28829,43210,0.3328,해외가,Roger Goulart Cava Gran Reserva Brut 2020,0.8,,,,USD,29.0,2024,보통,빈티지대체,False,https://charme-du-vin.com/2024/05/34602/
+40,D,후안 힐 콰트로 메세스,Juan Gil cuatro meses,Juan,,750ml,18533,,,없음,,,,,,,,2024,보통,,False,https://charme-du-vin.com/2024/03/33594/
+41,A,그레이엄스 토니 20년,Graham's Tawny 20 Year Old,Graham's,,750ml,55598,104285,0.4669,해외가,W. & J. Graham's 20 Year Old Tawny Port,1.0,,,,USD,69.99,2024,보통,,False,https://charme-du-vin.com/2024/02/33235/
+42,A,그레이엄스 토니 30년,Graham's Tawny 30 Year Old,Graham's,,750ml,133848,208585,0.3583,해외가,W. & J. Graham's 30 Year Old Tawny Port,1.0,,,,USD,139.99,2024,보통,,False,https://charme-du-vin.com/2024/02/33235/
+43,D,알람브르 마데이라 모스카텔 세투발 20년,Alambre Madeira Moscatel Setúbal 20 Year Old,Alambre,,750ml,70013,,,없음,,,,,,,,2024,보통,,False,https://charme-du-vin.com/2024/01/32989/
+44,D,レオナルド 포트 30년,レオナルド Port 30 Year Old,レオナルド,,750ml,82368,,,없음,,,,,,,,2024,보통,,True,https://charme-du-vin.com/2024/01/32987/
+53,A,바르베이토 마데이라 세르시알 10년,Barbeito Madeira Sercial 10 Year Old,Barbeito,,750ml,33977,68123,0.5012,해외가,Barbeito 10 Years Old Reserve Sercial Madeira,1.0,,,,USD,45.72,2024,보통,,False,https://charme-du-vin.com/2024/01/32969/
+57,D,ショーンレバーブブルムレイン 라인가우 리슬링 트로켄,ショーンレバーブブルムレイン Rheingau Riesling Trocken,ショーンレバーブブルムレイン,,750ml,20592,,,없음,,,,,,,,2024,보통,,True,https://charme-du-vin.com/2024/01/32950/
+58,D,ガントラム 도른펠더 트로켄,ガントラム Dornfelder Trocken,ガントラム,,750ml,14414,,,없음,,,,,,,,2024,보통,,True,https://charme-du-vin.com/2024/01/32948/
+59,A,라 리오하 알타 ヴィニャアンダンサ 레세르바,La Rioja Alta ヴィニャアンダンサ Reserva,Rioja,,750ml,53737,128125,0.5806,해외가,La Rioja Alta Rioja Gran Reserva 904 2015,1.0,,,,USD,85.99,2023,보통,,True,https://charme-du-vin.com/2023/10/32221/
+63,A,엘 푼티도,El Puntido,Puntido,,750ml,54905,153828,0.6431,해외가,Viñedos de Páganos El Puntido 2006,1.0,,,,USD,103.24,2023,보통,빈티지대체,False,https://charme-du-vin.com/2023/05/30335/
+66,A,핑구스,Pingus,Pingus,,750ml,1055736,4364210,0.7581,해외가,Dominio de Pingus Pingus 2005,1.0,,,,USD,2929.0,2022,낮음,빈티지대체,False,https://charme-du-vin.com/2022/12/28439/
+67,A,로페스 데 에레디아 비냐 톤도니아 레세르바,López de Heredia Viña Tondonia Reserva,López,,750ml,76111,193685,0.607,해외가,R. López de Heredia Viña Tondonia Reserva 2009,1.0,,,,USD,129.99,2022,낮음,,False,https://charme-du-vin.com/2022/11/28215/
+68,A,핑구스,Pingus,Pingus,,750ml,1203048,1936985,0.3789,해외가,Dominio de Pingus Pingus 2019,1.0,,,,USD,1299.99,2022,낮음,,False,https://charme-du-vin.com/2022/11/28033/
+72,D,Ψ Psi 리베라 델 두에로,Ψ Psi Ribera del Duero,Ψ,,750ml,41738,,,없음,,,,,,,,2022,낮음,,False,https://charme-du-vin.com/2022/08/27031/
+73,D,엘 ヴィンクロ 크리안사,El ヴィンクロ Crianza,ヴィンクロ,,750ml,20869,,,없음,,,,,,,,2022,낮음,,True,https://charme-du-vin.com/2022/06/26625/
+75,A,발렌시소 리오하 레세르바,Valenciso Rioja Reserva,Valenciso,,750ml,38056,131403,0.7104,해외가,VALENCISO Rioja Reserva 10 Años Después Edición Limitada 2014,1.0,,,,USD,88.19,2022,낮음,,False,https://charme-du-vin.com/2022/06/26507/
+76,D,ヴァルダヤ 리베라 델 두에로,ヴァルダヤ Ribera del Duero,ヴァルダヤ,,750ml,63835,,,없음,,,,,,,,2022,낮음,,True,https://charme-du-vin.com/2022/04/25786/
+79,D,마스 델 セラル,Mas del セラル,セラル,,1500ml,196416,,,없음,,,,,,,,2022,낮음,"실제병가:316,800원",True,https://charme-du-vin.com/2022/03/25508/
+80,D,ヴェレタ 데 ソラーノ 템프라니요,ヴェレタ de ソラーノ Tempranillo,ヴェレタ,,750ml,9821,,,없음,,,,,,,,2022,낮음,,True,https://charme-du-vin.com/2022/03/25499/
+81,A,프레이셰넷 코르돈 네그로 브뤼,Freixenet Cordon Negro Brut,Freixenet,,750ml,7734,19355,0.6004,해외가,Freixenet Cava Cordón Negro Brut,1.0,,,,USD,12.99,2022,낮음,,False,https://charme-du-vin.com/2022/01/25123/
+83,A,플로르 데 핑구스,Flor de Pingus,Flor,,750ml,128700,402285,0.6801,해외가,Dominio de Pingus Flor de Pingus 2022,1.0,,,,USD,269.99,2021,낮음,빈티지대체,False,https://charme-du-vin.com/2021/12/24869/
+84,D,マー セルヴェラ 카베르네 소비뇽,マー セルヴェラ Cabernet Sauvignon,マー,,750ml,16731,,,없음,,,,,,,,2021,낮음,,True,https://charme-du-vin.com/2021/11/24338/
+85,D,マー セルヴェラ 시라,マー セルヴェラ Syrah,マー,,750ml,16731,,,없음,,,,,,,,2021,낮음,,True,https://charme-du-vin.com/2021/11/24338/
+88,A,누만시아 테르메스,Numanthia Termes,Numanthia,,750ml,30888,81935,0.623,해외가,Bodega Numanthia Termes 2017,1.0,,,,USD,54.99,2021,낮음,,False,https://charme-du-vin.com/2021/09/23817/
+89,D,베이라 피노 누아,Beira Pinot Noir,Beira,,750ml,38610,,,없음,,,,,,,,2021,낮음,,False,https://charme-du-vin.com/2021/09/23676/
+92,A,뱅자맹 드 로스차일드 & 베가 시실리아 마칸 리오하,Benjamin de Rothschild & Vega Sicilia Macán Rioja,Benjamin,,750ml,79794,192195,0.5848,해외가,Benjamin de Rothschild - Vega Sicilia Macán 2018,0.833,,,,USD,128.99,2021,낮음,빈티지대체,False,https://charme-du-vin.com/2021/01/21470/

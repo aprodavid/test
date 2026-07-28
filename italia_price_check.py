@@ -216,7 +216,11 @@ def producer_present(producer: str, matched: str) -> bool:
 # Rosso and the other Brunello, or one says Riserva and the other does not,
 # it is a different (often 3x priced) wine no matter how much else matches.
 DECISIVE = {"brunello", "rosso", "bianco", "riserva", "selezione",
-            "classico", "magnum", "anfora"}
+            "classico", "magnum", "anfora",
+            # fortified wines are sold by grape, and a Malvasia matched to a
+            # Sercial of the same house and age is a different bottle
+            "sercial", "verdelho", "verdejo", "bual", "boal", "malvasia",
+            "tawny", "crianza", "reserva", "blanco", "tinto", "rosado"}
 
 
 def tier_conflict(search: str, matched: str) -> bool:
