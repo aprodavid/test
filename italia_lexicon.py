@@ -342,6 +342,14 @@ LEXICON: dict[str, tuple[str, str]] = {
     "ポッジョ": ("Poggio", "포조"),
     "ラカーサ": ("La Casa", "라 카사"),
 
+    # ---- added for the vintage-recovery pass -----------------------------
+    "モンフォルチーノ": ("Monfortino", "몬포르티노"),
+    "フォッサーティ": ("Fossati", "포사티"),
+    "フェッロヴィア": ("Ferrovia", "페로비아"),
+    "カンポ": ("Campo", "캄포"),
+    "ヴィニェートラ": ("Vigneto La", "비녜토 라"),
+    "クティッツイ": ("Cutizzi", "쿠티치"),
+
     # ---- connectives (whole-token only; never substring-replaced) --------
     "ディ": ("di", "디"),
     "デル": ("del", "델"),
@@ -409,7 +417,7 @@ def extract_age(name: str) -> tuple[str, str]:
 
 
 _VINTAGE_4 = re.compile(r"\b(19[5-9]\d|20[0-3]\d)\b")
-_VINTAGE_2 = re.compile(r"(?<![\d])([0-2]\d)(?![\d])")
+_VINTAGE_2 = re.compile(r"(?<![\d])([0-2]\d|9\d)(?![\d])")
 
 
 def extract_vintage(name: str) -> tuple[str, str]:
@@ -420,8 +428,26 @@ def extract_vintage(name: str) -> tuple[str, str]:
     m = _VINTAGE_2.search(name)
     if m:
         yy = int(m.group(1))
-        return _VINTAGE_2.sub(" ", name, count=1).strip(), str(2000 + yy)
+        # 90-99 are 1990s, 00-26 are 2000s
+        year = 1900 + yy if yy >= 90 else 2000 + yy
+        return _VINTAGE_2.sub(" ", name, count=1).strip(), str(year)
     return name, ""
+
+
+# Names that arrive split across tokens. Joined before tokenising, longest
+# first, so "シン クワ ノン" cannot become "Sine Qua Non" three times over.
+PHRASES: dict[str, str] = {
+    "シン クワ ノン": "シンクアノン",
+    "シン クワノン": "シンクアノン",
+    "フォート ロス シーヴュー": "フォートロスシーヴュー",
+    "ラリー ハイド & ソン": "ラリーハイド&ソン",
+}
+
+
+def apply_phrases(text: str) -> str:
+    for src in sorted(PHRASES, key=len, reverse=True):
+        text = text.replace(src, PHRASES[src])
+    return text
 
 
 def convert(name: str, lexicon: dict | None = None) -> dict:
@@ -430,7 +456,7 @@ def convert(name: str, lexicon: dict | None = None) -> dict:
     Tokens are matched whole and longest-first, and each token is converted
     at most once, so no span can be double-translated.
     """
-    text = normalise(name)
+    text = apply_phrases(normalise(name))
     text, condition = split_condition(text)
     text, volume = extract_volume(text)
     text, age = extract_age(text)

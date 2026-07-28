@@ -79,6 +79,13 @@ LEXICON: dict[str, tuple[str, str]] = {
     "オーセロワ": ("Auxerrois", "옥세루아"),
     "ドルンフェルダー": ("Dornfelder", "도른펠더"),
 
+    # ---- added for the vintage-recovery pass -----------------------------
+    "コーラル": ("Coral", "코랄"),
+    "ヴィニャアンダンサ": ("Viña Ardanza", "비냐 아르단사"),
+    "デメディナ": ("de Medina", "데 메디나"),
+    "エン": ("en", "엔"),
+    "マコン": ("Mâcon", "마콩"),
+
     # ---- regions / appellations -----------------------------------------
     "リオハ": ("Rioja", "리오하"),
     "アルタ": ("Alta", "알타"),
