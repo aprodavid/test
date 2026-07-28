@@ -172,10 +172,13 @@ def build_catalogue(posts: list[dict]) -> tuple[list[dict], list[dict]]:
 # Matching
 # --------------------------------------------------------------------------
 
-_COMMON = {"brut", "champagne", "docg", "doc", "igt", "riserva", "classico",
-           "superiore", "rosso", "bianco", "wine", "vino", "di", "del",
-           "della", "dei", "il", "la", "le", "e", "san", "de", "vintage",
-           "annata", "tenuta", "azienda", "agricola", "cantina", "nv"}
+# Only words that carry no distinguishing information. Rosso / Bianco /
+# Riserva / Classico are deliberately NOT here: "Poggio di Sotto Rosso di
+# Montalcino" scored a perfect 1.0 against that estate's Brunello, a wine
+# three times the price, because those words were being discarded.
+_COMMON = {"brut", "champagne", "docg", "doc", "igt", "wine", "vino",
+           "di", "del", "della", "dei", "il", "la", "le", "e", "san", "de",
+           "annata", "azienda", "agricola", "cantina", "nv"}
 
 
 def _tok(s: str) -> set[str]:
@@ -201,6 +204,18 @@ def producer_present(producer: str, matched: str) -> bool:
                              for x in m if min(len(x), len(t)) >= 4) for t in p)
 
 
+# Words that decide which bottling of an estate this is. If one side says
+# Rosso and the other Brunello, or one says Riserva and the other does not,
+# it is a different (often 3x priced) wine no matter how much else matches.
+DECISIVE = {"brunello", "rosso", "bianco", "riserva", "selezione",
+            "classico", "magnum", "anfora"}
+
+
+def tier_conflict(search: str, matched: str) -> bool:
+    a, b = _tok(search), _tok(matched)
+    return any((w in a) != (w in b) for w in DECISIVE)
+
+
 def classify(original: str) -> str:
     for name in sorted(DOCG, key=len, reverse=True):
         if name.lower() in original.lower():
@@ -218,6 +233,20 @@ def classify(original: str) -> str:
 # Vivino (vintage-last search, per the brief)
 # --------------------------------------------------------------------------
 
+_KATAKANA = re.compile(r"[ァ-ヿ]")
+
+
+def latin_only(query: str) -> str:
+    """Drop tokens that never got converted.
+
+    Sending katakana to Vivino guarantees zero results, which is how a
+    product with one unresolved cuvée word becomes a false D. The
+    converted part still identifies the producer and appellation.
+    """
+    kept = [t for t in query.split() if not _KATAKANA.search(t)]
+    return " ".join(kept)
+
+
 def vivino_lookup(base_query: str, want_vintage: str,
                   producer: str) -> dict | None:
     """Search producer+cuvée without a vintage, then pick the vintage.
@@ -225,6 +254,9 @@ def vivino_lookup(base_query: str, want_vintage: str,
     Searching with the vintage attached makes even well-known wines return
     nothing, so it is applied as a filter over the results instead.
     """
+    base_query = latin_only(base_query)
+    if not base_query:
+        return None
     url = "https://www.vivino.com/search/wines?q=" + urllib.parse.quote(base_query)
     try:
         page = html.unescape(wpc.http_get(url, encoding="utf-8"))
@@ -379,6 +411,9 @@ def grade(res: Result, matched: str, producer: str) -> None:
         return
     if (res.일치율 or 0) < MIN_OVERLAP:
         res.등급 = "B"          # right producer, wrong cuvée/vintage
+        return
+    if tier_conflict(res.원어명, matched):
+        res.등급 = "B"          # same estate, different bottling
         return
     res.등급 = "A" if disc >= GRADE_A_DISCOUNT else "B"
 
