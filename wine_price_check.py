@@ -41,6 +41,7 @@ import csv
 import html
 import json
 import re
+import signal
 import statistics
 import sys
 import time
@@ -757,6 +758,57 @@ def process(row: dict, state: dict, today: date) -> Row:
     return out
 
 
+def _int_or_none(s: str) -> int | None:
+    return int(s) if s not in ("", None) else None
+
+
+def load_completed(out_dir: Path) -> list[Row]:
+    """Rebuild rows written by an earlier, interrupted run.
+
+    The checkpoint stores only ids, so without reading the previous
+    result.csv back a resumed run would overwrite it with just the rows
+    collected after the restart -- and the report would cover only those.
+    """
+    path = out_dir / "result.csv"
+    if not path.exists():
+        return []
+    out: list[Row] = []
+    with path.open(encoding="utf-8-sig", newline="") as fh:
+        reader = csv.DictReader(fh)
+        if reader.fieldnames != RESULT_COLUMNS:
+            return []
+        for rec in reader:
+            # the ⚠ flag is derived at write time; strip it so it is not
+            # doubled on the next save
+            memo = " · ".join(p for p in rec["비고"].split(" · ")
+                              if not p.startswith("⚠"))
+            r = Row(id=rec["id"], 검색어=rec["검색어"], 분류=rec["분류"],
+                    현지가_원화=float(rec["현지가_원화"] or 0), 비고=memo)
+            latest = rec["국내가_최신등록일"]
+            r.dom = Domestic(
+                low=_int_or_none(rec["국내가_최저"]),
+                median=_int_or_none(rec["국내가_중앙"]),
+                high=_int_or_none(rec["국내가_최고"]),
+                sellers=_int_or_none(rec["국내_판매처수"]) or 0,
+                latest=date.fromisoformat(latest) if latest else None,
+                confidence=rec["국내가_신뢰도"], status=rec["국내가_상태"],
+                excluded=_int_or_none(rec["제외건수"]) or 0,
+                thin_sample=rec["표본부족"] == "True")
+            r.해외_원통화 = rec["해외_원통화"]
+            r.해외_원가격 = float(rec["해외_원가격"]) if rec["해외_원가격"] else None
+            r.해외가_원화 = _int_or_none(rec["해외가_원화"])
+            r.해외_출처 = rec["해외_출처"]
+            out.append(r)
+    return out
+
+
+def flush(rows: list[Row], out_dir: Path, ckpt: Path) -> None:
+    """Persist rows and the resume marker together, so they cannot disagree."""
+    save(rows, out_dir)
+    ckpt.write_text(json.dumps({"ids": sorted({r.id for r in rows})},
+                               ensure_ascii=False), encoding="utf-8")
+
+
 def save(rows: list[Row], out_dir: Path) -> None:
     with (out_dir / "result.csv").open("w", encoding="utf-8-sig", newline="") as fh:
         w = csv.writer(fh)
@@ -877,8 +929,12 @@ def main() -> int:
     rows: list[Row] = []
     if ckpt.exists():
         saved = json.loads(ckpt.read_text(encoding="utf-8"))
-        print(f"resuming: {len(saved['ids'])} already done", file=sys.stderr)
         done_ids = set(saved["ids"])
+        rows = load_completed(args.out_dir)
+        print(f"resuming: {len(done_ids)} done, {len(rows)} rows recovered",
+              file=sys.stderr)
+
+    signal.signal(signal.SIGTERM, lambda *_: (_ for _ in ()).throw(KeyboardInterrupt))
 
     state: dict = {}
     processed = 0
@@ -890,20 +946,17 @@ def main() -> int:
             rows.append(process(row, state, today))
             processed += 1
             if processed % CHECKPOINT_EVERY == 0:
-                save(rows, args.out_dir)
-                ckpt.write_text(json.dumps(
-                    {"ids": sorted(done_ids | {r.id for r in rows})},
-                    ensure_ascii=False), encoding="utf-8")
+                flush(rows, args.out_dir, ckpt)
                 print(f"  checkpoint at {processed}", file=sys.stderr)
     except Blocked as exc:
-        save(rows, args.out_dir)
+        flush(rows, args.out_dir, ckpt)
         print(f"\nBLOCKED: {exc}\n"
               f"egress policy denies this host; not attempting a workaround.\n"
               f"collected {len(rows)} rows before stopping.", file=sys.stderr)
         return 3
     except KeyboardInterrupt:
-        save(rows, args.out_dir)
-        print(f"\ninterrupted after {len(rows)} rows (checkpoint kept)", file=sys.stderr)
+        flush(rows, args.out_dir, ckpt)
+        print(f"\ninterrupted at {len(rows)} rows; rerun to resume", file=sys.stderr)
         return 130
 
     save(rows, args.out_dir)

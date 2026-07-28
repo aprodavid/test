@@ -302,3 +302,41 @@ class TestCuveeDiscrimination(unittest.TestCase):
         right = w.Candidate("", "폴 로저, 브뤼 밀레짐 2018", "Pol Roger, Brut Vintage 2018")
         wrong = w.Candidate("", "폴 로저, 블랑 드 블랑 NV", "Pol Roger, Blanc de Blancs")
         self.assertGreater(w.score_candidate(right, row), w.score_candidate(wrong, row))
+
+
+class TestResume(unittest.TestCase):
+    """An interrupted run must not lose the rows it already wrote."""
+
+    def test_round_trip_preserves_rows(self):
+        import tempfile
+        r = w.Row(id="7", 검색어="Lanson Brut Vintage 2009", 분류="NM",
+                  현지가_원화=64400.0, 비고="대체검색어:랑송")
+        r.dom = w.aggregate_domestic(
+            [(180000, date(2026, 1, 5)), (190000, date(2026, 2, 5)),
+             (200000, date(2026, 3, 5))], date(2026, 7, 27))
+        with tempfile.TemporaryDirectory() as d:
+            out = Path(d)
+            w.save([r], out)
+            back = w.load_completed(out)
+        self.assertEqual(len(back), 1)
+        got = back[0]
+        self.assertEqual(got.id, "7")
+        self.assertEqual(got.dom.median, r.dom.median)
+        self.assertEqual(got.dom.latest, r.dom.latest)
+        self.assertEqual(got.dom.confidence, r.dom.confidence)
+        self.assertEqual(got.judge(), r.judge())
+
+    def test_warning_flag_is_not_doubled_on_resave(self):
+        import tempfile
+        r = w.Row(id="4", 검색어="Selosse-Pajon Brut", 분류="RM", 현지가_원화=56400.0)
+        r.해외가_원화 = 1698600
+        r.해외_출처 = "Vivino:Jacques Selosse"
+        self.assertTrue(r.implausible())
+        with tempfile.TemporaryDirectory() as d:
+            out = Path(d)
+            w.save([r], out)
+            w.save(w.load_completed(out), out)   # resume, then save again
+            rows = w.load_completed(out)
+            text = (out / "result.csv").read_text(encoding="utf-8-sig")
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(text.count("⚠"), 1)
