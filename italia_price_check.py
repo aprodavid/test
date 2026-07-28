@@ -182,7 +182,11 @@ def build_catalogue(posts: list[dict]) -> tuple[list[dict], list[dict]]:
 # three times the price, because those words were being discarded.
 _COMMON = {"brut", "champagne", "docg", "doc", "igt", "wine", "vino",
            "di", "del", "della", "dei", "il", "la", "le", "e", "san", "de",
-           "annata", "azienda", "agricola", "cantina", "nv"}
+           "annata", "azienda", "agricola", "cantina", "nv",
+           # Spanish / Portuguese articles and estate words: "El" alone let
+           # "El Vinclo" match "Viña Pedrosa El Pedrosal"
+           "el", "los", "las", "do", "da", "dos", "das", "bodega", "bodegas",
+           "vina", "castillo", "hacienda", "pazos", "dominio", "old", "year"}
 
 
 def _tok(s: str) -> set[str]:

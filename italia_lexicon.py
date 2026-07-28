@@ -395,6 +395,19 @@ def extract_volume(name: str) -> tuple[str, str]:
     return VOLUME_RE.sub(" ", name).strip(), vol
 
 
+# Age statements on fortified wines: "10Y", "30年". These must be pulled out
+# before the vintage scan, or 10Y is read as vintage 2010 and the age -- the
+# single biggest driver of a Madeira or Port's price -- is lost entirely.
+_AGE_RE = re.compile(r"(?<![\d])(\d{1,3})\s*(?:Y|年)(?![\w])", re.I)
+
+
+def extract_age(name: str) -> tuple[str, str]:
+    m = _AGE_RE.search(name)
+    if not m:
+        return name, ""
+    return _AGE_RE.sub(" ", name, count=1).strip(), m.group(1)
+
+
 _VINTAGE_4 = re.compile(r"\b(19[5-9]\d|20[0-3]\d)\b")
 _VINTAGE_2 = re.compile(r"(?<![\d])([0-2]\d)(?![\d])")
 
@@ -420,6 +433,7 @@ def convert(name: str, lexicon: dict | None = None) -> dict:
     text = normalise(name)
     text, condition = split_condition(text)
     text, volume = extract_volume(text)
+    text, age = extract_age(text)
     text, vintage = extract_vintage(text)
 
     table = LEXICON if lexicon is None else lexicon
@@ -443,7 +457,13 @@ def convert(name: str, lexicon: dict | None = None) -> dict:
             it_parts.append(tok)   # already latin (e.g. IGT, VOS)
             ko_parts.append(tok)
 
+    if age:
+        # phrased the way the price sources name them
+        it_parts.append(f"{age} Year Old")
+        ko_parts.append(f"{age}년")
+
     return {
+        "age": age,
         "original": it_parts and " ".join(it_parts) or "",
         "korean": " ".join(ko_parts),
         "vintage": vintage,
@@ -459,6 +479,10 @@ def producer_of(converted: str) -> str:
     for tok in converted.split():
         if tok.lower() not in {"il", "la", "le", "di", "del", "della", "dei",
                                "e", "san", "de", "tenuta", "fattoria", "castello",
-                               "podere", "villa", "feudi"}:
+                               "podere", "villa", "feudi",
+                               # Spanish / Portuguese
+                               "el", "los", "las", "do", "da", "dos", "das",
+                               "bodega", "bodegas", "vina", "viña", "mas",
+                               "hacienda", "castillo", "pazos", "dominio"}:
             return tok
     return converted.split()[0] if converted.split() else ""
