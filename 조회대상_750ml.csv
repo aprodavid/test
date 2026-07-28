@@ -1,0 +1,551 @@
+﻿id,검색어,생산자_영문,생산자_한글,큐베,분류,현지가_원화,게시연도,신뢰도,우선순위,식별확실,샴드뱅링크
+1,Delong,Delong,들롱,テル オリジナル,?,53500.0,2026,높음,1,False,http://charme-du-vin.com/2026/02/42672/
+2,Martin Wassmer Rosé,Martin Wassmer,마르틴 바스머,ピノRosé ゼクト,?,54400.0,2025,높음,1,True,http://charme-du-vin.com/2025/01/37740/
+3,Mignon-Boulard,Mignon-Boulard,미뇽 불라르,エスプリナチューレ ドサージュゼロ,?,54400.0,2025,높음,1,False,http://charme-du-vin.com/2025/11/41505/
+4,Selosse-Pajon Brut,Selosse-Pajon,세로스 파종,スーヴニール Brut,?,56400.0,2026,높음,1,False,http://charme-du-vin.com/2026/02/42667/
+5,Stradivarius Brut 2009,Stradivarius,스트라디바리우스,Brut 2009,?,65300.0,2025,높음,1,False,http://charme-du-vin.com/2025/11/41396/
+6,Brun-Servenay Cuvée Chardonnay Vieilles Vignes 2012,Brun-Servenay,브룅 세르브네,Cuvée Chardonnay Vieilles Vignes 2012,?,83200.0,2025,높음,1,False,http://charme-du-vin.com/2025/02/38132/
+7,Justin Extra Brut 2009,Justin,쥐스탱,Extra Brut 2009,?,257400.0,2026,높음,1,False,http://charme-du-vin.com/2026/07/44291/
+8,Piper-Heidsieck Brut,Piper-Heidsieck,파이퍼 하이직,Brut,GM,48500.0,2025,높음,1,True,http://charme-du-vin.com/2025/09/40895/
+9,Lanson Brut Vintage 2009,Lanson,랑송,Brut Vintage 2009,GM,64400.0,2025,높음,1,True,http://charme-du-vin.com/2025/09/40976/
+10,Charles Heidsieck Brut Réserve,Charles Heidsieck,샤를 하이직,Brut Réserve,GM,68300.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44261/
+11,Taittinger FIFA World Cup Brut Réserve,Taittinger,테탱저,FIFA World Cup Brut Réserve,GM,85100.0,2026,높음,1,True,http://charme-du-vin.com/2026/04/43278/
+12,Bollinger Pinot Noir VZ 2016,Bollinger,볼랭저,Pinot Noir VZ 2016,GM,89100.0,2025,높음,1,True,http://charme-du-vin.com/2025/09/40980/
+13,Billecart-Salmon Blanc de Blancs Grand Cru,Billecart-Salmon,빌카르 살몽,Blanc de Blancs Grand Cru,GM,104000.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38537/
+14,Billecart-Salmon Brut Rosé,Billecart-Salmon,빌카르 살몽,Brut Rosé,GM,104000.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38537/
+15,Pol Roger Brut Vintage 2018,Pol Roger,폴 로저,Brut Vintage 2018,GM,116800.0,2026,높음,1,True,http://charme-du-vin.com/2026/03/42883/
+16,Lanson Cuvée Blanc de Blancs 2000,Lanson,랑송,ノーブル Cuvée Blanc de Blancs 2000,GM,118800.0,2025,높음,1,True,http://charme-du-vin.com/2025/09/40976/
+17,Bollinger Pinot Noir VZ19,Bollinger,볼랭저,Pinot Noir VZ19,GM,128700.0,2025,높음,1,True,http://charme-du-vin.com/2025/06/39899/
+18,Delamotte Blanc de Blancs 2018,Delamotte,델라모뜨,Blanc de Blancs 2018,GM,128700.0,2025,높음,1,True,http://charme-du-vin.com/2025/01/37985/
+19,Louis Roederer Brut Nature 2015,Louis Roederer,루이 로드레,Brut Nature 2015,GM,143600.0,2025,높음,1,True,http://charme-du-vin.com/2025/09/40704/
+20,Deutz à 2015,Deutz,되츠,オマージュ à ウィリアムドゥーツ ミュルテ 2015,GM,178200.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44049/
+21,Bollinger Grande Année 2014 木り,Bollinger,볼랭저,Grande Année 2014 木[박스포함]り,GM,188100.0,2025,높음,1,True,http://charme-du-vin.com/2025/05/39308/
+22,Lanson Cuvée 2004,Lanson,랑송,ノーブル Cuvée 2004,GM,207900.0,2026,높음,1,True,http://charme-du-vin.com/2026/05/43465/
+23,Bollinger Grande Année 2015,Bollinger,볼랭저,Grande Année 2015 [박스없음],GM,227700.0,2025,높음,1,True,http://charme-du-vin.com/2025/07/40094/
+24,Bollinger Grande Année 2018,Bollinger,볼랭저,Grande Année 2018,GM,227700.0,2026,높음,1,True,http://charme-du-vin.com/2026/06/43670/
+25,Perrier-Jouët Belle Époque 2016,Perrier-Jouët,페리에 주에,Belle Époque 2016,GM,227700.0,2025,높음,1,True,http://charme-du-vin.com/2025/12/42076/
+26,Rare Champagne Champagne Millésime 2013,Rare Champagne,레어,Champagne Millésime 2013,GM,227700.0,2026,높음,1,True,http://charme-du-vin.com/2026/04/43133/
+27,Dom Ruinart Blanc de Blancs 2007,Dom Ruinart,돔 뤼나르,Blanc de Blancs 2007,GM,237600.0,2025,높음,1,True,http://charme-du-vin.com/2025/09/40969/
+28,Dom Ruinart Blanc de Blancs Extra Brut 2010,Dom Ruinart,돔 뤼나르,Blanc de Blancs Extra Brut 2010,GM,247500.0,2025,높음,1,True,http://charme-du-vin.com/2025/09/40969/
+29,Taittinger Comtes de Champagne 2014,Taittinger,테탱저,Comtes de Champagne 2014,GM,257400.0,2026,높음,1,True,http://charme-du-vin.com/2026/06/43774/
+30,Henriot Cuvée 2008,Henriot,앙리오,Cuvée エメラ 2008,GM,267300.0,2025,높음,1,True,http://charme-du-vin.com/2025/06/39993/
+31,Rare Champagne Champagne Millésime 2008,Rare Champagne,레어,Champagne Millésime 2008,GM,267300.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44258/
+32,Bollinger Grande Année 2004,Bollinger,볼랭저,Grande Année 2004,GM,287100.0,2026,높음,1,True,http://charme-du-vin.com/2026/05/43359/
+33,Taittinger Comtes de Champagne 2005,Taittinger,테탱저,Comtes de Champagne 2005,GM,287100.0,2025,높음,1,True,http://charme-du-vin.com/2025/09/40704/
+34,Rare Champagne Champagne Rosé 2008,Rare Champagne,레어,Champagne レア Rosé 2008,GM,292000.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44258/
+35,Billecart-Salmon Cuvée 2008,Billecart-Salmon,빌카르 살몽,Cuvée ニコラフランソワ 2008,GM,316800.0,2025,높음,1,True,http://charme-du-vin.com/2025/10/41222/
+36,Dom Pérignon 2015 箱付き,Dom Pérignon,돔 페리뇽,2015 バスキア 箱付き,GM,316800.0,2025,높음,1,True,http://charme-du-vin.com/2025/02/38410/
+37,Bollinger R.D. 2007,Bollinger,볼랭저,R.D. 2007,GM,336600.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41388/
+38,Philipponnat 2009,Philipponnat,필리포나,クロデ ゴワセ 2009,GM,376200.0,2026,높음,1,True,http://charme-du-vin.com/2026/04/43311/
+39,Louis Roederer Cristal 2016,Louis Roederer,루이 로드레,Cristal 2016,GM,394000.0,2025,높음,1,True,http://charme-du-vin.com/2025/04/39131/
+40,Philipponnat 2004,Philipponnat,필리포나,クロデ ゴワセ 2004,GM,396000.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44038/
+41,Bollinger R.D. 2002,Bollinger,볼랭저,R.D. 2002,GM,415800.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41388/
+42,Bollinger R.D. 2008,Bollinger,볼랭저,R.D. 2008,GM,425700.0,2026,높음,1,True,http://charme-du-vin.com/2026/04/43142/
+43,Krug Vintage 2013,Krug,크뤼그,Vintage 2013,GM,465300.0,2026,높음,1,True,http://charme-du-vin.com/2026/04/43326/
+44,Krug Vintage 2006 箱付き,Krug,크뤼그,Vintage 2006 箱付き,GM,485100.0,2025,높음,1,True,http://charme-du-vin.com/2025/01/37714/
+45,Krug Vintage 2011 り,Krug,크뤼그,Vintage 2011 [박스포함]り,GM,485100.0,2026,높음,1,True,http://charme-du-vin.com/2026/01/42211/
+46,Louis Roederer Cristal Rosé 2014,Louis Roederer,루이 로드레,Cristal Rosé 2014,GM,811800.0,2025,높음,1,True,http://charme-du-vin.com/2025/04/39136/
+47,Rare Champagne Champagne Collection 2008+ Rosé 2008,Rare Champagne,레어,Champagne Collection レア 2008+レア Rosé 2008,GM,851400.0,2026,높음,1,True,http://charme-du-vin.com/2026/06/43650/
+48,Charles Heidsieck Collection Crayères 1996,Charles Heidsieck,샤를 하이직,Collection Crayères ブランデミレネール 1996,GM,940500.0,2026,높음,1,True,http://charme-du-vin.com/2026/06/43674/
+49,Perrier-Jouët 2008,Perrier-Jouët,페리에 주에,2008,GM,970200.0,2025,높음,1,True,http://charme-du-vin.com/2025/06/39980/
+50,Salon 2013,Salon,살롱,2013,GM,1287000.0,2025,높음,1,True,http://charme-du-vin.com/2025/05/39241/
+51,Salon 2015,Salon,살롱,2015,GM,1346400.0,2025,높음,1,True,http://charme-du-vin.com/2025/09/40795/
+52,Bollinger La Coteaux 2013,Bollinger,볼랭저,La コートオーザンファン Coteaux シャンプノワ 2013,GM,1386000.0,2025,높음,1,True,http://charme-du-vin.com/2025/01/37948/
+53,Salon 2007,Salon,살롱,2007,GM,1584000.0,2025,높음,1,True,http://charme-du-vin.com/2025/10/41164/
+54,Salon 2004,Salon,살롱,2004,GM,1683000.0,2026,높음,1,True,http://charme-du-vin.com/2026/02/42525/
+55,Salon 2006,Salon,살롱,2006,GM,1683000.0,2026,높음,1,True,http://charme-du-vin.com/2026/06/43822/
+56,Bollinger Vignes 2012,Bollinger,볼랭저,ヴィエーユ Vignes フランセーズ 2012,GM,1881000.0,2025,높음,1,True,http://charme-du-vin.com/2025/01/37948/
+57,Charles Heidsieck Collection Crayères Millésime 1990,Charles Heidsieck,샤를 하이직,ラ Collection Crayères Millésime 1990,GM,2178000.0,2026,높음,1,True,http://charme-du-vin.com/2026/06/43665/
+58,Château de Bligny Grande Réserve Brut,Château de Bligny,샤토 드 블리니,Grande Réserve Brut,NM,22800.0,2026,높음,1,True,http://charme-du-vin.com/2026/01/42413/
+59,Château de Bligny Grand Rosé Brut,Château de Bligny,샤토 드 블리니,Grand Rosé Brut,NM,23800.0,2026,높음,1,True,http://charme-du-vin.com/2026/01/42413/
+60,Charles Collin Brut,Charles Collin,샤를 콜랭,Brut [라벨불량],NM,37600.0,2025,높음,1,True,http://charme-du-vin.com/2025/12/42087/
+61,Palmer & Co Brut Réserve,Palmer & Co,팔머,Brut Réserve,NM,48500.0,2025,높음,1,True,http://charme-du-vin.com/2025/10/41001/
+62,Ayala Brut Majeur,Ayala,아얄라,Brut Majeur,NM,52500.0,2026,높음,1,True,http://charme-du-vin.com/2026/03/42845/
+63,Ayala Brut Nature,Ayala,아얄라,Brut Nature,NM,55400.0,2026,높음,1,True,http://charme-du-vin.com/2026/03/42845/
+64,Gosset Grande Réserve Brut,Gosset,고세,Grande Réserve Brut,NM,58400.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38509/
+65,Thiénot Brut,Thiénot,티에노,Brut,NM,60400.0,2025,높음,1,True,http://charme-du-vin.com/2025/02/38174/
+66,Gosset Grande Réserve 400周年記念,Gosset,고세,Grande Réserve 400周年記念ラベル,NM,63400.0,2025,높음,1,True,http://charme-du-vin.com/2025/07/40094/
+67,Ayala Brut Rosé Majeur,Ayala,아얄라,Brut Rosé Majeur,NM,65300.0,2025,높음,1,True,http://charme-du-vin.com/2025/10/41139/
+68,Ayala Rosé Majeur,Ayala,아얄라,Rosé Majeur,NM,65300.0,2026,높음,1,True,http://charme-du-vin.com/2026/03/42786/
+69,Thiénot Brut Rosé ※旧,Thiénot,티에노,Brut Rosé ※旧ラベル,NM,69300.0,2025,높음,1,True,http://charme-du-vin.com/2025/10/41084/
+70,Ayala Blanc de Blancs 2015,Ayala,아얄라,Blanc de Blancs 2015 [라벨불량],NM,71300.0,2025,높음,1,True,http://charme-du-vin.com/2025/12/42090/
+71,Thiénot Blanc de Blancs,Thiénot,티에노,Blanc de Blancs ブリュ,NM,77200.0,2025,높음,1,True,http://charme-du-vin.com/2025/02/38174/
+72,Thiénot Brut Vintage 2012 ※旧,Thiénot,티에노,Brut Vintage 2012 ※旧ラベル,NM,84200.0,2025,높음,1,True,http://charme-du-vin.com/2025/10/41084/
+73,Palmer & Co Blanc de Blancs 2018,Palmer & Co,팔머,Blanc de Blancs 2018,NM,91100.0,2025,높음,1,True,http://charme-du-vin.com/2025/10/41001/
+74,Jacquesson 747,Jacquesson,자크송,747,NM,104000.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38637/
+75,Jacquesson Cuvée 746,Jacquesson,자크송,Cuvée 746,NM,123800.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38484/
+76,Nicolas Feuillatte 2008,Nicolas Feuillatte,니콜라 푀이야트,パルムドール 2008,NM,188100.0,2026,높음,1,True,http://charme-du-vin.com/2026/04/43219/
+77,Thiénot 2008 Cuvée,Thiénot,티에노,2008 Cuvée アラン ティエノ,NM,188100.0,2025,높음,1,True,http://charme-du-vin.com/2025/02/38183/
+78,Jacquesson Cuvée 742,Jacquesson,자크송,Cuvée 742 デゴルジュマンタルディフ,NM,247500.0,2025,높음,1,True,http://charme-du-vin.com/2025/10/41222/
+79,Henri Giraud Fût de Chêne MV18,Henri Giraud,앙리 지로,Fût de Chêne MV18,NM,277200.0,2025,높음,1,True,http://charme-du-vin.com/2025/05/39527/
+80,Henri Giraud Fût de Chêne MV20,Henri Giraud,앙리 지로,Fût de Chêne MV20,NM,277200.0,2026,높음,1,True,http://charme-du-vin.com/2026/04/43278/
+81,Henri Giraud PR20/90,Henri Giraud,앙리 지로,パーペチュアルリザーヴ PR20/90,NM,287100.0,2025,높음,1,True,http://charme-du-vin.com/2025/07/40110/
+82,Paul Berthelot Cuvée,Paul Berthelot,폴 베르틀로,Cuvée リザーヴ [라벨불량],RM,39600.0,2025,높음,1,True,http://charme-du-vin.com/2025/12/42087/
+83,Renard-Barnier,Renard-Barnier,르나르 바르니에,パルファン ディノサンス,RM,41600.0,2026,높음,1,True,http://charme-du-vin.com/2026/03/42953/
+84,Cazé-Thibaut Brut Grand Cru,Cazé-Thibaut,카제 티보,Brut Grand Cru,RM,43600.0,2025,높음,1,True,http://charme-du-vin.com/2025/01/37909/
+85,Guy de Saint Flavy Rosé,Guy de Saint Flavy,기 드 생플라비,Rosé,RM,44600.0,2026,높음,1,True,http://charme-du-vin.com/2026/05/43448/
+86,Louis Nicaise Brut Réserve,Louis Nicaise,루이 니케즈,ニケーズ Brut Réserve,RM,44600.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38484/
+87,Émile Leclère Blanc de Blancs Brut,Émile Leclère,에밀 르클레르,ルクレール Blanc de Blancs Brut,RM,50500.0,2026,높음,1,True,http://charme-du-vin.com/2026/02/42665/
+88,André Beaufort Polisy Réserve,André Beaufort,앙드레 보포르,Polisy Réserve,RM,53500.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38502/
+89,Robert Barbichon Blanc de Noirs,Robert Barbichon,로베르 바르비숑,Blanc de Noirs,RM,53500.0,2026,높음,1,True,http://charme-du-vin.com/2026/02/42663/
+90,David Coutelas Cuvée Tradition,David Coutelas,다비드 쿠텔라,Cuvée Tradition,RM,53500.0,2026,높음,1,True,http://charme-du-vin.com/2026/02/42670/
+91,André Clouet Silver Brut,André Clouet,앙드레 클루에,Silver Brut,RM,54400.0,2026,높음,1,True,http://charme-du-vin.com/2026/01/42185/
+92,Robert Barbichon Réserve 4 Cépages,Robert Barbichon,로베르 바르비숑,Réserve 4 Cépages,RM,54400.0,2026,높음,1,True,http://charme-du-vin.com/2026/02/42663/
+93,Allouchery-Perseval Tradition Blanc de Noirs,Allouchery-Perseval,알루슈리 페르스발,Tradition Blanc de Noirs,RM,55400.0,2026,높음,1,True,http://charme-du-vin.com/2026/02/42674/
+94,Lilbert-Fils Blanc de Blancs GC Cramant,Lilbert-Fils,릴베르 피스,Blanc de Blancs GC Cramant,RM,56400.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38509/
+95,Juillet-Lallement Brut Blanc de Noirs Grand Cru,Juillet-Lallement,쥐예 랄르망,Brut Blanc de Noirs Grand Cru,RM,57400.0,2025,높음,1,True,http://charme-du-vin.com/2025/02/38007/
+96,Faucheron-Gavroy Grand Cru,Faucheron-Gavroy,포슈롱 가브루아,オリジン Grand Cru,RM,57400.0,2025,높음,1,True,http://charme-du-vin.com/2025/02/38031/
+97,Augustin Blanc de Noirs 2020,Augustin,오귀스탱,テール Blanc de Noirs 2020,RM,58400.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38499/
+98,André Clouet Grande Réserve Brut,André Clouet,앙드레 클루에,Grande Réserve Brut,RM,62400.0,2026,높음,1,True,http://charme-du-vin.com/2026/06/43980/
+99,Varnier-Fannière Brut Grand Cru,Varnier-Fannière,바르니에 파니에르,Brut ゼロ Grand Cru,RM,62400.0,2026,높음,1,True,http://charme-du-vin.com/2026/01/42330/
+100,Gatinois Grand Cru Tradition Brut,Gatinois,가티누아,Grand Cru Tradition Brut,RM,63400.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38506/
+101,Christian Gosset Brut A03,Christian Gosset,크리스티앙 고세,ゴセ Brut A03,RM,63400.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38579/
+102,Vincent Couche Extra Brut,Vincent Couche,뱅상 쿠슈,クロエ Extra Brut,RM,63400.0,2025,높음,1,True,http://charme-du-vin.com/2025/09/40680/
+103,Pierre Moncuit Blanc de Blancs Hugues de Coulmet,Pierre Moncuit,피에르 몽퀴,Blanc de Blancs Hugues de Coulmet,RM,66300.0,2025,높음,1,True,http://charme-du-vin.com/2025/06/39985/
+104,François Seconde Rosé Grand Cru,François Seconde,프랑수아 스공드,シルリー Rosé Grand Cru,RM,66300.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38579/
+105,Michel Gonet Blanc de Blancs,Michel Gonet,미셸 고네,Blanc de Blancs ヴァンデモングー,RM,67300.0,2025,높음,1,True,http://charme-du-vin.com/2025/06/39639/
+106,Pierre Moncuit Delos Blanc de Blancs,Pierre Moncuit,피에르 몽퀴,Delos Blanc de Blancs,RM,68300.0,2025,높음,1,True,http://charme-du-vin.com/2025/06/39985/
+107,André Clouet Dream Vintage 2018,André Clouet,앙드레 클루에,Dream Vintage 2018,RM,69300.0,2026,높음,1,True,http://charme-du-vin.com/2026/01/42185/
+108,Gatinois Aÿ Grand Cru Brut Réserve,Gatinois,가티누아,Aÿ Grand Cru Brut Réserve,RM,69300.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38506/
+109,Varnier-Fannière GC Cuvée,Varnier-Fannière,바르니에 파니에르,GC Cuvée サンドニ,RM,71300.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38512/
+110,Cazé-Thibaut,Cazé-Thibaut,카제 티보,ティボー ナチュレルマン,RM,71300.0,2025,높음,1,True,http://charme-du-vin.com/2025/07/40107/
+111,Nicolas Maillart Rosé Grand Cru,Nicolas Maillart,니콜라 마이야르,Rosé Grand Cru,RM,73300.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38583/
+112,Chartogne-Taillet Sainte-Anne Extra Brut,Chartogne-Taillet,샤르토뉴 타이에,Sainte-Anne Extra Brut,RM,74200.0,2025,높음,1,True,http://charme-du-vin.com/2025/06/39843/
+113,Francis Boulard Blanc de Blancs Vieilles Vignes 2019,Francis Boulard,프랑시스 불라르,Blanc de Blancs Vieilles Vignes 2019,RM,74200.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38802/
+114,Francis Boulard Grand Cru 2020,Francis Boulard,프랑시스 불라르,マイィ Grand Cru 2020,RM,74200.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38802/
+115,Varnier-Fannière Grand Cru Cuvée,Varnier-Fannière,바르니에 파니에르,Grand Cru Cuvée サンドニ,RM,74200.0,2026,높음,1,True,http://charme-du-vin.com/2026/01/42330/
+116,Pierre Paillard Les Parcelles XVIII,Pierre Paillard,피에르 파이야르,Les Parcelles XVIII,RM,75200.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38499/
+117,A&F Laval Brut Nature Blanc de Noirs,A&F Laval,A&F 라발,Brut Nature Blanc de Noirs シンポジウム,RM,77200.0,2026,높음,1,True,http://charme-du-vin.com/2026/06/43875/
+118,Agrapart & Fils Les 7 Crus Brut,Agrapart & Fils,아그라파르,Les 7 Crus Brut,RM,77200.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38693/
+119,Nowack Sans Année Sans Année,Nowack,노박,Sans Année Sans Année,RM,77200.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44052/
+120,A&F Laval Brut Nature Meunier,A&F Laval,A&F 라발,Brut Nature ブランド Meunier ユト プリウス,RM,79200.0,2026,높음,1,True,http://charme-du-vin.com/2026/06/43875/
+121,Françoise Bedel,Françoise Bedel,프랑수아즈 베델,ディ ヴァン スクレ,RM,82200.0,2025,높음,1,True,http://charme-du-vin.com/2025/02/38010/
+122,Jacques Lassaigne Les Vignes de Montgueux Blanc de Blancs,Jacques Lassaigne,자크 라세뉴,Les Vignes de Montgueux Blanc de Blancs,RM,83200.0,2026,높음,1,True,http://charme-du-vin.com/2026/05/43467/
+123,Zoémie de Sousa Brut,Zoémie de Sousa,조에미 드 수자,Brut デジラブル [라벨불량],RM,84200.0,2025,높음,1,True,http://charme-du-vin.com/2025/12/42094/
+124,Nowack Cru,Nowack,노박,オートレ Cru,RM,87100.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44052/
+125,De Sousa Avize Grand Cru Blanc de Blancs,De Sousa,드 수자,Avize Grand Cru Blanc de Blancs リザーヴ,RM,89100.0,2025,높음,1,True,http://charme-du-vin.com/2025/05/39454/
+126,Pierre Gimonnet Œnophile BB Non Dosé 2018,Pierre Gimonnet,피에르 지모네,Œnophile BB Non Dosé 2018,RM,97000.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41562/
+127,Drémont 2022 Blanc de Blancs 1er Cru 2018,Drémont,드레몽,エメフェール 2022 Blanc de Blancs 1er Cru 2018,RM,97000.0,2026,높음,1,True,http://charme-du-vin.com/2026/05/43451/
+128,Drémont Éphémère 2018 Grand Cru,Drémont,드레몽,Éphémère 2018 Grand Cru,RM,97000.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38721/
+129,Drémont Éphémère 2025 Noir Grand Cru,Drémont,드레몽,Éphémère 2025 Noir エ ブラン Grand Cru,RM,97000.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38721/
+130,Drémont Éphémère 2026 1er Cru 2019 Blanc de Blancs,Drémont,드레몽,Éphémère 2026 1er Cru 2019 Blanc de Blancs,RM,97000.0,2026,높음,1,True,http://charme-du-vin.com/2026/06/43873/
+131,Drémont Éphémère 2022 Blanc de Blancs 1er Cru,Drémont,드레몽,Éphémère 2022 Blanc de Blancs 1er Cru [라벨불량],RM,97000.0,2025,높음,1,True,http://charme-du-vin.com/2025/12/42094/
+132,Launois Blanc de Blancs 2017,Launois,로누아,エリア Blanc de Blancs 2017,RM,97000.0,2025,높음,1,True,http://charme-du-vin.com/2025/06/39785/
+133,Michel Gonet GC Le Mesnil-sur-Oger Blanc de Blancs 2015,Michel Gonet,미셸 고네,GC Le Mesnil-sur-Oger Blanc de Blancs 2015,RM,104000.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44366/
+134,Adrien Renoir Les Terroirs Grand Cru Noir Chardonnay,Adrien Renoir,아드리앵 르누아르,Les Terroirs Grand Cru ピノ Noir Chardonnay,RM,108900.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41474/
+135,André Clouet Millésime 2008,André Clouet,앙드레 클루에,Millésime 2008,RM,113800.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41559/
+136,De Sousa Cuvée 3A Grand Cru,De Sousa,드 수자,Cuvée 3A Grand Cru,RM,113800.0,2025,높음,1,True,http://charme-du-vin.com/2025/05/39454/
+137,Egly-Ouriet Les,Egly-Ouriet,에글리 우리에,Les プレミス,RM,113800.0,2025,높음,1,True,http://charme-du-vin.com/2025/07/40063/
+138,Nicolas Maillart 2019 Extra Brut,Nicolas Maillart,니콜라 마이야르,モンマルタン 2019 Extra Brut,RM,113800.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38583/
+139,Le Clandestin 2022,Le Clandestin,르 클랑데스탱,オストラル 2022,RM,113800.0,2025,높음,1,True,http://charme-du-vin.com/2025/07/40021/
+140,Benoît Lahaye Brut Nature Grand Cru,Benoît Lahaye,브누아 라예,Brut Nature Grand Cru,RM,113800.0,2026,높음,1,True,http://charme-du-vin.com/2026/02/42591/
+141,Minière F&R Brut,Minière F&R,미니에르,インフリューエンス Brut,RM,113800.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44038/
+142,Adrien Renoir Les Cépages Grand Cru Noir,Adrien Renoir,아드리앵 르누아르,Les Cépages Grand Cru ピノ Noir,RM,118800.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41461/
+143,Dhondt-Grellet Extra Brut,Dhondt-Grellet,동 그렐레,ロックソラーレ Extra Brut,RM,118800.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41505/
+144,Robert Moncuit Réserve Extra Brut,Robert Moncuit,로베르 몽퀴,Réserve ペルペチュール Extra Brut,RM,118800.0,2026,높음,1,True,http://charme-du-vin.com/2026/01/42332/
+145,Michel Gonet Mesnil Blanc de Blancs 2010,Michel Gonet,미셸 고네,クールド Mesnil Blanc de Blancs 2010,RM,128700.0,2025,높음,1,True,http://charme-du-vin.com/2025/12/42054/
+146,Pascal Agrapart Complantée Extra Brut,Pascal Agrapart,파스칼 아그라파르,Complantée Extra Brut,RM,128700.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38714/
+147,J. Lassalle 2012,J. Lassalle,J. 라살,アンジェリーヌ 2012,RM,133600.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38512/
+148,Pierre Gimonnet Spécial Club 2016,Pierre Gimonnet,피에르 지모네,Spécial Club 2016,RM,138600.0,2026,높음,1,True,http://charme-du-vin.com/2026/05/43399/
+149,Pascal Agrapart Minéral 2018 Extra Brut Blanc de Blancs,Pascal Agrapart,파스칼 아그라파르,Minéral 2018 Extra Brut Blanc de Blancs,RM,168300.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38714/
+150,Pascal Agrapart Avizoise Extra Brut Blanc de Blancs 2018,Pascal Agrapart,파스칼 아그라파르,Avizoise Extra Brut Blanc de Blancs 2018,RM,207900.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38717/
+151,Pascal Agrapart Minéral Extra Brut Blanc de Blancs 2019,Pascal Agrapart,파스칼 아그라파르,Minéral Extra Brut Blanc de Blancs 2019,RM,207900.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44179/
+152,Suenen Blanc de Blancs C+C Grand Cru,Suenen,쉬넨,Blanc de Blancs C+C Grand Cru,RM,217800.0,2025,높음,1,True,http://charme-du-vin.com/2025/04/38975/
+153,Adrien Renoir Les Grand Cru Chardonnay 2020,Adrien Renoir,아드리앵 르누아르,Les モンタン Grand Cru Chardonnay 2020,RM,227700.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41461/
+154,Egly-Ouriet Extra Brut Grand Cru V.P.,Egly-Ouriet,에글리 우리에,Extra Brut Grand Cru V.P.,RM,257400.0,2026,높음,1,True,http://charme-du-vin.com/2026/04/43145/
+155,Adrien Renoir Les Grand Cru Noir,Adrien Renoir,아드리앵 르누아르,Les ザネ ソレラ Grand Cru ピノ Noir,RM,267300.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41474/
+156,Pascal Agrapart Avizoise Extra Brut Blanc de Blancs 2019,Pascal Agrapart,파스칼 아그라파르,Avizoise Extra Brut Blanc de Blancs 2019,RM,267300.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44179/
+157,Pascal Agrapart Vénus Brut Nature Blanc de Blancs 2018,Pascal Agrapart,파스칼 아그라파르,Vénus Brut Nature Blanc de Blancs 2018,RM,326700.0,2025,높음,1,True,http://charme-du-vin.com/2025/03/38717/
+158,Roses de Jeanne VV/23,Roses de Jeanne,로즈 드 잔,VV/23,RM,336600.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44331/
+159,Jérôme Prévost La Extra Brut,Jérôme Prévost,제롬 프레보,La クロズリー Extra Brut,RM,386100.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41355/
+160,Jérôme Prévost Extra Brut,Jérôme Prévost,제롬 프레보,ラクロズリー Extra Brut,RM,394000.0,2026,높음,1,True,http://charme-du-vin.com/2026/05/43359/
+161,Pascal Agrapart Vénus Brut Nature Blanc de Blancs 2019,Pascal Agrapart,파스칼 아그라파르,Vénus Brut Nature Blanc de Blancs 2019,RM,405900.0,2026,높음,1,True,http://charme-du-vin.com/2026/07/44179/
+162,Roses de Jeanne HL/R20 Blanc de Blancs,Roses de Jeanne,로즈 드 잔,HL/R20 オートランブレ Blanc de Blancs,RM,514800.0,2026,높음,1,True,http://charme-du-vin.com/2026/02/42547/
+163,Egly-Ouriet Blanc de Noirs Grand Cru Crayères,Egly-Ouriet,에글리 우리에,Blanc de Noirs Grand Cru レ Crayères,RM,584100.0,2025,높음,1,True,http://charme-du-vin.com/2025/04/39024/
+164,Jérôme Prévost Extra Brut Rosé,Jérôme Prévost,제롬 프레보,ラクロズリー ファクシミル Extra Brut Rosé,RM,1287000.0,2025,높음,1,True,http://charme-du-vin.com/2025/10/41212/
+165,Egly-Ouriet Brut Millésime 2008,Egly-Ouriet,에글리 우리에,Brut Millésime 2008,RM,1534500.0,2025,높음,1,True,http://charme-du-vin.com/2025/11/41552/
+166,Nicolas Paradis Tradition,Nicolas Paradis,니콜라 파라디,Tradition ブリュ,?,32100.0,2024,보통,2,False,http://charme-du-vin.com/2024/03/33775/
+167,Paul Cochet Grande Réserve Brut,Paul Cochet,폴 코셰,Grande Réserve Brut,?,32100.0,2024,보통,2,False,http://charme-du-vin.com/2024/06/34729/
+168,Marcel Pierre Brut,Marcel Pierre,마르셀 피에르,Brut,?,40800.0,2023,보통,2,False,http://charme-du-vin.com/2023/12/32708/
+169,Fenielle et Fils Brut,Fenielle et Fils,페니엘 에 피스,アガパンヌ Brut,?,43200.0,2024,보통,2,False,http://charme-du-vin.com/2024/02/33370/
+170,L'Évêque du Han Brut,L'Évêque du Han,레베크 뒤 앙,Brut ゼロ,?,43200.0,2024,보통,2,False,http://charme-du-vin.com/2024/02/33370/
+171,Louis Brun Blanc de Blancs,Louis Brun,루이 브룅,Blanc de Blancs,?,44400.0,2024,보통,2,False,http://charme-du-vin.com/2024/02/33370/
+172,Arnaud de Chaulin ※3種類,Arnaud de Chaulin,아르노 드 쇼랭,ヴォヤージュドヴァイヨン ※ラベル3種類,?,49100.0,2023,보통,2,False,http://charme-du-vin.com/2023/12/32660/
+173,François Chaumont Blanc de Noirs,François Chaumont,프랑수아 쇼몽,Blanc de Noirs,?,50000.0,2024,보통,2,False,http://charme-du-vin.com/2024/07/35236/
+174,Beauvert Grand Cru Brut,Beauvert,보베르,Grand Cru Brut,?,54300.0,2024,보통,2,False,http://charme-du-vin.com/2024/12/37601/
+175,Selosse-Pajon Blanc de Blancs,Selosse-Pajon,세로스 파종,Blanc de Blancs ランデヴー,?,60800.0,2023,보통,2,False,http://charme-du-vin.com/2023/08/31397/
+176,William Barn Blanc de Blancs Brut,William Barn,윌리엄 반,Blanc de Blancs Brut,?,64300.0,2024,보통,2,False,http://charme-du-vin.com/2024/12/37255/
+177,William Brun Blanc de Blancs Brut,William Brun,윌리엄 브룅,Blanc de Blancs Brut,?,64300.0,2024,보통,2,False,http://charme-du-vin.com/2024/12/37429/
+178,Thierry Houry Blanc de Blancs,Thierry Houry,티에리 우리,Blanc de Blancs,?,65400.0,2023,보통,2,False,http://charme-du-vin.com/2023/03/29329/
+179,Thierry Houry Blanc de Noirs,Thierry Houry,티에리 우리,Blanc de Noirs,?,65400.0,2023,보통,2,False,http://charme-du-vin.com/2023/03/29329/
+180,Hermar Robion VB03 Extra Brut,Hermar Robion,에르마르 로비옹,VB03 Extra Brut,?,66500.0,2024,보통,2,False,http://charme-du-vin.com/2024/03/33705/
+181,L'Anglais Grand Réserve,L'Anglais,랑글레,ブリュ Grand ド Réserve,?,73100.0,2024,보통,2,False,http://charme-du-vin.com/2024/04/34208/
+182,William Barn Blanc de Blancs Brut 2016,William Barn,윌리엄 반,Blanc de Blancs Brut 2016,?,81800.0,2023,보통,2,False,http://charme-du-vin.com/2023/10/31858/
+183,William Brun Blanc de Blancs 2018,William Brun,윌리엄 브룅,オレア Blanc de Blancs 2018,?,97600.0,2024,보통,2,False,http://charme-du-vin.com/2024/12/37429/
+184,L'Anglais Blanc de Blancs Extra Brut Grand Cru,L'Anglais,랑글레,Blanc de Blancs Extra Brut Grand Cru,?,98700.0,2024,보통,2,False,http://charme-du-vin.com/2024/04/34208/
+185,Louis Forget Blanc de Noirs Extra Brut,Louis Forget,루이 포르제,Blanc de Noirs Extra Brut,?,102000.0,2024,보통,2,False,http://charme-du-vin.com/2024/03/33805/
+186,Louis Forget Rosé Extra Brut,Louis Forget,루이 포르제,Rosé Extra Brut,?,122000.0,2024,보통,2,False,http://charme-du-vin.com/2024/03/33805/
+187,Julien Prélat Blanc de Blancs 2019,Julien Prélat,쥘리앵 프렐라,レレヌ Blanc de Blancs 2019,?,155200.0,2024,보통,2,False,http://charme-du-vin.com/2024/11/36999/
+188,Henriot Brut Souverain,Henriot,앙리오,Brut Souverain,GM,52600.0,2023,보통,2,True,http://charme-du-vin.com/2023/05/30264/
+189,Piper-Heidsieck Essentiel Extra Brut,Piper-Heidsieck,파이퍼 하이직,Essentiel Extra Brut,GM,54300.0,2024,보통,2,True,http://charme-du-vin.com/2024/09/36113/
+190,Taittinger Brut Réserve,Taittinger,테탱저,Brut Réserve,GM,65400.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36318/
+191,Piper-Heidsieck Essentiel Blanc de Blancs,Piper-Heidsieck,파이퍼 하이직,Essentiel Blanc de Blancs,GM,68900.0,2023,보통,2,True,http://charme-du-vin.com/2023/08/31089/
+192,Moët & Chandon,Moët & Chandon,모엣 샹동,ネクターインペリアル,GM,84100.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/30907/
+193,Moët & Chandon Ice Impérial,Moët & Chandon,모엣 샹동,Ice Impérial,GM,88700.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/30907/
+194,Pol Roger Pure Extra Brut,Pol Roger,폴 로저,Pure Extra Brut,GM,93500.0,2023,보통,2,True,http://charme-du-vin.com/2023/06/30672/
+195,Pol Roger Brut Vintage 2015,Pol Roger,폴 로저,Brut Vintage 2015,GM,107500.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/29925/
+196,Deutz Brut Millésime 2014,Deutz,되츠,Brut Millésime 2014,GM,109900.0,2023,보통,2,True,http://charme-du-vin.com/2023/03/29339/
+197,Louis Roederer Brut Nature 2009,Louis Roederer,루이 로드레,Brut Nature 2009,GM,116800.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/31991/
+198,Laurent-Perrier Cuvée,Laurent-Perrier,로랑 페리에,Cuvée ウルトラ,GM,122000.0,2024,보통,2,True,http://charme-du-vin.com/2024/01/33032/
+199,Pol Roger Blanc de Blancs Vintage 2015,Pol Roger,폴 로저,Blanc de Blancs Vintage 2015,GM,134300.0,2023,보통,2,True,http://charme-du-vin.com/2023/06/30672/
+200,Laurent-Perrier Brut,Laurent-Perrier,로랑 페리에,ウルトラ Brut,GM,138700.0,2024,보통,2,True,http://charme-du-vin.com/2024/03/33779/
+201,Bollinger Pinot Noir TX17,Bollinger,볼랭저,Pinot Noir TX17,GM,140200.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28955/
+202,Bollinger Pinot Noir TX 2017,Bollinger,볼랭저,Pinot Noir TX 2017,GM,140200.0,2023,보통,2,True,http://charme-du-vin.com/2023/03/29593/
+203,Deutz Blanc de Blancs 2015,Deutz,되츠,Blanc de Blancs 2015,GM,140200.0,2023,보통,2,True,http://charme-du-vin.com/2023/03/29339/
+204,Charles Heidsieck Brut Millésime 2012,Charles Heidsieck,샤를 하이직,Brut Millésime 2012,GM,146100.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28706/
+205,Louis Roederer Brut Nature Rosé 2015,Louis Roederer,루이 로드레,Brut Nature Rosé 2015,GM,151900.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28976/
+206,Bollinger Pinot Noir AYC 2018,Bollinger,볼랭저,Pinot Noir AYC 2018,GM,157600.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/32006/
+207,Philipponnat Cuvée 1522,Philipponnat,필리포나,Cuvée 1522,GM,161200.0,2023,보통,2,True,http://charme-du-vin.com/2023/05/30294/
+208,Y by Yoshiki × Pommery ☓ Brut ※,Y by Yoshiki × Pommery,Y by Yoshiki,☓ ポメリー Brut ※ [박스없음],GM,175200.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/30038/
+209,Henriot Chardonnay Grand Cru 2016,Henriot,앙리오,リナタンデュ Chardonnay Grand Cru 2016,GM,210700.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36810/
+210,Veuve Clicquot Grand 2012 草間彌生,Veuve Clicquot,뵈브 클리코,ラ Grand ダム 2012 草間彌生ラベル,GM,257000.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/30910/
+211,Taittinger Comtes de Champagne 2012,Taittinger,테탱저,Comtes de Champagne 2012,GM,277200.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36270/
+212,Billecart-Salmon Cuvée Blanc de Blancs 2008,Billecart-Salmon,빌카르 살몽,Cuvée ルイサルモン Blanc de Blancs 2008,GM,288300.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36999/
+213,Charles Heidsieck de 2007,Charles Heidsieck,샤를 하이직,ブラン de ミレネール 2007,GM,299400.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36843/
+214,Billecart-Salmon Rosé 2009,Billecart-Salmon,빌카르 살몽,エリザベス サルモン Rosé 2009,GM,310500.0,2024,보통,2,True,http://charme-du-vin.com/2024/04/33918/
+215,Pol Roger 2015,Pol Roger,폴 로저,サーウィストンチャーチル 2015,GM,354800.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36674/
+216,Taittinger Comtes de Champagne 2006,Taittinger,테탱저,Comtes de Champagne 2006,GM,354800.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36134/
+217,Louis Roederer Coteaux 2019,Louis Roederer,루이 로드레,Coteaux シャンプノワ オマージュカミーユ 2019,GM,365900.0,2024,보통,2,True,http://charme-du-vin.com/2024/07/35180/
+218,Philipponnat 2007,Philipponnat,필리포나,クロデ ゴワセ 2007,GM,408900.0,2023,보통,2,True,http://charme-du-vin.com/2023/05/30312/
+219,Bollinger R.D.,Bollinger,볼랭저,R.D.,GM,454600.0,2024,보통,2,True,http://charme-du-vin.com/2024/02/33487/
+220,Rare Champagne Champagne Rosé Millésime 2014,Rare Champagne,레어,Champagne Rosé Millésime 2014,GM,454600.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36792/
+221,Taittinger Collection 2008,Taittinger,테탱저,Collection 2008,GM,490600.0,2023,보통,2,True,http://charme-du-vin.com/2023/06/30687/
+222,Krug Vintage 2008,Krug,크뤼그,Vintage 2008,GM,543300.0,2024,보통,2,True,http://charme-du-vin.com/2024/12/37294/
+223,Louis Roederer Cristal Rosé 2014,Louis Roederer,루이 로드레,Cristal Rosé 2014,GM,909200.0,2024,보통,2,True,http://charme-du-vin.com/2024/05/34303/
+224,Charles Heidsieck 2017,Charles Heidsieck,샤를 하이직,シャンパン チャーリー 2017,GM,981300.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/31953/
+225,Krug Mesnil 2006,Krug,크뤼그,クロド Mesnil 2006,GM,1552300.0,2024,보통,2,True,http://charme-du-vin.com/2024/12/37446/
+226,Barfontarc Brut,Barfontarc,바르퐁타르크,ヘリテージ Brut,NM,35500.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36851/
+227,A.R. Lenoble Intense MAG18,A.R. Lenoble,A.R. 르노블,Intense MAG18,NM,42000.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28781/
+228,Charles Collin Cuvée Rosé,Charles Collin,샤를 콜랭,コラン Cuvée シャルル Rosé,NM,43200.0,2024,보통,2,True,http://charme-du-vin.com/2024/05/34583/
+229,Nicolas Feuillatte Réserve Exclusive Brut,Nicolas Feuillatte,니콜라 푀이야트,Réserve Exclusive Brut,NM,46600.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36258/
+230,Drappier,Drappier,드라피에,カルトドール,NM,51400.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32452/
+231,Leclerc Briant Brut Réserve,Leclerc Briant,르클레르 브리앙,Brut Réserve,NM,53700.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28772/
+232,Drappier Brut Nature,Drappier,드라피에,Brut Nature,NM,56000.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32452/
+233,Drappier Brut Rosé de,Drappier,드라피에,Brut Rosé de サングエ,NM,56000.0,2023,보통,2,True,http://charme-du-vin.com/2023/12/32663/
+234,Lallier R.019 Brut,Lallier,랄리에,R.019 Brut,NM,60800.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/29679/
+235,Joseph Perrier Cuvée Royale,Joseph Perrier,조제프 페리에,Cuvée Royale,NM,60900.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36943/
+236,Nicolas Feuillatte Collection Vintage 2012,Nicolas Feuillatte,니콜라 푀이야트,Collection Vintage 2012,NM,63100.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32280/
+237,Charles de Cazanove Blanc de Noirs,Charles de Cazanove,샤를 드 카자노브,Blanc de Noirs,NM,63100.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32245/
+238,Joseph Perrier Cuvée Royale Brut Nature,Joseph Perrier,조제프 페리에,Cuvée Royale Brut Nature,NM,65400.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36943/
+239,Gosset Grand Brut,Gosset,고세,Grand レゼルブ Brut,NM,66500.0,2024,보통,2,True,http://charme-du-vin.com/2024/04/34190/
+240,Henri Giraud Nature,Henri Giraud,앙리 지로,エスプリ Nature,NM,68900.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28918/
+241,Bruno Paillard Brut Cuvée,Bruno Paillard,브뤼노 파이야르,Brut プルミエ Cuvée,NM,69900.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36463/
+242,Gosset Grand Blanc de Blancs,Gosset,고세,Grand Blanc de Blancs,NM,74300.0,2024,보통,2,True,http://charme-du-vin.com/2024/04/34190/
+243,Jacquart Millésime 2008,Jacquart,자카르,モザイク Millésime 2008,NM,76500.0,2024,보통,2,True,http://charme-du-vin.com/2024/12/37449/
+244,Gosset Grand Millésime 2015,Gosset,고세,Grand Millésime 2015,NM,79900.0,2024,보통,2,True,http://charme-du-vin.com/2024/04/34190/
+245,Palmer & Co Vintage 2012,Palmer & Co,팔머,Vintage 2012,NM,84100.0,2023,보통,2,True,http://charme-du-vin.com/2023/06/30623/
+246,Ayala Blanc de Blancs 2016,Ayala,아얄라,Blanc de Blancs 2016,NM,94300.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36463/
+247,A.R. Lenoble Grand Cru Blanc de Blancs 2008,A.R. Lenoble,A.R. 르노블,Grand Cru Blanc de Blancs 2008,NM,116800.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/29822/
+248,Drappier Grand 2012,Drappier,드라피에,Grand サンドレ 2012,NM,127500.0,2024,보통,2,True,http://charme-du-vin.com/2024/07/35258/
+249,Henri Giraud,Henri Giraud,앙리 지로,ブランドクレ,NM,149600.0,2024,보통,2,True,http://charme-du-vin.com/2024/08/35502/
+250,Encry Millésime 2014,Encry,앙크리,Millésime 2014,NM,157600.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28806/
+251,Bruno Paillard Blanc de Blancs 2014,Bruno Paillard,브뤼노 파이야르,Blanc de Blancs 2014,NM,188500.0,2024,보통,2,True,http://charme-du-vin.com/2024/07/35424/
+252,Gosset 2008,Gosset,고세,セレブリス 2008,NM,198600.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32377/
+253,Telmont Blanc de Blancs 2014,Telmont,텔몽,Blanc de Blancs 2014,NM,198600.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/31971/
+254,Jacquesson Cuvée 740,Jacquesson,자크송,Cuvée 740 デゴルジュマンタルディフ,NM,219500.0,2024,보통,2,True,http://charme-du-vin.com/2024/06/34780/
+255,Jacquesson Cuvée 741,Jacquesson,자크송,Cuvée 741 デゴルジュマンタルディフ,NM,221800.0,2024,보통,2,True,http://charme-du-vin.com/2024/04/34112/
+256,Canard-Duchêne Cuvée,Canard-Duchêne,카나르 뒤셴,Cuvée レオニー,NM,233600.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/31043/
+257,Henri Giraud Fût de Chêne MV16,Henri Giraud,앙리 지로,Fût de Chêne MV16,NM,377000.0,2024,보통,2,True,http://charme-du-vin.com/2024/09/35888/
+258,Henri Giraud 2015,Henri Giraud,앙리 지로,アルゴンヌ 2015,NM,953600.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/37121/
+259,André Beaufort Blanc de Noirs 2021,André Beaufort,앙드레 보포르,フレール Blanc de Noirs 2021,RM,31500.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32344/
+260,Henri Dosnon Brut Sélection,Henri Dosnon,앙리 도농,Brut Sélection,RM,36200.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28775/
+261,Huré Frères Invitation,Huré Frères,위레 프레르,Invitation,RM,38600.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32341/
+262,Jamart,Jamart,자마르,カルト ブランシュ,RM,42000.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/30028/
+263,Henri Goutorbe Cuvée Tradition Brut,Henri Goutorbe,앙리 구토르브,Cuvée Tradition Brut,RM,42100.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36286/
+264,Louis Nicaise Brut Réserve,Louis Nicaise,루이 니케즈,Brut Réserve,RM,44400.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/30023/
+265,Henri Goutorbe Cuvée Prestige Brut,Henri Goutorbe,앙리 구토르브,Cuvée Prestige Brut,RM,47700.0,2024,보통,2,True,http://charme-du-vin.com/2024/01/33072/
+266,A. Margaine Brut 1er Cru Cru,A. Margaine,A. 마르겐,Brut 1er Cru Cru,RM,52600.0,2023,보통,2,True,http://charme-du-vin.com/2023/05/30309/
+267,Stéphane Coquillette,Stéphane Coquillette,스테판 코키예트,コキエット カルトドール,RM,54900.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28866/
+268,Thévenet-Delouvin Noir Brut,Thévenet-Delouvin,트브네 들루뱅,カルト Noir Brut,RM,56000.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/32050/
+269,Chapuy Tradition Brut Rosé,Chapuy,샤퓌,Tradition Brut Rosé,RM,57700.0,2024,보통,2,True,http://charme-du-vin.com/2024/04/34279/
+270,José Dhondt Blanc de Blancs,José Dhondt,조제 동,Blanc de Blancs ブリュ,RM,59900.0,2024,보통,2,True,http://charme-du-vin.com/2024/04/34112/
+271,Henri Billiot Cuvée Tradition Grand Cru,Henri Billiot,앙리 비요,Cuvée Tradition Grand Cru,RM,62000.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32239/
+272,Jean Lallement Cuvée Tradition,Jean Lallement,장 랄르망,Cuvée Tradition,RM,62000.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32414/
+273,Huguenot-Tassin Signature Millésime 2018,Huguenot-Tassin,위그노 타생,Signature Millésime 2018,RM,63200.0,2024,보통,2,True,http://charme-du-vin.com/2024/12/37240/
+274,Barnaut Grand Cru Sélection Brut Nature,Barnaut,바르노,Grand Cru Sélection Brut Nature,RM,65400.0,2024,보통,2,True,http://charme-du-vin.com/2024/12/37606/
+275,Huguenot-Tassin Blanc de Blancs 2019,Huguenot-Tassin,위그노 타생,レフィオル Blanc de Blancs 2019,RM,67600.0,2024,보통,2,True,http://charme-du-vin.com/2024/12/37240/
+276,Cazé-Thibaut,Cazé-Thibaut,카제 티보,ナチュレルマン,RM,67700.0,2023,보통,2,True,http://charme-du-vin.com/2023/08/31234/
+277,Lancelot-Pienne Blanc de Blancs,Lancelot-Pienne,랑슬로 피엔,アンスタン プレザン Blanc de Blancs,RM,67700.0,2023,보통,2,True,http://charme-du-vin.com/2023/03/29342/
+278,Rémi Leroy Extra Brut,Rémi Leroy,레미 르루아,Extra Brut,RM,68900.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/30033/
+279,J.M. Labruyère Brut,J.M. Labruyère,J.M. 라브뤼예르,プロローグ Brut,RM,70100.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/30958/
+280,Pierre Péters Cuvée de Réserve Blanc de Blancs,Pierre Péters,피에르 페테르스,Cuvée de Réserve Blanc de Blancs,RM,70100.0,2023,보통,2,True,http://charme-du-vin.com/2023/05/30146/
+281,Bonnaire Blanc de Blancs Brut Nature,Bonnaire,보네르,Blanc de Blancs Brut Nature,RM,71000.0,2024,보통,2,True,http://charme-du-vin.com/2024/12/37255/
+282,Rémi Leroy Brut Nature,Rémi Leroy,레미 르루아,Brut Nature,RM,72500.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/30033/
+283,Pierre Moncuit Blanc de Blancs,Pierre Moncuit,피에르 몽퀴,Blanc de Blancs,RM,73100.0,2024,보통,2,True,http://charme-du-vin.com/2024/03/33802/
+284,André Clouet Dream Vintage 2014,André Clouet,앙드레 클루에,Dream Vintage 2014,RM,74800.0,2023,보통,2,True,http://charme-du-vin.com/2023/03/29564/
+285,André Clouet Dream Vintage 2015,André Clouet,앙드레 클루에,Dream Vintage 2015,RM,74800.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32242/
+286,André Clouet,André Clouet,앙드레 클루에,チョーキー,RM,74800.0,2023,보통,2,True,http://charme-du-vin.com/2023/11/32242/
+287,Chapuy Blanc de Blancs Millésime 15,Chapuy,샤퓌,Blanc de Blancs Millésime 15,RM,74800.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/29734/
+288,Chartogne-Taillet Extra Brut,Chartogne-Taillet,샤르토뉴 타이에,サンアネ Extra Brut,RM,76200.0,2024,보통,2,True,http://charme-du-vin.com/2024/07/35210/
+289,Cazé-Thibaut Crayères,Cazé-Thibaut,카제 티보,ティボー Crayères,RM,76500.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36283/
+290,François Seconde Rosé,François Seconde,프랑수아 스공드,シルリー Rosé,RM,77600.0,2024,보통,2,True,http://charme-du-vin.com/2024/03/33736/
+291,Chapuy Noir 2012,Chapuy,샤퓌,リヴレ Noir 2012,RM,78200.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/29714/
+292,Marie Courtin Extra Brut,Marie Courtin,마리 쿠르탱,レゾナンス Extra Brut,RM,79400.0,2023,보통,2,True,http://charme-du-vin.com/2023/02/29061/
+293,Pierre Péters Cuvée de Réserve Blanc de Blancs Brut,Pierre Péters,피에르 페테르스,Cuvée de Réserve Blanc de Blancs Brut,RM,79400.0,2023,보통,2,True,http://charme-du-vin.com/2023/12/32711/
+294,Lacourte-Godbillon 1er Cru Cru Cru Terroirs,Lacourte-Godbillon,라쿠르트 고드비용,1er Cru Cru Cru Terroirs デキュイユ,RM,80600.0,2023,보통,2,True,http://charme-du-vin.com/2023/09/31456/
+295,Agrapart & Fils Grand Cru Blanc de Blancs Terroirs Extra Brut,Agrapart & Fils,아그라파르,Grand Cru Blanc de Blancs Terroirs Extra Brut,RM,84100.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28744/
+296,Henri Billiot Millésime 2015 Grand Cru,Henri Billiot,앙리 비요,Millésime 2015 Grand Cru,RM,86500.0,2024,보통,2,True,http://charme-du-vin.com/2024/03/33584/
+297,Pierre Gimonnet Oger Grand Cru BB Chardonnay,Pierre Gimonnet,피에르 지모네,Oger Grand Cru BB Chardonnay,RM,86500.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36568/
+298,André Clouet Dream Vintage 09,André Clouet,앙드레 클루에,Dream Vintage 09,RM,88700.0,2023,보통,2,True,http://charme-du-vin.com/2023/05/30120/
+299,André Clouet Dream Vintage 2009,André Clouet,앙드레 클루에,Dream Vintage 2009,RM,88700.0,2023,보통,2,True,http://charme-du-vin.com/2023/03/29564/
+300,Christophe Mignon,Christophe Mignon,크리스토프 미뇽,トロワジェームミレネーム,RM,88700.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/31071/
+301,Christophe Mignon ADN de Meunier Extra Brut,Christophe Mignon,크리스토프 미뇽,ADN de Meunier Extra Brut,RM,89900.0,2023,보통,2,True,http://charme-du-vin.com/2023/09/31494/
+302,Guy Larmandier Cramant GC Blanc de Blancs,Guy Larmandier,기 라르망디에,Cramant GC Blanc de Blancs,RM,90900.0,2024,보통,2,True,http://charme-du-vin.com/2024/12/37443/
+303,Guy Larmandier Grand Cru Blanc de Blancs,Guy Larmandier,기 라르망디에,Grand Cru Blanc de Blancs,RM,90900.0,2024,보통,2,True,http://charme-du-vin.com/2024/07/35299/
+304,Vilmart & Cie Cuvée,Vilmart & Cie,빌마르,Cuvée ルビー,RM,90900.0,2024,보통,2,True,http://charme-du-vin.com/2024/04/33915/
+305,André Clouet Millésime 2015,André Clouet,앙드레 클루에,Millésime 2015,RM,92100.0,2024,보통,2,True,http://charme-du-vin.com/2024/09/36000/
+306,Pierre Péters Extra Brut Blanc de Blancs,Pierre Péters,피에르 페테르스,Extra Brut Blanc de Blancs,RM,93200.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36755/
+307,Pierre Paillard Les Rosé GC,Pierre Paillard,피에르 파이야르,Les テレ Rosé ブージーGC,RM,93500.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28803/
+308,Vilmart & Cie Grand,Vilmart & Cie,빌마르,Grand セリエ,RM,93500.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/32106/
+309,De Sousa Avize GC Blanc de Blancs,De Sousa,드 수자,Avize GC Blanc de Blancs リザーヴ,RM,94300.0,2024,보통,2,True,http://charme-du-vin.com/2024/06/34797/
+310,Jacques Lassaigne Les Vignes de Montgueux,Jacques Lassaigne,자크 라세뉴,Les Vignes de Montgueux,RM,95800.0,2023,보통,2,True,http://charme-du-vin.com/2023/08/31425/
+311,Agrapart & Fils Terroirs Extra Brut Blanc de Blancs,Agrapart & Fils,아그라파르,Terroirs Extra Brut Blanc de Blancs,RM,97600.0,2024,보통,2,True,http://charme-du-vin.com/2024/01/33099/
+312,Pierre Legras Blanc de Blancs 2012,Pierre Legras,피에르 르그라,イデドヴォワイヤージュ Blanc de Blancs 2012,RM,97600.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36568/
+313,Pierre Péters Grande Réserve Blanc de Blancs Extra Brut,Pierre Péters,피에르 페테르스,Grande Réserve Blanc de Blancs Extra Brut,RM,98200.0,2023,보통,2,True,http://charme-du-vin.com/2023/09/31705/
+314,Henri Goutorbe Spécial Club 2008,Henri Goutorbe,앙리 구토르브,Spécial Club 2008,RM,98700.0,2024,보통,2,True,http://charme-du-vin.com/2024/01/33072/
+315,Éric Rodez Cuvée Crayères,Éric Rodez,에릭 로데즈,Cuvée Crayères,RM,98700.0,2024,보통,2,True,http://charme-du-vin.com/2024/12/37443/
+316,Éric Rodez Blanc de Noirs,Éric Rodez,에릭 로데즈,Blanc de Noirs,RM,99400.0,2023,보통,2,True,http://charme-du-vin.com/2023/08/31431/
+317,Henri Billiot Millésime 2018 Grand Cru,Henri Billiot,앙리 비요,Millésime 2018 Grand Cru,RM,100900.0,2024,보통,2,True,http://charme-du-vin.com/2024/12/37609/
+318,Drémont Éphémère 2014 Blanc de Blancs Grand Cru,Drémont,드레몽,Éphémère 2014 Blanc de Blancs Grand Cru,RM,102800.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/30036/
+319,André Clouet Dream Vintage 08,André Clouet,앙드레 클루에,Dream Vintage 08,RM,104000.0,2023,보통,2,True,http://charme-du-vin.com/2023/05/30120/
+320,André Clouet Dream Vintage 2005,André Clouet,앙드레 클루에,Dream Vintage 2005,RM,104000.0,2023,보통,2,True,http://charme-du-vin.com/2023/03/29564/
+321,De Sousa Cuvée 3A,De Sousa,드 수자,Cuvée 3A,RM,104000.0,2023,보통,2,True,http://charme-du-vin.com/2023/05/30307/
+322,Lamiable Millésime 2014,Lamiable,라미아블,エリアッド Millésime 2014,RM,104300.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36805/
+323,Pascal Doquet Blanc de Blancs Grand Cru,Pascal Doquet,파스칼 도케,ディアパソン Blanc de Blancs Grand Cru,RM,105100.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/29006/
+324,Jacques Lassaigne Vignes de Blanc de Blancs,Jacques Lassaigne,자크 라세뉴,レ Vignes de モングー Blanc de Blancs,RM,105300.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36571/
+325,Henri Billiot Cuvée,Henri Billiot,앙리 비요,Cuvée レティシア,RM,108600.0,2024,보통,2,True,http://charme-du-vin.com/2024/03/33584/
+326,Drémont Éphémère 2015 Blanc de Blancs Extra Brut,Drémont,드레몽,Éphémère 2015 Blanc de Blancs Extra Brut,RM,110900.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/32103/
+327,Larmandier-Bernier Latitude Blanc de Blancs,Larmandier-Bernier,라르망디에 베르니에,Latitude Blanc de Blancs,RM,114500.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/31078/
+328,Robert Groffier 2022,Robert Groffier,로베르 그로피에,ブルゴーニュ ルージュ 2022,RM,116500.0,2024,보통,2,True,http://charme-du-vin.com/2024/06/34961/
+329,Dhondt-Grellet 1er Cru Blanc de Blancs,Dhondt-Grellet,동 그렐레,レテールフィーヌ 1er Cru Blanc de Blancs,RM,116800.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/30926/
+330,Nowack La Fontinette,Nowack,노박,La Fontinette,RM,122000.0,2024,보통,2,True,http://charme-du-vin.com/2024/08/35853/
+331,Nowack La Tuilerie,Nowack,노박,La Tuilerie,RM,122000.0,2024,보통,2,True,http://charme-du-vin.com/2024/08/35853/
+332,Nowack Les,Nowack,노박,Les ボーシェ,RM,122000.0,2024,보통,2,True,http://charme-du-vin.com/2024/08/35850/
+333,Pierre Paillard Grand GC 2008,Pierre Paillard,피에르 파이야르,ラ Grand リコルテ ブージーGC 2008,RM,128500.0,2023,보통,2,True,http://charme-du-vin.com/2023/01/28803/
+334,Nowack,Nowack,노박,テール ブルー,RM,133100.0,2024,보통,2,True,http://charme-du-vin.com/2024/08/35850/
+335,Pierre Gimonnet BB Non Dosé 2008,Pierre Gimonnet,피에르 지모네,エノフィールBB Non Dosé 2008,RM,134300.0,2023,보통,2,True,http://charme-du-vin.com/2023/04/29825/
+336,Pascal Agrapart Minéral 2016 Extra Brut Blanc de Blancs,Pascal Agrapart,파스칼 아그라파르,Minéral 2016 Extra Brut Blanc de Blancs,RM,140200.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/32000/
+337,Pierre Péters Réserve Blanc de Blancs,Pierre Péters,피에르 페테르스,Réserve ウブリエ Blanc de Blancs,RM,144100.0,2024,보통,2,True,http://charme-du-vin.com/2024/05/34474/
+338,De Sousa Cuvée Blanc de Blancs,De Sousa,드 수자,Cuvée ミコソーズ Blanc de Blancs,RM,149600.0,2024,보통,2,True,http://charme-du-vin.com/2024/04/34226/
+339,Egly-Ouriet Brut Les Vignes de Vrigny,Egly-Ouriet,에글리 우리에,Brut Les Vignes de Vrigny,RM,149600.0,2024,보통,2,True,http://charme-du-vin.com/2024/09/35883/
+340,Christophe Mignon ADN Meunier Rosé de,Christophe Mignon,크리스토프 미뇽,ADNドゥ Meunier Rosé de セニエ,RM,151900.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/31071/
+341,Dhondt-Grellet Cramant Grand Cru Blanc de Blancs Extra Brut,Dhondt-Grellet,동 그렐레,Cramant Grand Cru Blanc de Blancs Extra Brut,RM,151900.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/30926/
+342,Pascal Agrapart Minéral 2017 Extra Brut Blanc de Blancs,Pascal Agrapart,파스칼 아그라파르,Minéral 2017 Extra Brut Blanc de Blancs,RM,155200.0,2024,보통,2,True,http://charme-du-vin.com/2024/01/33101/
+343,Christophe Mignon ADN Meunier Millésime 2015,Christophe Mignon,크리스토프 미뇽,ADNドゥ Meunier Millésime 2015,RM,163500.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/31071/
+344,Nowack Cru 2017,Nowack,노박,Cru ドリジン ウイィ 2017,RM,177400.0,2024,보통,2,True,http://charme-du-vin.com/2024/08/35842/
+345,Egly-Ouriet Extra Brut Grand Cru,Egly-Ouriet,에글리 우리에,Extra Brut Grand Cru,RM,183000.0,2024,보통,2,True,http://charme-du-vin.com/2024/09/35888/
+346,Larmandier-Bernier Rosé de,Larmandier-Bernier,라르망디에 베르니에,Rosé de セニエ,RM,186900.0,2023,보통,2,True,http://charme-du-vin.com/2023/07/31078/
+347,Pascal Agrapart Avizoise 2016 Extra Brut Blanc de Blancs,Pascal Agrapart,파스칼 아그라파르,Avizoise 2016 Extra Brut Blanc de Blancs,RM,186900.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/32000/
+348,Pascal Agrapart Avizoise Extra Brut Blanc de Blancs 2017,Pascal Agrapart,파스칼 아그라파르,Avizoise Extra Brut Blanc de Blancs 2017,RM,199600.0,2024,보통,2,True,http://charme-du-vin.com/2024/01/33101/
+349,Pascal Agrapart Vénus 2016 Brut Nature Blanc de Blancs,Pascal Agrapart,파스칼 아그라파르,Vénus 2016 Brut Nature Blanc de Blancs,RM,280400.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/32000/
+350,De Sousa Cuvée Blanc de Blancs 2010,De Sousa,드 수자,Cuvée コーダリー Blanc de Blancs 2010,RM,303700.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/32056/
+351,Pascal Agrapart Brut Nature BB17,Pascal Agrapart,파스칼 아그라파르,ヴェニス Brut Nature BB17,RM,310500.0,2024,보통,2,True,http://charme-du-vin.com/2024/01/33101/
+352,André Clouet Grande Réserve,André Clouet,앙드레 클루에,Grande Réserve,RM,420600.0,2023,보통,2,True,http://charme-du-vin.com/2023/05/30120/
+353,Roses de Jeanne 2019,Roses de Jeanne,로즈 드 잔,コートドヴァルヴィレーヌ 2019,RM,499000.0,2024,보통,2,True,http://charme-du-vin.com/2024/03/33701/
+354,Roses de Jeanne VV/R20,Roses de Jeanne,로즈 드 잔,コートドヴァルヴィレーヌ VV/R20,RM,499000.0,2024,보통,2,True,http://charme-du-vin.com/2024/11/36670/
+355,Roses de Jeanne 2013,Roses de Jeanne,로즈 드 잔,コートドヴェシャラン 2013,RM,654200.0,2024,보통,2,True,http://charme-du-vin.com/2024/10/36134/
+356,Roses de Jeanne Blanc de Noirs 2017,Roses de Jeanne,로즈 드 잔,レズルシュレ Blanc de Noirs 2017,RM,712600.0,2023,보통,2,True,http://charme-du-vin.com/2023/10/32059/
+357,André Clouet Grande Réserve 6L,André Clouet,앙드레 클루에,Grande Réserve 6L,RM,782700.0,2023,보통,2,True,http://charme-du-vin.com/2023/05/30120/
+358,Robert Groffier 1er Cru Les 2022,Robert Groffier,로베르 그로피에,シャンボールミュージニー 1er Cru Les ザムルーズ サーブル 2022,RM,1940400.0,2024,보통,2,True,http://charme-du-vin.com/2024/06/34961/
+359,Maurice Léger Brut,Maurice Léger,모리스 레제,Brut,?,35600.0,2022,낮음,3,False,http://charme-du-vin.com/2022/11/27937/
+360,Cuvée Louis Robuchon Brut,Cuvée Louis Robuchon,루이 로부숑,ルイ ロブション オートレオー Brut,?,41200.0,2021,낮음,3,False,http://charme-du-vin.com/2021/06/23064/
+361,Arnaud de Chaulin Réserve Brut,Arnaud de Chaulin,아르노 드 쇼랭,Réserve Brut,?,42900.0,2022,낮음,3,False,http://charme-du-vin.com/2022/09/27485/
+362,Delong Brut Rosé,Delong,들롱,Brut Rosé,?,49100.0,2022,낮음,3,False,http://charme-du-vin.com/2022/12/28436/
+363,Menuel Blanc de Blancs Grand Cru,Menuel,므뉘엘,ボネ Blanc de Blancs Grand Cru,?,55300.0,2022,낮음,3,False,http://charme-du-vin.com/2022/12/28424/
+364,Selosse-Pajon Blanc de Blancs Grand Cru,Selosse-Pajon,세로스 파종,サクルブラン Blanc de Blancs Grand Cru,?,63700.0,2021,낮음,3,False,http://charme-du-vin.com/2021/11/24288/
+365,Beaujoire Brut Cuvée Spéciale,Beaujoire,보주아,Brut Cuvée Spéciale,?,69600.0,2021,낮음,3,False,http://charme-du-vin.com/2021/11/24377/
+366,Beaujoire Brut Special Cuvée,Beaujoire,보주아,Brut Special Cuvée,?,69600.0,2021,낮음,3,False,http://charme-du-vin.com/2021/06/22749/
+367,Beaujoire Demi-Sec,Beaujoire,보주아,Demi-Sec,?,69600.0,2021,낮음,3,False,http://charme-du-vin.com/2021/11/24377/
+368,Selosse-Pajon,Selosse-Pajon,세로스 파종,エレガンス フュドシェーヌ,?,92000.0,2021,낮음,3,False,http://charme-du-vin.com/2021/11/24288/
+369,Maude Réserve Champagne,Maude,모드,Réserve Champagne,?,103000.0,2021,낮음,3,False,http://charme-du-vin.com/2021/05/22562/
+370,Selosse-Pajon Millésime 2012,Selosse-Pajon,세로스 파종,Millésime 2012,?,120300.0,2022,낮음,3,False,http://charme-du-vin.com/2022/11/28103/
+371,Selosse-Pajon Rosé Extra Brut,Selosse-Pajon,세로스 파종,Roséドセニエ Extra Brut,?,129000.0,2022,낮음,3,False,http://charme-du-vin.com/2022/09/27434/
+372,Delamotte Brut,Delamotte,델라모뜨,Brut,GM,46600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/03/25543/
+373,Billecart-Salmon Brut Réserve,Billecart-Salmon,빌카르 살몽,Brut Réserve,GM,55300.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25817/
+374,Billecart-Salmon Brut Nature,Billecart-Salmon,빌카르 살몽,Brut Nature,GM,66300.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25817/
+375,Delamotte Blanc de Blancs NV,Delamotte,델라모뜨,Blanc de Blancs NV,GM,66300.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25752/
+376,Bollinger Special Cuvée Brut,Bollinger,볼랭저,Special Cuvée Brut,GM,71200.0,2022,낮음,3,True,http://charme-du-vin.com/2022/07/26696/
+377,Philipponnat Royale Réserve Non Dosé,Philipponnat,필리포나,Royale Réserve Non Dosé,GM,74900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28172/
+378,Louis Roederer Rosé 2014,Louis Roederer,루이 로드레,Rosé 2014,GM,79800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24239/
+379,Delamotte Blanc de Blancs 2012,Delamotte,델라모뜨,Blanc de Blancs 2012,GM,97800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/08/23443/
+380,Delamotte Blanc de Blancs 2014,Delamotte,델라모뜨,Blanc de Blancs 2014,GM,109200.0,2022,낮음,3,True,http://charme-du-vin.com/2022/03/25543/
+381,Philipponnat 2008,Philipponnat,필리포나,シュブリム リザーヴ セック 2008,GM,113000.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28172/
+382,Philipponnat Grand Extra Brut 2008,Philipponnat,필리포나,Grand ブラン Extra Brut 2008,GM,113200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/03/22036/
+383,Bollinger Rosé Brut,Bollinger,볼랭저,Rosé Brut,GM,117800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27763/
+384,Louis Roederer Brut 2009,Louis Roederer,루이 로드레,Brut ナチューレ 2009,GM,127400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/05/22602/
+385,Y by Yoshiki × Pommery × Brut ※,Y by Yoshiki × Pommery,Y by Yoshiki,バイ ヨシキ × ポメリー Brut ※ [박스없음],GM,159600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/09/27319/
+386,Deutz à 2012,Deutz,되츠,オマージュ à ウイリアムドゥーツ コート グラシエール 2012,GM,167300.0,2021,낮음,3,True,http://charme-du-vin.com/2021/03/22185/
+387,Rare Champagne Champagne Vintage 2006,Rare Champagne,레어,Champagne レア Vintage 2006,GM,173700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/11/24364/
+388,Taittinger Comtes de Champagne 2007,Taittinger,테탱저,Comtes de Champagne 2007,GM,180200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/03/21985/
+389,Deutz 2009,Deutz,되츠,ウィリアムドゥーツ 2009,GM,193000.0,2021,낮음,3,True,http://charme-du-vin.com/2021/02/21871/
+390,Perrier-Jouët Belle Époque 2012,Perrier-Jouët,페리에 주에,Belle Époque 2012 [병흠집],GM,193000.0,2021,낮음,3,True,http://charme-du-vin.com/2021/06/22913/
+391,Bollinger B13,Bollinger,볼랭저,B13 エシカルギフトボックス,GM,199400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/11/24277/
+392,Veuve Clicquot La Grand 2012,Veuve Clicquot,뵈브 클리코,La Grand ダム 2012,GM,208700.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28222/
+393,Rare Champagne Millésime 2008,Rare Champagne,레어,Millésime 2008,GM,221000.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25623/
+394,Krug Grand Cuvée ※並行品,Krug,크뤼그,Grand ド Cuvée ※並行品,GM,244500.0,2021,낮음,3,True,http://charme-du-vin.com/2021/07/23360/
+395,Bollinger Grande Année Rosé 2014,Bollinger,볼랭저,Grande Année Rosé 2014,GM,245500.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27784/
+396,Dom Pérignon 2012 箱無し,Dom Pérignon,돔 페리뇽,2012 箱無し,GM,245500.0,2022,낮음,3,True,http://charme-du-vin.com/2022/01/24984/
+397,Charles Heidsieck 2006,Charles Heidsieck,샤를 하이직,ブランドミネレール 2006,GM,270100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/27930/
+398,Dom Pérignon 2008 箱あり,Dom Pérignon,돔 페리뇽,2008 箱あり,GM,270100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/01/24984/
+399,Henriot Cuvée 2006,Henriot,앙리오,Cuvée エメラ 2006,GM,270100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28106/
+400,Perrier-Jouët Belle Époque 2013,Perrier-Jouët,페리에 주에,Belle Époque 2013,GM,270100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/27934/
+401,Deutz de 2008,Deutz,되츠,アムール de ドゥーツ 2008,GM,270300.0,2021,낮음,3,True,http://charme-du-vin.com/2021/04/22513/
+402,Dom Pérignon 2010 ※BOXなし,Dom Pérignon,돔 페리뇽,2010 レディーガガ ※BOXなし,GM,270300.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24026/
+403,Pol Roger 2009,Pol Roger,폴 로저,サーウィンストンチャーチル 2009,GM,270300.0,2021,낮음,3,True,http://charme-du-vin.com/2021/09/23880/
+404,Charles Heidsieck 2004,Charles Heidsieck,샤를 하이직,ブランドミレネール 2004,GM,276300.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25870/
+405,Pol Roger 2012,Pol Roger,폴 로저,サーウィストンチャーチル 2012,GM,283100.0,2021,낮음,3,True,http://charme-du-vin.com/2021/12/24787/
+406,Billecart-Salmon Cuvée 二 2002,Billecart-Salmon,빌카르 살몽,Cuvée 二コラフランソワ 2002,GM,306900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/07/26701/
+407,Pol Roger 2013,Pol Roger,폴 로저,サーウィンストンチャーチル 2013,GM,319200.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28499/
+408,Billecart-Salmon Rosé 2008,Billecart-Salmon,빌카르 살몽,エリザベス サルモン Rosé 2008,GM,331500.0,2022,낮음,3,True,http://charme-du-vin.com/2022/07/26701/
+409,Billecart-Salmon Cuvée Blanc de Blancs Brut 2008,Billecart-Salmon,빌카르 살몽,Cuvée ルイサルモン Blanc de Blancs Brut 2008,GM,343700.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28225/
+410,Krug Vintage 2000,Krug,크뤼그,Vintage 2000,GM,373200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/07/23335/
+411,Louis Roederer Cristal 2013,Louis Roederer,루이 로드레,Cristal 2013,GM,373200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/09/23775/
+412,Krug Vintage 2002 ※,Krug,크뤼그,Vintage 2002 ※ [박스없음],GM,386100.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24081/
+413,Dom Pérignon Rosé 2006 ※BOXなし,Dom Pérignon,돔 페리뇽,Rosé 2006 レディーガガ ※BOXなし,GM,476200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24026/
+414,Veuve Clicquot 1982,Veuve Clicquot,뵈브 클리코,カーヴプリヴェ 1982,GM,527700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/11/24428/
+415,Dom Pérignon P2 2003 箱無し,Dom Pérignon,돔 페리뇽,P2 2003 箱無し,GM,552400.0,2022,낮음,3,True,http://charme-du-vin.com/2022/01/24984/
+416,Philipponnat Les Extra Brut 2009,Philipponnat,필리포나,Les サントレ Extra Brut 2009,GM,601500.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28172/
+417,Philipponnat Les Extra Brut 2010,Philipponnat,필리포나,Les サントレ Extra Brut 2010,GM,662900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28172/
+418,Billecart-Salmon Brut Réserve 6L,Billecart-Salmon,빌카르 살몽,Brut Réserve 6L,GM,883900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/06/26328/
+419,Delamotte Brut 6L,Delamotte,델라모뜨,Brut 6L,GM,1031200.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27823/
+420,Dom Pérignon Réserve 1999,Dom Pérignon,돔 페리뇽,Réserve ドラベイ 1999,GM,1104800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/01/25171/
+421,Salon 2012,Salon,살롱,2012,GM,1287000.0,2021,낮음,3,True,http://charme-du-vin.com/2021/12/24739/
+422,Barfontarc Tradition Brut,Barfontarc,바르퐁타르크,Tradition Brut,NM,29500.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27636/
+423,A.R. Lenoble Intense MAG16,A.R. Lenoble,A.R. 르노블,Intense MAG16,NM,34700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/11/24314/
+424,A.R. Lenoble Intense MAG17,A.R. Lenoble,A.R. 르노블,Intense MAG17,NM,34700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/12/24619/
+425,Barfontarc Blanc de Noirs Brut,Barfontarc,바르퐁타르크,Blanc de Noirs Brut,NM,35600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27636/
+426,Léonce d'Albe Brut,Léonce d'Albe,레옹스 달브,スペシャルリザーヴ Brut,NM,35600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27681/
+427,Barfontarc Blanc de Blancs Brut,Barfontarc,바르퐁타르크,Blanc de Blancs Brut,NM,36800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27636/
+428,A.R. Lenoble MAG17,A.R. Lenoble,A.R. 르노블,MAG17,NM,41800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/06/26399/
+429,Barfontarc Millésime 2014,Barfontarc,바르퐁타르크,Millésime 2014,NM,42900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27636/
+430,A.R. Lenoble Brut Nature Mag15,A.R. Lenoble,A.R. 르노블,Brut Nature Mag15,NM,46600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/02/25199/
+431,A.R. Lenoble MAG14 Brut Nature,A.R. Lenoble,A.R. 르노블,MAG14 Brut Nature,NM,48900.0,2021,낮음,3,True,http://charme-du-vin.com/2021/06/22756/
+432,A.R. Lenoble Rosé Terroirs,A.R. Lenoble,A.R. 르노블,Rosé Terroirs シュイィ ビスイユ,NM,60100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/09/27375/
+433,Brice Brut,Brice,브리스,エルミタージュ Brut,NM,60100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27706/
+434,Beaumont des Crayères 2009,Beaumont des Crayères,보몽 데 크레예르,フルールドプレスティージュ 2009,NM,61400.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27629/
+435,Telmont Réserve Brut,Telmont,텔몽,Réserve Brut,NM,68200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/07/23182/
+436,Gosset Grand Rosé,Gosset,고세,Grand Rosé,NM,69600.0,2021,낮음,3,True,http://charme-du-vin.com/2021/06/22746/
+437,Brice Blanc de Noirs GC,Brice,브리스,Blanc de Noirs GCブージー,NM,72400.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27706/
+438,Gosset Grand Millésime 2012,Gosset,고세,Grand Millésime 2012,NM,73300.0,2021,낮음,3,True,http://charme-du-vin.com/2021/11/24304/
+439,Palmer & Co Rosé Réserve,Palmer & Co,팔머,Rosé ソレラ Réserve,NM,77400.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25916/
+440,Encry Brut,Encry,앙크리,Brut,NM,83500.0,2022,낮음,3,True,http://charme-du-vin.com/2022/05/26278/
+441,Joseph Perrier Brut 2008,Joseph Perrier,조제프 페리에,Brut 2008,NM,83700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/09/23793/
+442,Telmont Réserve Rosé,Telmont,텔몽,Réserve Rosé,NM,84900.0,2021,낮음,3,True,http://charme-du-vin.com/2021/07/23182/
+443,Valentin Leflaive Extra Brut Blanc de Blancs Grand Cru,Valentin Leflaive,발랑탱 르플레브,Extra Brut Blanc de Blancs Grand Cru,NM,88400.0,2022,낮음,3,True,http://charme-du-vin.com/2022/05/26051/
+444,Palmer & Co Blanc de Blancs Réserve,Palmer & Co,팔머,Blanc de Blancs Réserve,NM,90900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25916/
+445,Palmer & Co Blanc de Noirs Réserve,Palmer & Co,팔머,Blanc de Noirs Réserve,NM,90900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25916/
+446,Jacquesson Cuvée 743,Jacquesson,자크송,Cuvée 743,NM,95700.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27688/
+447,Telmont Réserve de La,Telmont,텔몽,Réserve de La テール オーガニック,NM,101700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/09/23655/
+448,Drappier Grand 2010,Drappier,드라피에,Grand サンドレ 2010,NM,104400.0,2022,낮음,3,True,http://charme-du-vin.com/2022/08/27160/
+449,Henri Giraud Rosé,Henri Giraud,앙리 지로,Rosé ダム ジャンヌ,NM,115800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/04/22470/
+450,Ayala NO.7 Brut 2007,Ayala,아얄라,NO.7 Brut 2007,NM,135000.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27677/
+451,Gosset de à Brut,Gosset,고세,ドゥゾン de à ミニマ Brut,NM,135000.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25698/
+452,Telmont 2013,Telmont,텔몽,サンスフル 2013,NM,135000.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27626/
+453,Ayala Cuvée 2006,Ayala,아얄라,Cuvée パルル ダヤラ 2006,NM,141600.0,2021,낮음,3,True,http://charme-du-vin.com/2021/02/21824/
+454,Gosset 2007,Gosset,고세,セレブリス 2007,NM,184100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/06/26586/
+455,Telmont Blanc de Noirs 2014,Telmont,텔몽,Blanc de Noirs 2014,NM,196400.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27626/
+456,Joseph Perrier Cuvée 2008,Joseph Perrier,조제프 페리에,Cuvée ジョセフィーヌ 2008,NM,214800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25662/
+457,Henri Giraud MV14,Henri Giraud,앙리 지로,フットデシェーン MV14,NM,231700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/04/22366/
+458,Henri Giraud Aÿ Grand Cru Brut Rosé MV,Henri Giraud,앙리 지로,Aÿ Grand Cru Brut フュドシェーヌ Rosé MV,NM,296000.0,2021,낮음,3,True,http://charme-du-vin.com/2021/12/24855/
+459,Telmont Blanc de Blancs 2005,Telmont,텔몽,Blanc de Blancs ヴィノテーク 2005,NM,296000.0,2021,낮음,3,True,http://charme-du-vin.com/2021/07/23182/
+460,Henri Giraud Aÿ Grand Cru Brut MV16,Henri Giraud,앙리 지로,Aÿ Grand Cru Brut MV16,NM,302400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/12/24855/
+461,Jacquesson Avize 2008,Jacquesson,자크송,Avize シャンカイン 2008,NM,321800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/02/21873/
+462,De Venoge 1995,De Venoge,드 브노주,ヴノージュ ルイキャーンズ 1995,NM,349900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28209/
+463,Henri Giraud MV16,Henri Giraud,앙리 지로,フットデシェーン MV16,NM,356000.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28228/
+464,Armand de Brignac,Armand de Brignac,아르망 드 브리냑,ドミセック,NM,514800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/07/23357/
+465,Armand de Brignac Brut,Armand de Brignac,아르망 드 브리냑,Brut ゴールド,NM,515600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28175/
+466,Telmont 1990,Telmont,텔몽,ヴィノテーク 1990,NM,527900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/09/27369/
+467,Telmont 1985,Telmont,텔몽,ヴィノテーク 1985,NM,613800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/09/27369/
+468,Chapuy Tradition Brut,Chapuy,샤퓌,Tradition Brut,RM,33100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25860/
+469,Henri Goutorbe Cuvée Tradition,Henri Goutorbe,앙리 구토르브,Cuvée Tradition,RM,38600.0,2021,낮음,3,True,http://charme-du-vin.com/2021/05/22707/
+470,Jamart Brut Rosé,Jamart,자마르,Brut Rosé,RM,44100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/09/27372/
+471,Huguenot-Tassin Signature Extra Brut,Huguenot-Tassin,위그노 타생,Signature Extra Brut,RM,46300.0,2021,낮음,3,True,http://charme-du-vin.com/2021/09/23658/
+472,Nominé-Renard Brut,Nominé-Renard,노미네 르나르,ルナール Brut,RM,46600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28472/
+473,Émile Leclère Blanc de Blancs Brut,Émile Leclère,에밀 르클레르,Blanc de Blancs Brut,RM,47900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/09/27431/
+474,Huguenot-Tassin Signature Millésime 2015,Huguenot-Tassin,위그노 타생,Signature Millésime 2015,RM,48900.0,2021,낮음,3,True,http://charme-du-vin.com/2021/09/23658/
+475,Barnaut Grand Cru Blanc de Noirs,Barnaut,바르노,Grand Cru Blanc de Noirs,RM,49100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/06/26393/
+476,Barnaut Grand Cru Authentique Rosé,Barnaut,바르노,Grand Cru Authentique Rosé,RM,51600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/02/25291/
+477,Lilbert-Fils GC Cramant Blanc de Blancs Extra Brut,Lilbert-Fils,릴베르 피스,GC Cramant Blanc de Blancs Extra Brut,RM,51600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/06/26589/
+478,David Coutelas Cuvée Prestige,David Coutelas,다비드 쿠텔라,Cuvée Prestige,RM,51600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/09/27428/
+479,Gallimard Cuvée de Réserve Brut Blanc de Noirs,Gallimard,갈리마르,Cuvée de Réserve Brut Blanc de Noirs,RM,52800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28089/
+480,Allouchery-Perseval Brut Réserve,Allouchery-Perseval,알루슈리 페르스발,Brut Réserve,RM,55300.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28100/
+481,Rémy Massin,Rémy Massin,레미 마생,ランテグラル,RM,55300.0,2022,낮음,3,True,http://charme-du-vin.com/2022/05/26118/
+482,Gallimard Cuvée de Réserve Blanc de Noirs Brut,Gallimard,갈리마르,Cuvée de Réserve Blanc de Noirs Brut,RM,55400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/11/24297/
+483,Chartogne-Taillet Cuvée Sainte-Anne Brut,Chartogne-Taillet,샤르토뉴 타이에,Cuvée Sainte-Anne Brut,RM,56700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/04/22274/
+484,Paul Clouet Rosé Assemblage,Paul Clouet,폴 클루에,Rosé Assemblage,RM,57700.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28433/
+485,Allouchery-Perseval Rosé Assemblage Brut,Allouchery-Perseval,알루슈리 페르스발,Rosé Assemblage Brut,RM,58900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28430/
+486,Paul Clouet Brut Blanc de Noirs Grand Cru,Paul Clouet,폴 클루에,Brut Blanc de Noirs Grand Cru,RM,60400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/11/24310/
+487,Pierre Paillard Les Parcelles,Pierre Paillard,피에르 파이야르,Les Parcelles,RM,60400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/04/22270/
+488,Cazé-Thibaut Meunier,Cazé-Thibaut,카제 티보,ティボー ナチュラメント ピノ Meunier,RM,60400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24055/
+489,André Beaufort Polisy Réserve Brut,André Beaufort,앙드레 보포르,Polisy Réserve Brut,RM,61400.0,2022,낮음,3,True,http://charme-du-vin.com/2022/02/25196/
+490,André Jacquart Vertus Expérience 1er Cru Blanc de Blancs Extra Brut,André Jacquart,앙드레 자카르,Vertus Expérience 1er Cru Blanc de Blancs Extra Brut,RM,61400.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28092/
+491,J.M. Labruyère Brut,J.M. Labruyère,J.M. 라브뤼예르,プロローグ Brut,RM,61800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/07/23137/
+492,Moussé Fils L'Or d'Eugène Blanc de Noirs,Moussé Fils,무세 피스,L'Or d'Eugène Blanc de Noirs,RM,61800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/09/23595/
+493,Moussé Fils Rosé Effusion,Moussé Fils,무세 피스,Rosé Effusion,RM,61800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/09/23595/
+494,Francis Boulard Les Murgiers Brut Nature,Francis Boulard,프랑시스 불라르,Les Murgiers Brut Nature,RM,64400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24089/
+495,Francis Boulard Murgiers Brut Nature,Francis Boulard,프랑시스 불라르,レ Murgiers Brut Nature,RM,64400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/06/22759/
+496,J.L. Vergnon Blanc de Blancs Extra Brut,J.L. Vergnon,J.L. 베르뇽,エロカンス Blanc de Blancs Extra Brut,RM,64400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/04/22495/
+497,Gatinois Grand Cru Brut Nature,Gatinois,가티누아,Grand Cru Brut Nature,RM,66300.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28086/
+498,Pierre Gimonnet Oger Grand Cru Blanc de Blancs Brut Chardonnay,Pierre Gimonnet,피에르 지모네,Oger Grand Cru Blanc de Blancs Brut Chardonnay,RM,66300.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/27997/
+499,Robert Barbichon Demi-Sec,Robert Barbichon,로베르 바르비숑,Demi-Sec,RM,66300.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28427/
+500,Moussé Fils Anecdote Blanc de Blancs,Moussé Fils,무세 피스,Anecdote Blanc de Blancs,RM,67000.0,2021,낮음,3,True,http://charme-du-vin.com/2021/03/22141/
+501,Pierre Callot Grand Cru Blanc de Blancs,Pierre Callot,피에르 칼로,Grand Cru Blanc de Blancs,RM,67000.0,2021,낮음,3,True,http://charme-du-vin.com/2021/07/23230/
+502,Gatinois Aÿ Grand Cru Brut Rosé,Gatinois,가티누아,Aÿ Grand Cru Brut Rosé,RM,72400.0,2022,낮음,3,True,http://charme-du-vin.com/2022/02/25336/
+503,Gatinois Grand Cru Réserve Brut,Gatinois,가티누아,Grand Cru Réserve Brut,RM,73700.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28086/
+504,David Coutelas Cuvée 2014,David Coutelas,다비드 쿠텔라,Cuvée セザール 2014,RM,76100.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28421/
+505,André Clouet Dream Vintage 2012,André Clouet,앙드레 클루에,Dream Vintage 2012,RM,78600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27685/
+506,Nowack Sans Année Sans Année ※ Chardonnay 100%,Nowack,노박,Sans Année Sans Année ※ Chardonnay 100%,RM,79800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24152/
+507,Claude Cazals Blanc de Blancs Grand Cru 2012,Claude Cazals,클로드 카잘,Blanc de Blancs Grand Cru 2012,RM,81100.0,2021,낮음,3,True,http://charme-du-vin.com/2021/11/24300/
+508,Savart L'Ouverture 1er Cru,Savart,사바르,L'Ouverture 1er Cru,RM,81100.0,2021,낮음,3,True,http://charme-du-vin.com/2021/05/22660/
+509,Claude Cazals Blanc de Blancs Millésime 2014,Claude Cazals,클로드 카잘,Blanc de Blancs Millésime 2014,RM,83500.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28212/
+510,Suenen Blanc de Blancs Oiry Grand Cru,Suenen,쉬넨,Blanc de Blancs Oiry Grand Cru,RM,83500.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28369/
+511,Pierre Callot Réserve,Pierre Callot,피에르 칼로,グローヴ Réserve,RM,83700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/07/23230/
+512,Waris-Larmandier Grand Cru Blanc de Blancs,Waris-Larmandier,와리스 라르망디에,パルティキュール クレイユーズ Grand Cru Blanc de Blancs,RM,83700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/06/22752/
+513,André Jacquart Expérience Blanc de Blancs Extra Brut 2012,André Jacquart,앙드레 자카르,Expérience Blanc de Blancs Extra Brut 2012,RM,86200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/11/24292/
+514,Éric Rodez Blanc de Blancs Extra Brut,Éric Rodez,에릭 로데즈,Blanc de Blancs Extra Brut,RM,90900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/02/25302/
+515,Pierre Gimonnet Œnophile Non Dosé 1er Cru Blanc de Blancs 2008,Pierre Gimonnet,피에르 지모네,Œnophile Non Dosé 1er Cru Blanc de Blancs 2008,RM,96500.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24003/
+516,Pierre Paillard Les Rosé Bouzy Grand Cru,Pierre Paillard,피에르 파이야르,Les テレ Rosé Bouzy Grand Cru,RM,98200.0,2022,낮음,3,True,http://charme-du-vin.com/2022/08/27154/
+517,Savart Accomplie 1er Cru Vieilles Vignes Extra Brut,Savart,사바르,Accomplie 1er Cru Vieilles Vignes Extra Brut,RM,101700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/05/22660/
+518,Christophe Mignon ADN de Meunier Rosé de,Christophe Mignon,크리스토프 미뇽,ADN de Meunier Rosé de セニエ,RM,103200.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28363/
+519,Nowack La Fontinette ※ Meunier 100%,Nowack,노박,La Fontinette ※ Meunier 100%,RM,108200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24157/
+520,Nowack La Tuilerie ※ Chardonnay 100%,Nowack,노박,La Tuilerie ※ Chardonnay 100%,RM,108200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24157/
+521,Nowack Les ※ Noir 100%,Nowack,노박,Les ボーシェ ※ピノ Noir 100%,RM,108200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24157/
+522,Barnaut Grand Cru Grande Réserve Brut,Barnaut,바르노,Grand Cru Grande Réserve Brut,RM,113000.0,2022,낮음,3,True,http://charme-du-vin.com/2022/02/25291/
+523,Jacques Lassaigne Blanc de Blancs,Jacques Lassaigne,자크 라세뉴,ラコリーヌ アンスピレ Blanc de Blancs,RM,113200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24099/
+524,Jacques Lassaigne Extra Brut Blanc de Blancs,Jacques Lassaigne,자크 라세뉴,ルコテ Extra Brut Blanc de Blancs,RM,113200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24099/
+525,Marie Courtin Blanc de Blancs,Marie Courtin,마리 쿠르탱,エロカンス Blanc de Blancs,RM,114500.0,2021,낮음,3,True,http://charme-du-vin.com/2021/09/23592/
+526,Huguenot-Tassin Noir,Huguenot-Tassin,위그노 타생,Noir スペシャル,RM,115800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/09/23658/
+527,André Jacquart Expérience Extra Brut Blanc de Blancs 2012,André Jacquart,앙드레 자카르,Expérience Extra Brut Blanc de Blancs 2012,RM,116600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28417/
+528,Pierre Gimonnet Spécial Club Grand Terroirs Chardonnay 2014,Pierre Gimonnet,피에르 지모네,Spécial Club Grand Terroirs ド Chardonnay 2014,RM,117800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/27997/
+529,J. Lassalle Spécial Club 2012,J. Lassalle,J. 라살,Spécial Club 2012,RM,121500.0,2022,낮음,3,True,http://charme-du-vin.com/2022/02/25237/
+530,Pierre Paillard La Grand Grand Cru 2008,Pierre Paillard,피에르 파이야르,La Grand リコルテ ブージー Grand Cru 2008,RM,122800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/02/25371/
+531,Coessens Blanc de Noirs Brut,Coessens,코에상스,ラルジリエ Blanc de Noirs Brut,RM,122800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/07/26857/
+532,Coessens Brut Nature,Coessens,코에상스,ラルジリエ Brut Nature,RM,122800.0,2022,낮음,3,True,http://charme-du-vin.com/2022/11/28097/
+533,De Sousa Cuvée Blanc de Blancs Extra Brut,De Sousa,드 수자,スーザ Cuvée デ コーダリー Blanc de Blancs Extra Brut,RM,126100.0,2021,낮음,3,True,http://charme-du-vin.com/2021/12/24631/
+534,Vilmart & Cie Grand Cellier d'Or 2015,Vilmart & Cie,빌마르,Grand Cellier d'Or 2015,RM,128700.0,2021,낮음,3,True,http://charme-du-vin.com/2021/06/22801/
+535,Suenen La Grand Vignes MSV Meunier 2013,Suenen,쉬넨,La Grand ド Vignes MSV ピノ Meunier 2013,RM,141600.0,2021,낮음,3,True,http://charme-du-vin.com/2021/04/22246/
+536,Nowack Les 2015,Nowack,노박,Les リセイ 2015,RM,147300.0,2022,낮음,3,True,http://charme-du-vin.com/2022/10/27702/
+537,Roses de Jeanne 2018,Roses de Jeanne,로즈 드 잔,コートドヴァルヴィレーヌ 2018,RM,151800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24040/
+538,Nowack 2015 ※ Chardonnay 100%,Nowack,노박,キュイ 2015 ※ Chardonnay 100%,RM,154400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24152/
+539,Pierre Gimonnet Spécial Club Cramant Grand Cru 2014,Pierre Gimonnet,피에르 지모네,Spécial Club Cramant Grand Cru 2014,RM,154400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/10/24003/
+540,Roses de Jeanne 2017,Roses de Jeanne,로즈 드 잔,コートドヴァルヴィレーヌ 2017,RM,154400.0,2021,낮음,3,True,http://charme-du-vin.com/2021/08/23494/
+541,Claude Cazals Clos Blanc de Blancs 2012,Claude Cazals,클로드 카잘,Clos カザル Blanc de Blancs 2012,RM,159600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/04/25773/
+542,Doyard Blanc de Blancs 2013 Extra Brut,Doyard,두아야르,Blanc de Blancs 2013 Extra Brut,RM,159600.0,2022,낮음,3,True,http://charme-du-vin.com/2022/05/26254/
+543,David Léclapart Blanc de Blancs LV14,David Léclapart,다비드 레클라파르,ラルティスト Blanc de Blancs LV14,RM,167300.0,2021,낮음,3,True,http://charme-du-vin.com/2021/01/21506/
+544,Suenen La Cru Oiry Blanc de Blancs Grand Cru 2013,Suenen,쉬넨,La コ Cru エット Oiry Blanc de Blancs Grand Cru 2013,RM,167300.0,2021,낮음,3,True,http://charme-du-vin.com/2021/04/22246/
+545,Suenen La Cru Oiry Blanc de Blancs Grand Cru 2014,Suenen,쉬넨,La コ Cru エット Oiry Blanc de Blancs Grand Cru 2014,RM,171900.0,2022,낮음,3,True,http://charme-du-vin.com/2022/12/28369/
+546,Suenen Blanc de Blancs Grand Cru 2013,Suenen,쉬넨,ル モンテギュ シュイィー Blanc de Blancs Grand Cru 2013,RM,180200.0,2021,낮음,3,True,http://charme-du-vin.com/2021/04/22246/
+547,David Léclapart Blanc de Noirs LV15,David Léclapart,다비드 레클라파르,ラストル Blanc de Noirs LV15,RM,205900.0,2021,낮음,3,True,http://charme-du-vin.com/2021/01/21506/
+548,Pierre Callot Clos Grand Cru,Pierre Callot,피에르 칼로,Clos ジャカン Grand Cru,RM,205900.0,2021,낮음,3,True,http://charme-du-vin.com/2021/07/23230/
+549,De Sousa Cuvée Blanc de Blancs 2008,De Sousa,드 수자,Cuvée デコーダリー Blanc de Blancs 2008,RM,321800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/03/22033/
+550,De Sousa Cuvée Blanc de Blancs Extra Brut 2008,De Sousa,드 수자,スーザ Cuvée デ コーダリー Blanc de Blancs Extra Brut 2008,RM,321800.0,2021,낮음,3,True,http://charme-du-vin.com/2021/12/24631/

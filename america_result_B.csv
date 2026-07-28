@@ -1,0 +1,80 @@
+﻿id,등급,상품명_한글,원어명,생산자_원어,분류,용량,현지가_원화,기준가_원화,할인율,판정근거,매칭된_와인명,일치율,국내가_최저,국내가_중앙,국내가_최신등록일,해외_원통화,해외_원가격,게시연도,신뢰도,상태,미변환여부,샴드뱅링크
+27,B,피터 마이클 샤르도네 マベルフィーユ,Peter Michael Chardonnay マベルフィーユ,Peter,,750ml,277200,539380,0.4861,해외가,Peter Michael Belle Côte Chardonnay 2017,1.0,,,,USD,362.0,2026,높음,,True,https://charme-du-vin.com/2026/05/43393/
+61,B,오베르 피노 누아 UVヴィンヤード,Aubert Pinot Noir UVヴィンヤード,Aubert,,750ml,207900,631760,0.6709,해외가,Aubert Pinot Noir CIX 2022,0.75,,,,USD,424.0,2025,높음,빈티지대체,True,https://charme-du-vin.com/2025/12/41700/
+62,B,오베르 피노 누아 UV‐SLヴィンヤード,Aubert Pinot Noir UV‐SLヴィンヤード,Aubert,,750ml,227700,631760,0.6396,해외가,Aubert Pinot Noir CIX 2022,0.6,,,,USD,424.0,2025,높음,빈티지대체,True,https://charme-du-vin.com/2025/12/41700/
+63,B,에덴 리프트 ヴァリアント 피노 누아,Eden Rift ヴァリアント Pinot Noir,Eden,,750ml,42570,68525,0.3788,해외가,Eden Rift Vineyards Pinot Noir 2022,1.0,,,,USD,45.99,2025,높음,,True,https://charme-du-vin.com/2025/11/41519/
+64,B,에덴 리프트 ヴァリアント 샤르도네,Eden Rift ヴァリアント Chardonnay,Eden,,750ml,42570,68540,0.3789,해외가,Eden Rift Vineyards Estate Chardonnay 2022,1.0,,,,USD,46.0,2025,높음,,True,https://charme-du-vin.com/2025/11/41519/
+87,B,키슬러 샤르도네 ノワゼッティエール,Kistler Chardonnay ノワゼッティエール,Kistler,,750ml,108900,163900,0.3356,해외가,Kistler Chardonnay 2023,1.0,,,,USD,110.0,2025,높음,,True,https://charme-du-vin.com/2025/08/40592/
+94,B,오 봉 클리마 샤르도네 뉘 블랑슈 フォーサイト,Au Bon Climat Chardonnay Nuits Blanches フォーサイト,Au,,750ml,53460,89892,0.4053,해외가,Au Bon Climat Chardonnay Nuits-Blanches au Bouge 2021,1.0,,,,USD,60.33,2025,높음,,True,https://charme-du-vin.com/2025/07/40252/
+96,B,피터 마이클 샤르도네 ベルコート,Peter Michael Chardonnay ベルコート,Peter,,750ml,237600,604940,0.6072,해외가,Peter Michael Mon Plaisir Chardonnay 2020,1.0,,,,USD,406.0,2025,높음,,True,https://charme-du-vin.com/2025/07/40250/
+125,B,신 쿠아 논 ディスティンタ IV 시라,Sine Qua Non ディスティンタ IV Syrah,Sine,,750ml,544500,1241170,0.5613,해외가,Sine Qua Non Eleven Confessions Syrah 2022,0.8,,,,USD,833.0,2025,높음,,True,https://charme-du-vin.com/2025/04/39042/
+140,B,알반 빈야드 パトリーナ,Alban Vineyard パトリーナ,Alban,,750ml,103950,297970,0.6511,해외가,Alban Vineyards Seymour's 2020,1.0,,,,USD,199.98,2025,높음,,True,https://charme-du-vin.com/2025/01/37840/
+1,B,콩스가드 시라,Kongsgaard Syrah,Kongsgaard,,750ml,316800,394954,0.1979,해외가,Kongsgaard Syrah 2021,1.0,,,,USD,265.07,2026,높음,빈티지대체,False,https://charme-du-vin.com/2026/07/44399/
+2,B,더블 다이아몬드 소비뇽 블랑,Double Diamond Sauvignon Blanc,Double,,750ml,92070,89385,-0.03,해외가,Schrader Double Diamond Sauvignon Blanc 2024,1.0,,,,USD,59.99,2026,높음,,False,https://charme-du-vin.com/2026/07/44399/
+3,B,오 봉 클리마 샤르도네 뉘 블랑슈 ライクマインズ,Au Bon Climat Chardonnay Nuits Blanches ライクマインズ,Au,,750ml,68310,84856,0.195,해외가,Au Bon Climat Chardonnay Nuits-Blanches au Bouge 2022,1.0,,,,USD,56.95,2026,높음,,True,https://charme-du-vin.com/2026/07/44372/
+4,B,지라드 카베르네 소비뇽 나파,Girard Cabernet Sauvignon Napa,Girard,,750ml,58410,62565,0.0664,해외가,Girard Cabernet Sauvignon 2021,1.0,,,,USD,41.99,2026,높음,,False,https://charme-du-vin.com/2026/07/44319/
+5,B,키슬러 피노 누아 소노마 코스트,Kistler Pinot Noir Sonoma Coast,Kistler,,750ml,108900,111676,0.0249,해외가,Kistler Pinot Noir 2023,1.0,,,,USD,74.95,2026,높음,,False,https://charme-du-vin.com/2026/06/44031/
+6,B,키슬러 피노 누아 러시안 리버 밸리,Kistler Pinot Noir Russian River Valley,Kistler,,750ml,118800,119126,0.0027,해외가,Kistler Russian River Valley Pinot Noir 2023,1.0,,,,USD,79.95,2026,높음,,False,https://charme-du-vin.com/2026/06/44031/
+7,B,키슬러 샤르도네 허드슨 빈야드,Kistler Chardonnay Hudson Vineyard,Kistler,,750ml,227700,260735,0.1267,해외가,Kistler Hudson Vineyard Chardonnay 2023,1.0,,,,USD,174.99,2026,높음,,False,https://charme-du-vin.com/2026/06/44028/
+8,B,키슬러 샤르도네 ヴァンヒルヴィニヤード,Kistler Chardonnay ヴァンヒルヴィニヤード,Kistler,,750ml,227700,163900,-0.3893,해외가,Kistler Chardonnay 2023,1.0,,,,USD,110.0,2026,높음,,True,https://charme-du-vin.com/2026/06/44028/
+9,B,키슬러 샤르도네 ノワゼッティエール,Kistler Chardonnay ノワゼッティエール,Kistler,,750ml,108900,114715,0.0507,해외가,Kistler Chardonnay 2024,1.0,,,,USD,76.99,2026,높음,,True,https://charme-du-vin.com/2026/06/44024/
+10,B,키슬러 샤르도네 트렌턴 로드하우스,Kistler Chardonnay Trenton Roadhouse,Kistler,,750ml,227700,206231,-0.1041,해외가,Kistler Trenton Roadhouse Chardonnay 2023,1.0,,,,USD,138.41,2026,높음,,False,https://charme-du-vin.com/2026/06/44024/
+15,B,오베르 イーストサイド 러시안 리버 밸리,Aubert イーストサイド Russian River Valley,Aubert,,750ml,267300,260750,-0.0251,해외가,Aubert Russian River Chardonnay 2024,1.0,,,,USD,175.0,2026,높음,,True,https://charme-du-vin.com/2026/06/43765/
+16,B,오베르 UVーSL 소노마 코스트 샤르도네,Aubert UVーSL Sonoma Coast Chardonnay,Aubert,,750ml,267300,163900,-0.6309,해외가,Aubert Sonoma Coast Chardonnay 2015,0.5,,,,USD,110.0,2026,높음,빈티지대체,True,https://charme-du-vin.com/2026/06/43765/
+17,B,오베르 パウダーハウス 소노마 코스트 샤르도네,Aubert パウダーハウス Sonoma Coast Chardonnay,Aubert,,750ml,292050,163900,-0.7819,해외가,Aubert Sonoma Coast Chardonnay 2015,1.0,,,,USD,110.0,2026,높음,빈티지대체,True,https://charme-du-vin.com/2026/06/43765/
+19,B,트레페던 エシュコル 샤르도네 나파,Trefethen エシュコル Chardonnay Napa,Trefethen,,750ml,27720,37235,0.2555,해외가,Trefethen Chardonnay 2023,1.0,,,,USD,24.99,2026,높음,,True,https://charme-du-vin.com/2026/05/43557/
+21,B,키슬러 샤르도네 ヴァンヒルヴィニヤード,Kistler Chardonnay ヴァンヒルヴィニヤード,Kistler,,750ml,227700,177310,-0.2842,해외가,Kistler Chardonnay 2022,1.0,,,,USD,119.0,2026,높음,,True,https://charme-du-vin.com/2026/05/43509/
+26,B,오베르 카네로스 샤르도네 ラリーハイド&ソン,Aubert Carneros Chardonnay ラリーハイド&ソン,Aubert,,750ml,306900,171350,-0.7911,해외가,Aubert Carneros Chardonnay 2015,1.0,,,,USD,115.0,2026,높음,빈티지대체,True,https://charme-du-vin.com/2026/05/43486/
+28,B,키슬러 샤르도네 マックレアヴィニヤード,Kistler Chardonnay マックレアヴィニヤード,Kistler,,750ml,227700,163900,-0.3893,해외가,Kistler Chardonnay 2023,1.0,,,,USD,110.0,2026,높음,,True,https://charme-du-vin.com/2026/04/43297/
+29,B,키슬러 샤르도네 더튼 랜치,Kistler Chardonnay Dutton Ranch,Kistler,,750ml,227700,297985,0.2359,해외가,Kistler Dutton Ranch Chardonnay 2023,1.0,,,,USD,199.99,2026,높음,,False,https://charme-du-vin.com/2026/04/43297/
+30,B,초크 힐 샤르도네 소노마 코스트,Chalk Hill Chardonnay Sonoma Coast,Chalk,,750ml,36630,29800,-0.2292,해외가,Chalk Hill Sonoma Coast Chardonnay 2024,1.0,,,,USD,20.0,2026,높음,,False,https://charme-du-vin.com/2026/04/43294/
+31,B,초크 힐 에스테이트 샤르도네,Chalk Hill Estate Chardonnay,Chalk,,750ml,73260,49155,-0.4904,해외가,Chalk Hill Chalk Hill Estate Chardonnay 2023,1.0,,,,USD,32.99,2026,높음,,False,https://charme-du-vin.com/2026/04/43294/
+32,B,옥시덴탈 프리스톤 옥시덴탈 피노 누아,Occidental Freestone Occidental Pinot Noir,Occidental,,750ml,118800,113225,-0.0492,해외가,Occidental Freestone-Occidental Pinot Noir 2023,1.0,,,,USD,75.99,2026,높음,,False,https://charme-du-vin.com/2026/04/43109/
+37,B,허드슨 샤르도네 シーシェル,Hudson Chardonnay シーシェル,Hudson,,750ml,153450,107265,-0.4306,해외가,Hudson Chardonnay 2023,1.0,,,,USD,71.99,2026,높음,,True,https://charme-du-vin.com/2026/03/42880/
+38,B,허드슨 샤르도네,Hudson Chardonnay,Hudson,,750ml,97020,107265,0.0955,해외가,Hudson Chardonnay 2023,1.0,,,,USD,71.99,2026,높음,,False,https://charme-du-vin.com/2026/03/42880/
+39,B,허드슨 샤르도네 リトルビット,Hudson Chardonnay リトルビット,Hudson,,750ml,153450,107265,-0.4306,해외가,Hudson Chardonnay 2023,1.0,,,,USD,71.99,2026,높음,,True,https://charme-du-vin.com/2026/03/42875/
+40,B,허드슨 샤르도네 レディーバグ,Hudson Chardonnay レディーバグ,Hudson,,750ml,153450,107265,-0.4306,해외가,Hudson Chardonnay 2023,1.0,,,,USD,71.99,2026,높음,,True,https://charme-du-vin.com/2026/03/42875/
+41,B,팔마이어 ジェイソン 샤르도네,Pahlmeyer ジェイソン Chardonnay,Pahlmeyer,,750ml,97020,73740,-0.3157,해외가,Pahlmeyer Jayson Chardonnay 2023,1.0,,,,USD,49.49,2026,높음,,True,https://charme-du-vin.com/2026/03/42868/
+42,B,팔마이어 ジェイソン 카베르네 소비뇽,Pahlmeyer ジェイソン Cabernet Sauvignon,Pahlmeyer,,750ml,143550,124042,-0.1573,해외가,Pahlmeyer Jayson The Bench Cabernet Sauvignon 2022,1.0,,,,USD,83.25,2026,높음,,True,https://charme-du-vin.com/2026/03/42868/
+43,B,더 더 마스코트 나파,The The Mascot Napa,Mascot,,750ml,227700,260675,0.1265,해외가,The Mascot Cabernet Sauvignon 2021,1.0,,,,USD,174.95,2026,높음,,False,https://charme-du-vin.com/2026/03/42862/
+44,B,브레드 앤 버터 소비뇽 블랑,Bread & Butter Sauvignon Blanc,Bread,,750ml,25740,24123,-0.067,해외가,Bread & Butter Sauvignon Blanc 2024,1.0,,,,USD,16.19,2026,높음,,False,https://charme-du-vin.com/2026/03/42821/
+45,B,브레드 앤 버터 샤르도네,Bread & Butter Chardonnay,Bread,,750ml,25740,19355,-0.3299,해외가,Bread & Butter Chardonnay 2024,1.0,,,,USD,12.99,2026,높음,,False,https://charme-du-vin.com/2026/03/42821/
+46,B,브레드 앤 버터 메를로,Bread & Butter Merlot,Bread,,750ml,25740,25256,-0.0192,해외가,Bread & Butter Merlot 2023,1.0,,,,USD,16.95,2026,높음,,False,https://charme-du-vin.com/2026/03/42821/
+47,B,칼레라 라이언,Calera Ryan,Calera,,750ml,98010,134070,0.269,해외가,Calera Pinot Noir Ryan Vineyard 2019,1.0,,,,USD,89.98,2026,높음,,False,https://charme-du-vin.com/2026/03/42754/
+48,B,칼레라 젠슨,Calera Jensen,Calera,,750ml,153450,148985,-0.03,해외가,Calera Pinot Noir Jensen Vineyard 2020,1.0,,,,USD,99.99,2026,높음,,False,https://charme-du-vin.com/2026/03/42754/
+52,B,키슬러 피노 누아 러시안 리버,Kistler Pinot Noir Russian River,Kistler,,750ml,118800,160905,0.2617,해외가,Kistler Russian River Valley Pinot Noir 2022,1.0,,,,USD,107.99,2026,높음,,False,https://charme-du-vin.com/2026/03/42744/
+55,B,스타 레인 카베르네 소비뇽,Star Lane Cabernet Sauvignon,Star,,750ml,62370,81935,0.2388,해외가,Star Lane Vineyard Cabernet Sauvignon 2020,1.0,,,,USD,54.99,2026,높음,,False,https://charme-du-vin.com/2026/01/42127/
+56,B,더 더 힐트 에스테이트 샤르도네,The The Hilt Estate Chardonnay,Hilt,,750ml,49500,63981,0.2263,해외가,The Hilt Estate Chardonnay 2022,1.0,,,,USD,42.94,2025,높음,,False,https://charme-du-vin.com/2025/12/42059/
+57,B,더 더 힐트 에스테이트 피노 누아,The The Hilt Estate Pinot Noir,Hilt,,750ml,49500,59585,0.1693,해외가,The Hilt Estate Pinot Noir 2021,1.0,,,,USD,39.99,2025,높음,,False,https://charme-du-vin.com/2025/12/42059/
+58,B,키슬러 샤르도네 소노마 マウンテン,Kistler Chardonnay Sonoma マウンテン,Kistler,,750ml,118800,163900,0.2752,해외가,Kistler Chardonnay 2023,1.0,,,,USD,110.0,2025,높음,,True,https://charme-du-vin.com/2025/12/41927/
+65,B,찰스 스미스 リアルワイン 카베르네 소비뇽,Charles Smith リアルワイン Cabernet Sauvignon,Charles,,750ml,25740,29726,0.1341,해외가,Charles Smith Chateau Smith Cabernet Sauvignon 2021,1.0,,,,USD,19.95,2025,높음,,True,https://charme-du-vin.com/2025/11/41376/
+66,B,찰스 스미스 リアルワイン 샤르도네,Charles Smith リアルワイン Chardonnay,Charles,,750ml,25740,20830,-0.2357,해외가,Charles Smith Real Wine Chardonnay 2022,1.0,119000,119000,2023-12-01,USD,13.98,2025,높음,,True,https://charme-du-vin.com/2025/11/41376/
+67,B,도멘 세레네 피노 누아 アスペクト,Domaine Serene Pinot Noir アスペクト,Domaine,,750ml,217800,134026,-0.6251,해외가,Domaine Serene Evenstad Reserve Pinot Noir 2022,1.0,,,,USD,89.95,2025,높음,,True,https://charme-du-vin.com/2025/11/41372/
+68,B,도멘 세레네 샤르도네 コートサッド,Domaine Serene Chardonnay コートサッド,Domaine,,750ml,168300,104285,-0.6138,해외가,Domaine Serene Evenstad Reserve Chardonnay 2022,1.0,,,,USD,69.99,2025,높음,,True,https://charme-du-vin.com/2025/11/41372/
+69,B,웨이페어러 샤르도네 フォーロスシーヴュー,Wayfarer Chardonnay フォーロスシーヴュー,Wayfarer,,750ml,128700,134026,0.0397,해외가,Wayfarer Chardonnay 2022,1.0,,,,USD,89.95,2025,높음,,True,https://charme-du-vin.com/2025/10/41340/
+70,B,더 더 마스코트 나파,The The Mascot Napa,Mascot,,750ml,217800,297985,0.2691,해외가,The Mascot Cabernet Sauvignon 2020,1.0,,,,USD,199.99,2025,높음,,False,https://charme-du-vin.com/2025/10/41340/
+73,B,콩스가드 샤르도네,Kongsgaard Chardonnay,Kongsgaard,,750ml,257400,208525,-0.2344,해외가,Kongsgaard Chardonnay 2023,1.0,,,,USD,139.95,2025,높음,,False,https://charme-du-vin.com/2025/10/41160/
+74,B,콩스가드 샤르도네 더 저지,Kongsgaard Chardonnay The Judge,Kongsgaard,,750ml,792000,879085,0.0991,해외가,Kongsgaard The Judge Chardonnay 2023,1.0,,,,USD,589.99,2025,높음,,False,https://charme-du-vin.com/2025/10/41160/
+75,B,오퍼스 원,Opus One,Opus,,750ml,623700,633622,0.0157,해외가,Opus One Opus One 2021,1.0,,,,USD,425.25,2025,높음,,False,https://charme-du-vin.com/2025/10/41137/
+79,B,조엘 고트 샤르도네,Joel Gott Chardonnay,Joel,,750ml,25740,26805,0.0397,해외가,Joel Gott Barrel Aged Chardonnay 2021,1.0,,,,USD,17.99,2025,높음,,False,https://charme-du-vin.com/2025/09/40932/
+80,B,게리 패럴 샤르도네,Gary Farrell Chardonnay,Gary,,750ml,45540,62580,0.2723,해외가,Gary Farrell Russian River Selection Chardonnay 2022,1.0,,,,USD,42.0,2025,높음,,False,https://charme-du-vin.com/2025/09/40929/
+81,B,게리 패럴 피노 누아,Gary Farrell Pinot Noir,Gary,,750ml,52470,74485,0.2956,해외가,Gary Farrell Russian River Selection Pinot Noir 2022,1.0,,,,USD,49.99,2025,높음,,False,https://charme-du-vin.com/2025/09/40929/
+84,B,실버 오크 カベルネアレキサンダーヴァレー,Silver Oak カベルネアレキサンダーヴァレー,Silver,,750ml,138600,108755,-0.2744,해외가,Silver Oak Alexander Valley Cabernet Sauvignon 2020,1.0,,,,USD,72.99,2025,높음,,True,https://charme-du-vin.com/2025/09/40780/
+88,B,덕혼 카베르네 소비뇽,Duckhorn Cabernet Sauvignon,Duckhorn,,750ml,75240,62565,-0.2026,해외가,Duckhorn Napa Valley Cabernet Sauvignon 2022,1.0,,,,USD,41.99,2025,높음,,False,https://charme-du-vin.com/2025/08/40483/
+91,B,셰이퍼 샤르도네 레드 숄더 랜치,Shafer Chardonnay Red Shoulder Ranch,Shafer,,750ml,108900,103704,-0.0501,해외가,Shafer Red Shoulder Ranch Chardonnay 2023,1.0,,,,USD,69.6,2025,높음,,False,https://charme-du-vin.com/2025/07/40289/
+92,B,플라워스 샤르도네 소노마 코스트,Flowers Chardonnay Sonoma Coast,Flowers,,750ml,81180,78210,-0.038,해외가,Flowers Sonoma Coast Chardonnay 2023,1.0,,,,USD,52.49,2025,높음,,False,https://charme-du-vin.com/2025/07/40289/
+97,B,팔마이어 ジェイソン 소비뇽 블랑,Pahlmeyer ジェイソン Sauvignon Blanc,Pahlmeyer,,750ml,61380,53253,-0.1526,해외가,Pahlmeyer Jayson Sauvignon Blanc 2024,1.0,,,,USD,35.74,2025,높음,,True,https://charme-du-vin.com/2025/07/40188/
+100,B,키슬러 샤르도네 트렌턴 로드하우스,Kistler Chardonnay Trenton Roadhouse,Kistler,,750ml,227700,275650,0.174,해외가,Kistler Trenton Roadhouse Chardonnay 2022,1.0,,,,USD,185.0,2025,높음,,False,https://charme-du-vin.com/2025/06/39943/
+101,B,키슬러 샤르도네 허드슨 빈야드,Kistler Chardonnay Hudson Vineyard,Kistler,,750ml,227700,236910,0.0389,해외가,Kistler Hudson Vineyard Chardonnay 2022,1.0,,,,USD,159.0,2025,높음,,False,https://charme-du-vin.com/2025/06/39943/
+102,B,조셉 펠프스 인시그니아,Joseph Phelps Insignia,Joseph,,750ml,415800,536385,0.2248,해외가,Joseph Phelps Vineyards Insignia 2021,1.0,,,,USD,359.99,2025,높음,,False,https://charme-du-vin.com/2025/06/39854/
+103,B,초크 힐 피노 누아 소노마 코스트,Chalk Hill Pinot Noir Sonoma Coast,Chalk,,750ml,38610,47650,0.1897,해외가,Chalk Hill Pinot Noir 2021,1.0,,,,USD,31.98,2025,높음,,False,https://charme-du-vin.com/2025/06/39821/
+110,B,클로 뒤 발 イエッタリル,Clos du Val イエッタリル,Clos,,750ml,346500,216035,-0.6039,해외가,Clos du Val Yettalil 2019,1.0,,,,USD,144.99,2025,높음,,True,https://charme-du-vin.com/2025/06/39555/
+113,B,셰이퍼 カベルネワンポイントファイヴ,Shafer カベルネワンポイントファイヴ,Shafer,,750ml,173250,134026,-0.2927,해외가,Shafer Relentless 2022,1.0,,,,USD,89.95,2025,높음,,True,https://charme-du-vin.com/2025/06/39552/
+114,B,오베르 パワーホース 소노마 코스트 샤르도네,Aubert パワーホース Sonoma Coast Chardonnay,Aubert,,750ml,287100,171350,-0.6755,해외가,Aubert Sonoma Coast Chardonnay 2023,1.0,,,,USD,115.0,2025,높음,,True,https://charme-du-vin.com/2025/05/39423/
+115,B,애스턴 에스테이트 피노 누아 소노마,Aston Estate Pinot Noir Sonoma,Aston,,750ml,108900,111735,0.0254,해외가,Aston Estate Pinot Noir 2019,1.0,,,,USD,74.99,2025,높음,,False,https://charme-du-vin.com/2025/05/39417/
+121,B,피터 마이클 레 パヴォ,Peter Michael Les パヴォ,Peter,,750ml,386100,268185,-0.4397,해외가,Peter Michael Les Pavots 2019,1.0,,,,USD,179.99,2025,높음,,True,https://charme-du-vin.com/2025/05/39233/
+129,B,앤트힐 팜스 샤르도네 キャンベルランチ,Anthill Farms Chardonnay キャンベルランチ,Anthill,,750ml,75240,66961,-0.1236,해외가,Anthill Farms Campbell Ranch Vineyard Chardonnay 2022,1.0,,,,USD,44.94,2025,높음,,True,https://charme-du-vin.com/2025/02/38157/
+135,B,오버추어,Overture,Overture,,750ml,316800,290535,-0.0904,해외가,Opus One Overture 2021,1.0,,,,USD,194.99,2025,높음,,False,https://charme-du-vin.com/2025/01/37996/
+137,B,키슬러 피노 누아 ラグーナリッジヴィニヤート,Kistler Pinot Noir ラグーナリッジヴィニヤート,Kistler,,750ml,245520,226480,-0.0841,해외가,Kistler Kistler Vineyard Pinot Noir 2003,1.0,,,,USD,152.0,2025,높음,빈티지대체,True,https://charme-du-vin.com/2025/01/37871/
+138,B,키슬러 피노 누아 キュヴェナタリーシルヴァーベルト,Kistler Pinot Noir キュヴェナタリーシルヴァーベルト,Kistler,,750ml,245520,226480,-0.0841,해외가,Kistler Kistler Vineyard Pinot Noir 2003,1.0,,,,USD,152.0,2025,높음,빈티지대체,True,https://charme-du-vin.com/2025/01/37871/
+145,B,피터 마이클 オーパラディ,Peter Michael オーパラディ,Peter,,750ml,366300,387355,0.0544,해외가,Peter Michael Les Pavots 2020,1.0,,,,USD,259.97,2025,높음,,True,https://charme-du-vin.com/2025/01/37774/
