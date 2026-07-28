@@ -3,3 +3,7 @@ __pycache__/
 
 # transient resume state; wine_price_check deletes it on a clean finish
 checkpoint.json
+
+# in-flight resume state for italia_price_check
+italia_checkpoint.json
+state.json
